@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Neonira"
-date: 2018-01-03
+date: 2014-04-30
 ---
 
 Well. Finally got around to putting this old website together. 
