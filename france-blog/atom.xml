@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Neonira's Blog</title>
-	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hankquinlan.github.io/blog"/>
+	<link href="http://neonira.github.io/france-blog/atom.xml" rel="self"/>
+	<link href="http://neonira.github.io/france-blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://neonira.github.io/blog</id>
+	<id>http://neonira.github.io/france-blog</id>
 	<author>
 		<name>Neonira</name>
 		<email>neonira@gmail.com</email>
