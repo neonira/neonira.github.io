@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 name: Neonira
 markdown: kramdown
 permalink: /france-blog/:year/:month/:day/:title
