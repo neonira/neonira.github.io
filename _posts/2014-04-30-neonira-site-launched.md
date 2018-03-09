@@ -2,6 +2,7 @@
 layout: post
 title: "Neonira"
 date: 2014-04-30
+category: FRANCE
 ---
 
 Well. Finally got around to putting this old website together. 
