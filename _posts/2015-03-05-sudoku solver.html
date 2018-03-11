@@ -1,0 +1,106 @@
+---
+title: "sudoku solver"
+hidden: false
+categories: games
+tags: sudoku computer R
+author: neonira
+---
+<article>
+			<header>
+				<h3>Sudoku solver</h3>
+			</header>
+<section>
+				One good friend of mine, fond of Sudoku, was arguing that sometimes you need to infer several times
+				to achieve solving. His assertion makes me feel unsure. <br/><br/>
+
+				On one hand, I remembered solving really tough sudokus by hand and I had to guess several times before finally succeeding in resolution. 
+				On the other end, I am wondering if we infer because we do miss some logical deduction(s) in a prior step of resolution.<br/><br/>
+
+				As I do not like being in doubt, and eager to get an answer, I asked him for some samples of sudokus where he had to infer several times on each. He provided me two
+				of them. He told me the first one was taken from a French newspaper, and the second from the on-line site <a href='http://www.websudoku.com'  target='_blank'> websudoku</a>, section <strong><i>'evil'</i></strong>.
+				<br/><br/>
+				Here are the starting grids for each of them. 
+				<div>
+						<img src='/images/games/c/sudoku1.png' width='400px' alt='sudoku #1'/> 
+						<img src='/images/games/c/sudoku2.png' width='400px' alt='sudoku #2'/>
+				</div>
+			</section>
+			<section>
+					As I was not willing to spend much time on this, I used <cite class='itlang'>R language</cite> and <cite class='ittool'>RStudio</cite> to elaborate 
+					a solver that will <cite class='keypoint'>mimic the human way of solving sudokus</cite>. I had to program three tactics.
+					<ol>
+						<li><cite class='enum'>a positive deduction tactic</cite>: direct deduction that a figure goes into a cell from present figures in column, line and square<cite class='comment'>3x3 box</cite></li>
+						<li><cite class='enum'>a negative deduction tactic</cite>: indirect deduction that a figure goes into a cell from constraints on other cells in column, line, and square</li>
+						<li><cite class='enum'>an inference tactic</cite>: choose cleverly figure to infer, and select skilfully the square to use for inference </li>
+					</ol>
+					After a few erring ways, mainly due to R shallow copy behavior, I ended up with a reliable solver able to resolve any sudoku puzzle <cite class='comment'>I guess</cite>, 
+					while still applying human approach. I applied it to the 2 sudokus my friend provided. Here are the results. 
+					
+					<h3> Sudoku from newspaper </h3>
+					
+					Solver identified 2 variants on first inference and this has led to sudoku resolution.<br/>
+					Variant 2 is to be rejected because on line 9 column 2 no more legal value can be elected. <br/><br/>
+					<div>
+						<video width="380" controls>
+							<source src="/images/games/c/sudoku1-variant1.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> 
+						<video width="380" controls>
+							<source src="/images/games/c/sudoku1-variant2.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> 
+					
+				</div>
+				<h3> Evil sudoku </h3>
+				
+					Solver identified 3 variants on first inference and this has led also to sudoku resolution. <br/>
+					Variant 1 is to be rejected because on line 3 column 2 no more legal value can be elected. Same for variant 3 on line 6 column 1. <br/><br/>
+					<div>
+						 <video width="260" controls>
+						  <source src="/images/games/c/sudoku2-variant1.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						 </video> 
+						 <video width="260" controls>
+						  <source src="/images/games/c/sudoku2-variant2.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						 </video> 
+						 <video width="260" controls>
+						  <source src="/images/games/c/sudoku2-variant3.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						 </video> 
+					</div>
+				
+				<h3> Solver validation </h3>
+				
+				Running many samples through my solver, brings me opportunity to fine tune it, and to increase its robustness. It appears, that 
+				provided sudokus are not so difficult. I proceeded to many hundreds sudoku tests to validate my solver, and found none not being solved. <br/><br/>
+				During the validation phase, I experimented some sudokus requiring several inferences to get solved. 
+				For example, <a href='http://www.sudokuwiki.org/Weekly_Sudoku.asp' target='_blank'>The Weekly Extreme 'Unsolveable' Sudoku Puzzle #154</a>
+                                requires more than 5 level-depth inferences to be solved. <a href='/games/unsolvable-sudoku'>see here</a><br/><br/>
+			</section>
+			<section>
+				<h3> Is it the end of the game ? </h3>
+					So, we can conclude  
+					<ol>
+						<li> if my friend inferred several times on each of the sudokus he provided, it is because he missed some direct or indirect deductions. 
+						On the two samples, they're were no need to infer more than once. </li>
+						<li> 3 tactics appear to be necessary and sufficient to solve any sudoku puzzle. </li>
+						<li> all the sudokus are not solvable using only one inference. Some require more inferences. I know some that require several hundreds inferences to cover
+					the full tree of possible solutions.</li>
+					</ol>
+					And finally, some questions remains 
+					<ol>
+						<li> Is there a reliable way to rank a sudoku in order to compare their difficulty: two distinct branches have to be considered, <cite class='enum'>without resolution information</cite>, and <cite class='enum'>with resolution information</cite></li>
+						<li> How to determine from scratch the optimal resolution path <cite class='comment'>the one that requires the least inferences and passes</cite>?</li>
+						<li> How to determine from scratch if a sudoku is solvable ? is regular <cite class='comment'>will have one and only one solution, reachable on a single branch of inference</cite>? </li>
+						<li> what is the most optimal strategy for resolution, according to initial sudoku conditions ? </li>
+					</ol>
+					<br/>	
+                                        As question remains, I believe the sudoku game is still open.		
+			</section>			
+			<section>
+				<h5> Note </h5><p style='font-style: oblique; font-size: .8em;'>Beware of R shallow copy, as I<cite class='comment'>you</cite>'ll probably never guess right how it works. <br/>
+				 Indeed, very special thanks to <a href='https://www.linkedin.com/profile/view?id=47267749&authType=NAME_SEARCH&authToken=sMfW&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2Cidx%3A1-4-4%2CtarId%3A1427471505670%2Ctas%3Ahadley+' target='_blank'>Hadley WICKHAM</a> for <a href='http://cran.r-project.org/web/packages/pryr/index.html' target='_blank'><cite class='kw'>pryr package</cite></a> which helped a lot for resolution.</p>
+			</section>
+		</article>
+

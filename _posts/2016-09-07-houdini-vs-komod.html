@@ -1,0 +1,67 @@
+---
+title: "TCEC season 9 - <cite class='kw'>Houdini</cite> vs <cite class='kw'>Komodo</cite>"
+hidden: false
+categories: games
+tags: chess computer R
+author: neonira
+---
+<article>
+			<header>
+				<h3>TCEC: <cite class='kw'>Houdini</cite> won a place in final, is it better than <cite class='kw'>Komodo</cite>?</h3>
+			</header>
+			<section>
+				<a href='http://tcec.chessdom.com/archive.php'>Chess engine championship TCEC</a> season 9, stage 3 terminated on first week of September 2016, and we can not
+                                argue without surprise. <cite class='kw'>Stockfish</cite> had a powerfull lead, and <cite class='kw'>Houdini</cite>, already 3 times winner of this championship, succeeded in qualifying for the final. One looser,
+                                <cite class='kw'>Komodo</cite>, current champion, faced strong opposition, apparently stronger thant supposed to be qualified. 
+				<br/><br/>
+
+                                Before entering <cite class='kw'>Houdini</cite> and <cite class='kw'>Komodo</cite>, performance analysis, it is worth knowing that I am neither supporting one or the other, neither working for any of them. 
+                                My goal is to provide and share here some of my analysis and materials to let you forge your own opinion. 
+
+				<br/><br/>
+				Just a context recall, TCEC season 9, stage 3 involved 8 chess engines, each of them had to face 8 times each opponent, thus leading to 224 showdowns beetween chess engines. During this stage, chess engines were granted rights to use same opening books up to a predefined plies depth, and also right to use table positions. You may read full rules documentation through TCEC hyperlink given above.
+			
+			</section>
+			<section>
+                                <h3> Which performs the best ? </h3>
+					Day after day, while watching some chess games played during stage 3, it was clear that a kind of classification will appear amidst chess engine performance.
+					If true, this should be visible from a simple stat table. Let's have a look to stage 3, chess engine performance comparison table,
+					
+					<div><img src='/images/games/a/comparePerformance.png' classs="alone" alt=''/> </div>
+				       
+					Three groups of chess engines seems to emerge
+					<ol>
+					<li>a group able to win more than 25% of their games, thus composed of <cite class='kw'>Stockfish</cite>, <cite class='kw'>Houdini</cite> and <cite class='kw'>Komodo</cite> </li>
+					<li>a group able to draw more than 80% of their games, here only Fire is in the group</li>
+					<li>a group unable to avoid loss less than 25%. Subgroups could be consider here, by a split on 5% win, thus leading to a first subgroup with <cite class='kw'>Andscacs</cite>, <cite class='kw'>Jonny</cite> and <cite class='kw'>Gull</cite>, and a second subgroup with <cite class='kw'>Rybka</cite>. </li>
+					</ol>
+                                        As <cite class='kw'>Houdini</cite> and <cite class='kw'>Komodo</cite> share the exact same draw performance, ability to win makes the difference. At this game, <cite class='kw'>Houdini</cite> has been slightly smarter than <cite class='kw'>Komodo</cite>.
+
+				<h3> Does the playing side make any difference in performance ? </h3>
+
+					To ease analysis per engine, per side and per opening, I build following diagrams to sense performance difference. Use your Internet browser capabilities
+to increase image size or display them full size.<br/><br/>
+					<div>
+						 <img src='/images/games/a/Houdini-white.png' width='500px' alt=''/>
+                                                 <img src='/images/games/a/Komodo-white.png' width='500px' alt=''/>  
+					</div>
+					When playing light side, both <cite class='kw'>Houdini</cite> and <cite class='kw'>Komodo</cite> either win or draw. On 28 games, <cite class='kw'>Houdini</cite> won 2 games more<cite class='comment'>13 vs 11</cite> than <cite class='kw'>Komodo</cite>. 
+                                        <cite class='kw'>Houdini</cite> performed better than <cite class='kw'>Komodo</cite> when playing light side during stage 3. 
+                                        <div>
+					
+						 <img src='/images/games/a/Houdini-black.png' width='500px' alt=''/>
+                                                 <img src='/images/games/a/Komodo-black.png' width='500px' alt=''/>  
+					</div>
+					When playing dark side, both engines recorded wins, draws and losses. On 28 games, <cite class='kw'>Houdini</cite> won 1 game less than <cite class='kw'>Komodo</cite> <cite class='comment'>4 vs 5</cite>, lost 1 game less <cite class='comment'>2 vs 3</cite>. Although different, results prove that engines reached same performance level when playing dark side.
+
+			</section>
+			<section>
+				<h3> Any lesson's learnt ? </h3>
+					Looking at openings played by <cite class='kw'>Houdini</cite> with black, it appears, that its 2 losses where under Sicilian game <cite class='comment'>56% of points loss</cite> far more than current loss registered by this engine during stage 3. Therefore, <cite class='kw'>Houdini</cite> opponents, should consider playing Sicilian opening willingly when playing light side. <br/><br/>
+					For <cite class='kw'>Komodo</cite>, 2 losses with black under Sicilian <cite class='comment'>40% of points taken</cite> and 1 under Catalan opening <cite class='comment'>only 25% points taken</cite>. So, <cite class='kw'>Komodo</cite> opponents should consider entering Catalan opening when playing light side. That's their best opportunity to score. 
+			</section>
+			<section>
+				<h5> Note </h5><p style='font-style: oblique; font-size: .8em;'>Images made using many R packages.</p>
+			</section>
+		</article>
+

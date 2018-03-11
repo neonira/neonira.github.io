@@ -1,0 +1,9 @@
+neonira:
+  name: Neonira
+  picture: /images/neonira.png
+  twitter: "@neonira"
+  links:
+    - title: Twitter
+      url: https://twitter.com/neonira
+      icon: fab fa-twitter-square
+

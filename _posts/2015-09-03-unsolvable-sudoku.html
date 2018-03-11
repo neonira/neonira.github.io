@@ -1,0 +1,72 @@
+---
+title: "unsolvable sudoku"
+hidden: false
+categories: games
+tags: sudoku computer R
+author: neonira
+---
+<article>
+			<header>
+				<h3>Unsolvable sudoku?</h3>
+			</header>
+			<section>
+				As stated in previous article about sudokus <cite class='comment'><a href='/blog/sudoku-solver'>sudoku solver</a></cite>, I experimented my solver on really hard to solve sudokus.
+				Consider the following, taken from <a href='http://www.sudokuwiki.org/Weekly_Sudoku.asp' target='_blank'>The Weekly Extreme 'Unsolveable' Sudoku Puzzle #154</a>
+				<div>
+						<img src='/images/games/b/154.png' width='400px' alt='sudoku #1'/> 
+				</div>			
+				Before I enter into analysis, you should try to solve it by hand. Get ready to face some trouble. <br/>
+				Sincerely, I believe I would have give up before finding final solution, if I had to do so. <br/><br/>
+
+			</section>
+			<section>
+				Let's look closer. Nearly one on three figures of the sudoku are already set. From that point of view
+				starting position does not seem so tough. Moreover, no figure is missing. If you except the 9, given 5 times, all other figures
+				are really sporadic. So, why is it so difficult to solve ? <br/><br/>
+				
+				Quite difficult to say at first glance. Post resolution analysis, provides some hints.
+				<ol>
+				<li>the total number of inferences to cover the full resolution path ends up to be 205. 
+				This is tied to the resolution algorithm - 
+				probably not so smart apparently - that could be optimized. </li>
+				<li>The key point is that many inferences do not allow to deduce anything and to progress towards solution or to backtrack on error. 
+				I mean resolution path, whatever the path considered is long.</li>
+				</ol>
+				<br/><br/>
+				As text is not so informative, let's see an image of the resolution path <a href='/images/games/b/resolutionTree.png' target='_blank'>open it on a new tab for zooming features </a>
+				<div>
+						<img src='/images/games/b/resolutionTree.png' width='800px' alt='resolution path'/> 
+				</div>
+				
+				So, information provided is now clearer
+				<ol>
+				<li>inference reaches 10 levels of depth for resolution</li>
+				<li>inference reaches 55 levels of breadth for resolution</li>
+				<li>did you notice, the number of nodes with 2 or 3 arrows ? </li>
+				</ol>
+				Solution scope reduction starts at depth 7. Prior to this level, there are so many possibilities without enough 
+				constraints to reduce possible figures. This is where resides complexity from my point of view. Solution required 16 passes,
+                                each of them compound of positive and negative logic deduction.  
+			</section>
+			<section>
+					If you want to see the resolution ...  <br/><br/>
+					<div>
+						<video width="800" controls>
+							<source src="/images/games/b/154.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> 
+					</div>
+                                        
+
+					Final solution grid is therefore  <br/><br/>
+					<div>
+						<img src='/images/games/b/154-solution.png' width='400px' alt='sudoku #1'/> 
+					</div>                 
+            </section>
+			<section>
+				<h5> Note </h5><p style='font-style: oblique; font-size: .8em;'>All calculus and image have been produced using R language. <br/>
+				Some image format transformation done with GIMP. <br/>
+				Film montage executed with tool external to R.</p>
+			</section>
+		</article>
+
