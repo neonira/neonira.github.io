@@ -72,7 +72,7 @@ pour l'intégration et encore un autre pour la production. L'avantage
 est que chaque fichier sera optimisé pour son domaine. L'inconvénient
 est que l'aspect ultra dynamique risque d'engendrer de nombreux
 problèmes à moins d'avoir du personnel, bon connaisseur de la logique
-XML.
+<cite class="kw">XML</cite>?.
 
 Au début, faire du X semble compliqué. Essayez et les atouts de
 cette approche vous séduiront. Au fait, combien de fichier <cite class="kw">XML</cite> avez vous créé, qui mettent en oeuvre le <cite class="kw">X</cite> d'<cite class="kw">XML</cite>?
