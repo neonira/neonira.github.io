@@ -16,7 +16,7 @@ Of course, we could enter a great Java obfuscation contest, and come with a coun
 ### Our two classes example
 Let's consider the two following Java class definitions. The first class has two methods and a main. The second one holds two methods. All the class methods are composed by only one instruction. It cannot be simpler.<br/><br/> Could you figure out what will be the output of the program ?
 #### first class
-```Java
+```java
 package uc2;
 
 public class _1 {
@@ -31,7 +31,7 @@ public class _1 {
 ```
 
 #### second class
-```Java
+```java
 package uc2;
 
 public class _l_ {
@@ -46,25 +46,25 @@ For your information, the right result is displayed below.
 All we wanted to show, is that from a really simple Java example,
 
 #### Run without argument
-```Java
+```java
 1
 ```
 
 ####Run with the integer 1234 as argument
-```Java
+```java
 1234
 ```
 
-#### Run with the string "Java is not so simple" as argument
-```Java
+#### Run with the string "java is not so simple" as argument
+```java
 Exception in thread "main" java.lang.NumberFormatException: 
-For input string: "Java is not so simple"
+For input string: "java is not so simple"
   at java.lang.NumberFormatException.forInputString(...:48)
   at java.lang.Integer.parseInt(Integer.java:447)
   at java.lang.Integer.parseInt(Integer.java:497)
   at uc2._l_.l_(_l_.java:9)
   at uc2._1.main(_1.java:13)
-Java Result: 1
+java Result: 1
 ```
 The result is the string representation of the first argument passed
 to the program, considered to be an integer. If no parameter is given,
