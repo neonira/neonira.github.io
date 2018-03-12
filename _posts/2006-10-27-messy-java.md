@@ -43,7 +43,7 @@ public class _l_ {
 #### Getting the result
 For your information, the right result is displayed below. 
 
-All we wanted to show, is that from a really simple Java example,
+All we wanted to show, is that from a really simple Java example, guessing results can be much more tricky than expected.
 
 #### Run without argument
 ```java
