@@ -19,7 +19,7 @@ présence de l'humour de notre langue, et donne une première idée des
 pirouettes possibles.
 </p>
 
-##Sans commentaire ... mais en appel de nombreux 
+## Sans commentaire ... mais en appel de nombreux 
 <dl>
 
 <dt>Fleuron</dt>
