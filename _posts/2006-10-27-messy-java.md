@@ -2,7 +2,7 @@
 title: "Messy Java Code"
 hidden: false
 categories: programming-language
-tags: enterprise code IT Java
+tags: enterprise code IT Java en_en
 author: neonira
 ---
 ### How easy is it to create Java messy code ?
