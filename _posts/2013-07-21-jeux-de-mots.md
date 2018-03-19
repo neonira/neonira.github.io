@@ -2,7 +2,7 @@
 title: "CV anonyme"
 hidden: false
 categories: France
-tags: enterprise France madness
+tags: langue-française fun 
 author: neonira
 ---
 <p class="text">
@@ -19,7 +19,7 @@ présence de l'humour de notre langue, et donne une première idée des
 pirouettes possibles.
 </p>
 
-## Sans commentaire ... mais en appel de nombreux 
+<h3>Sans commentaire ... mais en appel de nombreux </h3>
 <dl>
 
 <dt>Fleuron</dt>
