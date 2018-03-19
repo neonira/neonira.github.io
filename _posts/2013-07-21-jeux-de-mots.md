@@ -1,3 +1,10 @@
+---
+title: "CV anonyme"
+hidden: false
+categories: France
+tags: enterprise France madness
+author: neonira
+---
 <p class="text">
 Parler juste, trouver le mot fidèle à sa pensée, s'exprimer de manière
 imagée est le rêve de nombre d'entre nous. Aussi, me suis je
@@ -12,7 +19,7 @@ présence de l'humour de notre langue, et donne une première idée des
 pirouettes possibles.
 </p>
 
-<h2> Sans commentaire ... mais en appel de nombreux </h2>
+##Sans commentaire ... mais en appel de nombreux 
 <dl>
 
 <dt>Fleuron</dt>
@@ -58,4 +65,4 @@ doivent leur carrière à leur plastique. </dd>
 reconnu un faux ami. </dd>
 
 </dl>
-</div>
+
