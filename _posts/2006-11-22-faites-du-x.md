@@ -2,18 +2,17 @@
 title: "Faites du X!"
 hidden: false
 categories: programming-language
-tags: enterprise code IT XML
+tags: enterprise code IT XML fr_fr
 author: neonira
 ---
-## Faites du X!
-Comprenons nous bien, je ne suis promotteur des activités pornographiques. Je veux parler du X de XML!
+Comprenons nous bien, je ne suis promotteur des activités pornographiques. Je veux parler du <cite class="kw">X</cite> de <cite class="kw">XML</cite>!
 Au delà du méta langage, comment utilisez vous la caractéristique d'extensibilité
-dans vos fichiers XML? Autrement dit, que faites vous du X? 
+dans vos fichiers <cite class="kw">XML</cite>? Autrement dit, que faites vous du <cite class="kw">X</cite>? 
 
 L'inutilisation de cette caractéristique conduit à des fichiers
-XML, équivalent à des structures C ou des copies Cobol. De ce fait,
-la valeur du langage XML est négative, car il n'y a pas d'avantage à
-utiliser XML, en lieu et place d'autres mécanismes plus directs, plus
+<cite class="kw">XML</cite>, équivalent à des <cite class="kw">structures C</cite> ou des <cite class="kw">copies Cobol</cite>. De ce fait,
+la valeur du langage <cite class="kw">XML</cite> est négative, car il n'y a pas d'avantage à
+utiliser <cite class="kw">XML</cite>, en lieu et place d'autres mécanismes plus directs, plus
 simples, et moins onéreux à maintenir. 
 
 La caractéristique d'extensibilité peut être mise en oeuvre de
@@ -40,7 +39,7 @@ class="kw">unbounded</cite> pour la borne <cite
 class="kw">maxOccurs</cite> suffit pour gérer cette multiplicité. 
 
 
-## Polymorphisme des entrées
+### Polymorphisme des entrées
 La caractéristique d'extensibilité peut <cite class='comment'>et doit</cite> être comprise comme la capacité à
 accepter un type dérivé en lieu et place d'un type de base. L'usage
 conjoint de <cite class="kw">xsd:extension</cite> dans la définition d'un type et de l'attribut <cite
@@ -73,7 +72,7 @@ pour l'intégration et encore un autre pour la production. L'avantage
 est que chaque fichier sera optimisé pour son domaine. L'inconvénient
 est que l'aspect ultra dynamique risque d'engendrer de nombreux
 problèmes à moins d'avoir du personnel, bon connaisseur de la logique
-XML.
+<cite class="kw">XML</cite>?.
 
 Au début, faire du X semble compliqué. Essayez et les atouts de
-cette approche vous séduiront. Au fait, combien de fichier XML avez vous créé, qui mettent en oeuvre le X d'XML?
+cette approche vous séduiront. Au fait, combien de fichier <cite class="kw">XML</cite> avez vous créé, qui mettent en oeuvre le <cite class="kw">X</cite> d'<cite class="kw">XML</cite>?
