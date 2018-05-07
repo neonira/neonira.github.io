@@ -106,3 +106,7 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: R-blogger
+    url: https://www.r-bloggers.com
+    icon: /images/R_02_2016-05-01.png
+
