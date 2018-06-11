@@ -30,16 +30,16 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: UA-115529786-2 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: neonira-github-io # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: neonira # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
 
 site:
   owner:
-    disqus-shortname: neonira-github-io
+    disqus-shortname: neonira
 
 # Liquid
 liquid:
@@ -79,6 +79,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-numbered-headings
 
 # Front Matter Defaults
 defaults:
@@ -106,5 +107,4 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
-
 
