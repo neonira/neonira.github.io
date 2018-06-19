@@ -28,7 +28,7 @@ All the numbers from 2 to 11, provides 1 as final output of Collatz sequence.
 
 ## Assumption
 
-Let's consider the Collatz sequence to be proven up to a given number <cite class='kw'>z</cite>. This means that Collatz sequence is proven to be converging for any number <cite class='kw'>m</cite> &isin; <cite class='math_N'></cite> respecting <cite class='kw'>m</cite> <cite class='math_lt'></cite> <cite class='kw'>e</cite>. 
+Let's consider the Collatz sequence to be proven up to a given number <cite class='kw'>z</cite>. This means that Collatz sequence is proven to be converging for any number <cite class='kw'>m</cite> &isin; <cite class='math_N'></cite> respecting <cite class='kw'>m</cite> <cite class='math_lt'></cite> <cite class='kw'>z</cite>. 
 
 ## Proof for any <cite class='kw even'></cite> number <cite class='kw'>e</cite> verifying <cite class='kw'>z</cite> <cite class='math_lt'></cite> <cite class='kw'>e</cite> <cite class='math_lt'></cite> <cite class='kw'>2z</cite>
 
@@ -87,7 +87,7 @@ cs<sub>3</sub> = <cite class='kw'>&eta;</cite>(<cite class='kw'>&omega;</cite>(s
 
 Let's focus on cs<sub>3</sub>, when it outputs an <cite class='kw even'></cite> number. From calculus, shown on previous table, the cases happen when cs<sub>1</sub> has a starting unit digit that is amongst <span class='digit digit1'></span>, <span class='digit digit5'></span> or <span class='digit digit9'></span>. As we have previously proven that any <cite class='kw even'></cite> number converges, this means that any <cite class='kw odd'></cite> number finishing with digit <span class='digit digit1'></span>, <span class='digit digit5'></span> or <span class='digit digit9'></span> converges.  
 
-Now remain two cases, when when cs<sub>1</sub> has a starting unit digit that is amongst <span class='digit digit3'></span> or <span class='digit digit7'></span>. Here, let's apply again <cite class='kw'>&omega;</cite> and <cite class='kw'>&eta;</cite> as those numbers are <cite class='kw odd'></cite>. Reusing previous table, the commutation will prove 
+Now remain two cases, when cs<sub>1</sub> has a starting unit digit that is among <span class='digit digit3'></span> or <span class='digit digit7'></span>. Here, let's apply again <cite class='kw'>&omega;</cite> and <cite class='kw'>&eta;</cite> as those numbers are <cite class='kw odd'></cite>. Reusing previous table, the commutation will prove 
 - cs<sub>1</sub> <span class='digit digit3'></span> <cite class='arrow'></cite> cs<sub>3</sub> <span class='digit digit5'></span> <cite class='arrow'></cite> cs<sub>5</sub><span class='digit digit8'></span> <cite class='kw even'></cite> number
 - cs<sub>1</sub> <span class='digit digit7'></span> <cite class='arrow'></cite>  cs<sub>3</sub> <span class='digit digit1'></span> <cite class='arrow'></cite> cs<sub>5</sub><span class='digit digit2'></span> <cite class='kw even'></cite> number. 
 
@@ -107,6 +107,10 @@ Simply put, I have proven
 2. all <cite class='kw even'></cite> numbers converges to 1. Proven by recurrence
 3. all <cite class='kw odd'></cite> numbers converges to 1. Proven by reusing <cite class='kw even'></cite> numbers convergence, based on calculus. 
 
-Thereforce, proof of Collatz sequence is achieved. 
+Therefore, proof of Collatz sequence is achieved. Your comments, remarks and feebacks are welcome. Use comment zone to do so. 
+
+
+##### Note
+All calculus done using <cite class='kw'>R</cite> language.
 
 
