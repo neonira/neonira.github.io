@@ -79,7 +79,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-numbered-headings
+  - jemoji
 
 # Front Matter Defaults
 defaults:
