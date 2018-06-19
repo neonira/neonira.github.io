@@ -133,6 +133,10 @@ cite.math_ge:before { content: '\2A7E'; }
 cite.math_le:before { content: '\2A7D'; }
 cite.math_gt:before { content: '\003E'; }
 cite.math_lt:before { content: '\003C'; }
+cite.math_N:before { content: '\2115'; font-size: 1.2em; }
+cite.math_notin:before { content: '\2209'; }
+cite.math_union:before { content: '\222A'; font-size: 1.2em; }
+cite.math_intersection:before { content: '\2229'; font-size: 1.2em; }
 
 cite.step { font-size: 1.1em; font-style:oblique; font-weight: bold; color: #9A2EFE; }
 
