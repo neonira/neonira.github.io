@@ -10,7 +10,7 @@ output:
 ---
 Find previous posts if you haven't yet read them. [first post](math_cs_1), [second post](math_cs_2), [third post](math_cs_3), .   
 
-##1. Analysis of <cite class='kw'>cluster 1</cite>
+## Analysis of <cite class='kw'>cluster 1</cite>
 
 A reminder first.  
 
@@ -22,7 +22,7 @@ A reminder first.
 <cite class='kw even'></cite>
 -->
 
-###1. cluster 1 paths
+### cluster 1 paths
 
 Reusing results from [second post](math_cs_2) about digit mutation, we can determine all the paths of cluster 1. 
 
@@ -35,7 +35,7 @@ That path is the only one in the cluster. Its length vary considering the loop o
 The entry condition in cluster 1 has already been demonstrated on [second post](math_cs_2), and <span class='digit digit6'></span> must own an <cite class='kw even'></cite> number of tens to enter the cluster. if not the case, then the <span class='digit digit6'></span> will bring <span class='digit digit8'></span> and switch to cluster 2. 
 
 
-###1. cluster 1 expansion factor
+### cluster 1 expansion factor
 <table>
 <thead>
 <tr style='font-weight:bold'>
@@ -87,7 +87,7 @@ So, following the path, brings an expansion factor of 9 / 2<sup>k + 1</sup> with
 if k <cite class='math_ge'></cite>3 then expansion factor becomes a compression factor, meaning the output will be less than the input. You may think to k as the number of 0 on the right of the number. So k <cite class='math_ge'></cite>3 means the number being a multile of 1000.
 
 
-###1. Computation analysis
+### Computation analysis
 <table>
 <thead>
 <tr style='font-weight:bold'>
@@ -161,13 +161,13 @@ If <cite class='kw'>t</cite> is <cite class='kw odd'></cite>, <cite class='kw'>t
 
 Note that if a number ends with <cite class='kw'>d</cite> digits <span class='digit digit0'></span>, then the number of times <cite class='kw'>&eta;</cite> will be applied is <cite class='kw'>d</cite>. 
 
-###1. Expansion factor 
+### Expansion factor 
 
 So the expansion factor turns to be taken from set { 9 / 2<sup>k</sup> with <cite class='kw'>k</cite> = 2 when tens of <span class='digit digit0'></span> digit are <cite class='kw odd'></cite>, and <cite class='kw'>k</cite> = 2 + <cite class='kw'>e</cite> with <cite class='kw'>e</cite> being the number of times those tens can be divided by 2 staying <cite class='kw even'></cite>}.  
 
 This expansion factor, is really an expansion factor when tens of <span class='digit digit0'></span> digit are <cite class='kw odd'></cite> or when <cite class='kw'>e</cite> <cite class='math_le'></cite> 2. Otherwise, the expansion factor is a compression factor, meaning that the output of cluster 1 will be in this case a number less than the input number. 
 
-####1. Expansion factor pattern
+#### Expansion factor pattern
 
 Let's consider input number 13. Applying <cite class='kw'>&omega;</cite>, it brings 40. Applying <cite class='kw'>&eta;</cite> brings successively 40 <cite class='arrow'></cite> 20 <cite class='arrow'></cite> 10 <cite class='arrow'></cite> 5. So <cite class='kw'>e</cite> = 3, and the reduction factor applied is 9 / 16. 
 

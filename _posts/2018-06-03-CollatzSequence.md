@@ -11,9 +11,9 @@ output:
 ---
 On [first post part](math_cs_1) , we got some intuition about Collatz sequence], that seems to be unproven yet. Let's try to prove it mathematically.   
 
-##1. Some mathematic reminders
+## Some mathematic reminders
 
-###1. Canonical form a a natural integer
+### Canonical form a a natural integer
 
 We name <cite class='kw'>canonical form</cite> any natural integer <cite class='kw'>n</cite>, written under one of following forms
 * <cite class='kw'>n</cite> = 10 <cite class='kw'>t</cite> + <cite class='kw'>u</cite> 
@@ -23,14 +23,14 @@ Note that <cite class='kw'>n, h, d, u &isin; &#x2115;</cite>&nbsp;&nbsp;&nbsp;<c
 
 Unless otherwise specified, the expression <cite class='kw'>canonical form</cite> refers always to the first form.  
 
-###1. Determining parity of a number
+### Determining parity of a number
 
 By definition, an <cite class='kw even'></cite> number <cite class='kw'>n</cite> can be written as <cite class='kw'>n</cite> = 2 <cite class='kw'>p</cite> &nbsp;&nbsp;&nbsp; <cite class='kw'>n, p &isin; &#x2115;</cite>&nbsp;&nbsp;&nbsp;<cite class='comment'>note that n is <cite class='kw even'></cite>, but we have no information about p that can be <cite class='kw even'></cite> or <cite class='kw odd'></cite></cite>.  
 
 
 By definition, an <cite class='kw odd'></cite> number<cite class='kw'>n</cite> can be written as <cite class='kw'>n</cite> = 2 <cite class='kw'>p</cite> + 1 &nbsp;&nbsp;&nbsp; <cite class='kw'>n, p &isin; &#x2115;</cite>&nbsp;&nbsp;&nbsp;<cite class='comment'>note that n is <cite class='kw even'></cite>, but we have no information about p that can be <cite class='kw even'></cite> or <cite class='kw odd'></cite></cite>.  
 
-####1. Parity of a sum of two natural integers
+#### Parity of a sum of two natural integers
 
 Using the shown definitions, I can demonstrate following table of truth for parity addition of two natural integers  
 
@@ -60,7 +60,7 @@ So, given one number <cite class='kw'>p</cite>, to determine the parity of the s
 1. the parity of <cite class='kw'>q</cite> when <cite class='kw'>p</cite> is <cite class='kw even'></cite>
 1. the negation of the parity of <cite class='kw'>q</cite>, that is <cite class='kw' style='font-weight:bold'>&#172;q</cite>, when <cite class='kw'>p</cite> is <cite class='kw odd'></cite>
 
-####1. Parity of a product of two natural integers
+#### Parity of a product of two natural integers
 
 Using the shown definitions, I can demonstrate following table of truth for parity multipliction of two natural integers  
 
@@ -89,12 +89,12 @@ Using the shown definitions, I can demonstrate following table of truth for pari
 So, the production of two natural numbers is <cite class='kw odd'></cite> only when both of them are <cite class='kw odd'></cite>.
 
 
-##1. Digit mutation proof
+## Digit mutation proof
 
 Remember Collatz sequence definition
 ![collatz definition](/images/maths/collatz/cs.png)
 
-###1. Digit mutation proof for <cite class='kw even'></cite> numbers
+### Digit mutation proof for <cite class='kw even'></cite> numbers
 
 In this part, as all numbers are <cite class='kw even'></cite>, I will apply division by <cite class='kw'>2</cite>. 
 <table>
@@ -181,7 +181,7 @@ So, we have proven several things, for <cite class='kw even'></cite> numbers
 1. As we divide, by <cite class='kw'>2</cite>, the result is strictly less than the input. 
 
 
-###1. Digit mutation proof for <cite class='kw odd'></cite> numbers
+### Digit mutation proof for <cite class='kw odd'></cite> numbers
 
 In this part, as all numbers are <cite class='kw odd'></cite>, I will apply apply by 3 <cite class='kw'>&upsilon;<sub>n</sub></cite> + 1. 
 <table>
@@ -263,10 +263,10 @@ So, are now proven several things, for <cite class='kw odd'></cite> numbers
 1. When applying Collatz sequence to an <cite class='kw odd'></cite> number, produced result will always be an <cite class='kw even'></cite> number. This implies that when applying Collatz sequence, we will never apply twice in a run the Collatz sequence <cite class='kw odd'></cite> rule.   
 1. The result is always greater than the input for <cite class='kw odd'></cite> numbers
 
-##1. Suite analysis
+## Suite analysis
 Let's focus now on suite analysis, has this will bring many insights on the Collatz Sequence results. 
 
-###1. Suite definitions
+### Suite definitions
 
 Let's divide the Collatz sequence into two independent suites, for analysis convenience.   
 First suite is for <cite class='kw odd'></cite> numbers: <cite class='kw'> &omega;<sub>n + 1</sub></cite> = 3 <cite class='kw'> &omega;<sub>n</sub></cite> + 1    
@@ -275,7 +275,7 @@ Second suite is for <cite class='kw even'></cite> numbers:
 
 By convention, the indice <sub>n</sub> starts at 1. 
 
-###1. Calculus formulaes
+### Calculus formulaes
 
 We need a formulae that provides the n<sup>th</sup> result, directly from the input.  
 
@@ -289,21 +289,21 @@ For <cite class='kw odd'></cite> numbers, suite analysis will show that
 * <cite class='kw'> &sigma;<sub>k</sub></cite> = <cite class = 'symbol'>&Sigma;</cite><cite class = 'kw'><sub>i = 1</sub><sup>k</sup> 3<sup>i - 1</sup></cite>.
 
 
-###1. Parity analysis 
+### Parity analysis 
 
-####1. parity analysis of <cite class='kw'> &eta;<sub>k</sub></cite>
+#### parity analysis of <cite class='kw'> &eta;<sub>k</sub></cite>
 As <cite class='kw'> &eta;<sub>k</sub></cite> starts forcibly with <cite class='kw'> &eta;<sub>1</sub></cite> being <cite class='kw even'></cite>, the recurring process of division by 2 repeats while <cite class='kw'> &eta;<sub>k</sub></cite> is <cite class='kw even'></cite> and stops immediately when not. In the worst case, we execute a single division by 2.  
 
 
-####1. parity analysis of <cite class='kw'> &omega;<sub>k</sub></cite>
+#### parity analysis of <cite class='kw'> &omega;<sub>k</sub></cite>
 
 As this suite is composed of the sum of 2 suites, we will use the addition parity table. 
 
-#####1. parity analysis of <cite class='kw'> &phi;<sub>k</sub></cite>
+##### parity analysis of <cite class='kw'> &phi;<sub>k</sub></cite>
 
 As <cite class='kw'> &phi;<sub>k</sub></cite> starts forcibly with <cite class='kw'> &phi;<sub>1</sub></cite> being <cite class='kw odd'></cite>, the recurring process of multiplication by 3<sup>k</sup> that is always <cite class='kw odd'></cite> too, brings always an <cite class='kw odd'></cite> result. 
 
-#####1. parity analysis of <cite class='kw'> &sigma;<sub>k</sub></cite>
+##### parity analysis of <cite class='kw'> &sigma;<sub>k</sub></cite>
 
 The suite <cite class='kw'>&sigma;<sub>n</sub></cite> results from a sum. The suite is the sum of the successive power of 3, and so <cite class='kw'>&sigma;<sub>n + 1</sub></cite> = <cite class='kw'>&sigma;<sub>n</sub></cite> + 3<sup>n</sup>
 
@@ -334,7 +334,7 @@ More precisely, we have parity(<cite class='kw'>&phi;<sub>2 n + 1</sub></cite>) 
 Therefore, the suite <cite class='kw'>&omega;<sub>n</sub></cite> that is the addition of 2 suites,  <cite class='kw'>&phi;<sub>n</sub></cite> that is always <cite class='kw odd'></cite> and <cite class='kw'>&sigma;<sub>n</sub></cite> that is an alternate parity suite starting with an <cite class='kw odd'></cite> value. 
 In short, <cite class='kw'>&omega;<sub>n</sub></cite> has the same parity as <cite class='kw'>&sigma;<sub>n</sub></cite>.
 
-###1. Digit mutation conclusion 
+### Digit mutation conclusion 
 
 The canonical forms used on paragraphs 2.1 and 2.2, covers individually all the numbers that end with a digit from <span class='digit digit0'></span> to <span class='digit digit9'></span>. They form a partition of &#x2115;. This partition is fully covering &#x2115; as each number ends by one of the 10 digits.  
 

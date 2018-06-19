@@ -16,13 +16,13 @@ To discover its behavior, we stop whenever we reach 1 as input, otherwise depend
 ![collatz definition](/images/maths/collatz/cs.png)  
 Let's name 3&upsilon;<sub>n + 1</sub> the <cite class='kw'>ODD</cite> rule, and the other the <cite class='kw'>EVEN</cite> rule.  
 
-##1. Notation convention used in this document
+## Notation convention used in this document
 
 All lowercase ASCII letters stands for natural integers.  
 The 'o' always means an odd integer.  
 The 'e' always means an even integer.  
 
-##1. Some trials ... 
+## Some trials ... 
 
 Let's start our analysis by playing with some elementary numbers, to get more familiar with the Collatz sequence generation suite. 
 
@@ -64,15 +64,15 @@ For example, consider starting number <cite class='kw'>9</cite>. Instead of doin
 appears in third place. 
 </span>
 
-##1. Understanding the suite internal behavior and processing paths
+## Understanding the suite internal behavior and processing paths
 
-###1. Basic understanding
+### Basic understanding
 
 The processing path is quite simple here. No shortcut, rigorous application of the <cite class='kw'>&upsilon;<sub>n + 1</sub></cite> suite rules.
 
 ![basic understanding](/images/maths/collatz/algo1.png)
 
-###1. A little bit more subtle understanding
+### A little bit more subtle understanding
 
 Whenever we take an odd number multiply it by <cite class='kw'>3</cite> and add <cite class='kw'>1</cite>, we end up with an even number. So in fact, each time we apply odd transformation, an even transformation will follow. 
 
@@ -82,7 +82,7 @@ Whenever we take an odd number multiply it by <cite class='kw'>3</cite> and add 
 This leads us to some insights. First, analyzing the possible paths on this graph, we have in fact only two possible loops. The first one will be named <cite class='kw'>TIC</cite> and is given by <cite class='kw'>(OE)+</cite>, the second one will be named <cite class='kw'>TAC</cite> and is given by <cite class='kw'>(OE{2,})</cite>. Syntax used here complies with PERL 5 regular expression syntax. This means that whenever we encounter an odd number we will apply either <u>once and only once</u> a parity condition, or <u>several times</u>.  
 
 Let's see the consequences of this. 
-####1. TAC case analysis
+#### TAC case analysis
 
 Here we alternate **regularly** <cite class='kw'>ODD</cite> and <cite class='kw'>EVEN</cite> suite rules for an unknown number of steps.
 
@@ -97,7 +97,7 @@ Here we alternate **regularly** <cite class='kw'>ODD</cite> and <cite class='kw'
 </span>
 
 
-####1. TIC case analysis
+#### TIC case analysis
 
 Here we do not alternate **regularly** <cite class='kw'>ODD</cite> and <cite class='kw'>EVEN</cite> suite rules. 
 Instead we apply first and once and only once the <cite class='kw'>ODD</cite> rule, and then apply at <cite class='kw'>k</cite> times the <cite class='kw'>EVEN</cite> rule, with <cite class='kw'> k &#8805;  2</cite>.   
@@ -113,7 +113,7 @@ Instead we apply first and once and only once the <cite class='kw'>ODD</cite> ru
 **LESSON LEARNT 3.1**: The <cite class='kw'>TIC</cite> suite, whenever appearing in the computation, brings a natural integer as result, that will be smaller than its input. So, it is a reduction factor. 
 </span>
 
-####1. Digit mutation analysis
+#### Digit mutation analysis
 It appears that Collatz sequence turns digits in a very strange way, due to its definition. All results can be summarize at a digit level with following figure. 
 
 ![digit sequence path](/images/maths/collatz/digit-sequence.png)
@@ -134,7 +134,7 @@ Second cluster is based on source numbers ending with a digit <cite class='kw'>4
 </span>
 
 
-##1. Conclusion of part 1
+## Conclusion of part 1
 
 So, if we want to prove the conjecture, then we just have to prove it for any number with digit <cite class='kw'>4</cite> or <cite class='kw'>6</cite> or <cite class='kw'>8</cite> that are the entry points of each cluster. We'll try this in second post to come.  
 

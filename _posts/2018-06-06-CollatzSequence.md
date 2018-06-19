@@ -10,23 +10,23 @@ output:
 ---
 On [first post](math_cs_1) and [second post](math_cs_2) parts, I set-up the mathematical context to prove Collatz conjecture.   
 
-##1. Cluster analysis
+## Cluster analysis
 
 To prove Collatz sequence conjecture, we need some extraneous analysis. Reusing results of digit mutation proof, we know that the transition path from one number to another is driven by its unit digit, and that the transitions are always the same for one digit.
 
-###1. Cluster definitions
+### Cluster definitions
 
 I name cluster a group of transition path from one number to another.
 
-####1. Definition of <cite class='kw'>cluster 1</cite>
+#### Definition of <cite class='kw'>cluster 1</cite>
 
 <cite class='kw'>cluster 1</cite> is made of numbers with unit digit being part of set <cite class='kw' style='font-size:1.1em;'>S<sub>1</sub></cite> = { <span class='digit digit6'></span>, <span class='digit digit3'></span>, <span class='digit digit0'></span>, <span class='digit digit5'></span> }.
 
-####1. Definition of <cite class='kw'>cluster 2</cite>
+#### Definition of <cite class='kw'>cluster 2</cite>
 
 <cite class='kw'>cluster 2</cite> is made of numbers with unit digit being part of set <cite class='kw' style='font-size:1.1em;'>S<sub>2</sub></cite> = { <span class='digit digit8'></span>, <span class='digit digit9'></span> }.
 
-####1. Definition of <cite class='kw'>cluster 3</cite>
+#### Definition of <cite class='kw'>cluster 3</cite>
 <cite class='kw'>cluster 3</cite> is made of numbers with unit digit being part of set <cite class='kw' style='font-size:1.1em;'>S<sub>3</sub></cite> = { <span class='digit digit4'></span>, <span class='digit digit7'></span>, <span class='digit digit2'></span>, <span class='digit digit1'></span> }.
 
 <span class='do'> 
@@ -34,18 +34,18 @@ I name cluster a group of transition path from one number to another.
 </span>
 
 
-##1. Analysis of <cite class='kw'>cluster 2</cite>
+## Analysis of <cite class='kw'>cluster 2</cite>
 
-###1. Collatz sequence analysis 
+### Collatz sequence analysis 
 
-####1. Collatz sequence analysis on numbers ending with digit <span class='digit digit9'></span> 
+#### Collatz sequence analysis on numbers ending with digit <span class='digit digit9'></span> 
 These numbers can be expressed using canonical form as 10 <cite class='kw'>t</cite> + 9. These numbers are <cite class='kw odd'></cite>.  
 
 So, I apply the <cite class='kw odd'></cite> rule of Collatz sequence. This brings the calculus formulae 30 <cite class='kw'>t</cite> + 28.  
 
 This formulae can be rewritten under canonical form as 10 3<cite class='kw'>t</cite> + 8. Therefore, the result will have a digit <span class='digit digit8'></span>.
 
-#####1. Focus on tens of <span class='digit digit9'></span> 
+##### Focus on tens of <span class='digit digit9'></span> 
 
 Let start from a number ending with digit <cite class='kw'>9</cite>, using <cite class='kw'>&omega;</cite> suite.
 
@@ -56,7 +56,7 @@ Let start from a number ending with digit <cite class='kw'>9</cite>, using <cite
 
 Therefore, input number has <cite class='kw'>t</cite> tens, and output number has 3<cite class='kw'>t</cite> + 2 tens.
 
-####1. Collatz sequence analysis on numbers ending with digit <span class='digit digit8'></span> 
+#### Collatz sequence analysis on numbers ending with digit <span class='digit digit8'></span> 
 These numbers can be expressed using canonical form as 10 <cite class='kw'>t</cite> + 8. These numbers are <cite class='kw even'></cite>.
 
 So, I apply the <cite class='kw even'></cite> rule of Collatz sequence. This brings the calculus formulae 5 <cite class='kw'>t</cite> + 4.  
@@ -65,9 +65,9 @@ This formulae can be rewritten under conditions
 * t is <cite class='kw even'></cite> so, t = 2p and so the canonical form is 10 <cite class='kw'>p</cite> + 4, leading to digit <span class='digit digit4'></span>
 * t is <cite class='kw odd'></cite> so, t = 2p + 1 and so the canonical form is 10 <cite class='kw'>p</cite> + 9, leading to digit <span class='digit digit9'></span>
 
-###1. Computation analysis 
+### Computation analysis 
 
-####1. Computation on numbers ending with digit <span class='digit digit9'></span> with <cite class='kw even'></cite> tens
+#### Computation on numbers ending with digit <span class='digit digit9'></span> with <cite class='kw even'></cite> tens
 
 Let's consider the cases where tens are 0, 2, 4, 6, or 8. 
 <table>
@@ -92,7 +92,7 @@ Let's consider the cases where tens are 0, 2, 4, 6, or 8.
 
 All the n + 2 results, are out of the cluster. This proves by calculus, that any <cite class='kw even'></cite> tens of a number ending with digit <span class='digit digit9'></span> drives the suite to another cluster in just <cite class='step'>2</cite> steps.
 
-####1. Computation on numbers ending with digit <span class='digit digit9'></span> with <cite class='kw odd'></cite> tens
+#### Computation on numbers ending with digit <span class='digit digit9'></span> with <cite class='kw odd'></cite> tens
 
 Let's consider the cases where tens are 1, 3, 5, 7, or 9. 
 <table>
@@ -120,7 +120,7 @@ So, the numbers <cite class='kw'>19</cite>, <cite class='kw'>59</cite>, and <cit
 
 So, the numbers <cite class='kw'>39</cite>, and <cite class='kw'>79</cite> will exit the cluster in <cite class='step'>6</cite> steps. 
 
-####1. Conclusion of computation analysis
+#### Conclusion of computation analysis
 I have shown that whatever the number ending by digit <span class='digit digit9'></span>, we can predict the number of steps before exiting the cluster and reaching systematically a number ending by digit <span class='digit digit4'></span>. Here is a summary table
 
 <table>
@@ -167,7 +167,7 @@ The cluster <cite class='kw'>2</cite> is therefore acting as a multiplier of its
 
 
 <!--
-###1. Entry point <cite class='kw'>8</cite> digit
+### Entry point <cite class='kw'>8</cite> digit
 
 Given a number ending with digit <cite class='kw'>8</cite>, its writing under canonical form is 10 <cite class='kw'>p</cite> + 8. As it is an <cite class='kw even'></cite> number, I have to apply a division by two, which brings a new canonical form of 10 <cite class='kw'>q</cite> + 9 when <cite class='kw'>p</cite> is <cite class='kw odd'></cite> &nbsp;&nbsp;&nbsp; with <cite class='kw'>q</cite> = <cite class='kw'>&#x230a;p / 2&#x230b;</cite> = <cite class='kw'>(p - 1) / 2</cite>&nbsp;&nbsp;&nbsp;<cite class='kw'>&isin; &#x2115; </cite>.  
 
