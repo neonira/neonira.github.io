@@ -1,7 +1,7 @@
 ---
 title: Visite d'un jardin chinois en Yvelines
 hidden: false
-categories: sortie
+categories: sortie FR
 tags: sortie jardin promenade 
 author: neonira
 permalink: sortie_1

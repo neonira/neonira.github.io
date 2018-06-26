@@ -1,7 +1,7 @@
 ---
 title: Collatz Sequence - part 5
 hidden: false
-categories: mathematics
+categories: mathematics EN
 tags: mathematics R computing 
 author: neonira
 permalink: math_cs_5

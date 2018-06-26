@@ -1,8 +1,8 @@
 ---
 title: Articles worth reading June 2018
 hidden: false
-categories: readings
-tags: readings news 
+categories: readings EN
+tags: readings books articles 
 author: neonira
 permalink: read_201806
 output:

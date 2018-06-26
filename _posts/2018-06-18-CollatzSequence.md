@@ -1,7 +1,7 @@
 ---
 title: Collatz Sequence - part 6
 hidden: false
-categories: mathematics
+categories: mathematics EN
 tags: mathematics R computing 
 author: neonira
 permalink: math_cs_6
@@ -10,7 +10,7 @@ output:
 ---
 Proof of Collatz sequence convergence. 
 
-##  Some reminders first
+## Some reminders first
 
 Remember Collatz sequence definition
 ![collatz definition](/images/maths/collatz/cs.png)
@@ -21,14 +21,14 @@ Second suite <cite class='kw'> &eta;</cite> is for <cite class='kw even'></cite>
 <cite class='kw'> &eta;<sub>n + 1</sub></cite> = <cite class='kw'> &eta;<sub>n</sub></cite> / 2  
 
 
-##  Resolution for numbers from 2 to 11
+## Resolution for numbers from 2 to 11
 
-###  resolution graph
+### resolution graph
 First, let's proceed to an exploratory analysis, and show results as a graph
 
 ![The resolution graph](/images/maths/collatz/2-11serie.png)
 
-###  computation 
+### computation 
 Doing computation, here is a summary for number 9, that covers all the cases for numbers between 2 and 11. 
 
 ```r
@@ -42,11 +42,11 @@ Therefore, by calculus, I proved that all the numbers from 2 to 11, provides 1 a
 </span>
 
 
-##  Assumption
+## Assumption
 
 Let's consider the Collatz sequence to be proven up to a given number <cite class='kw'>z</cite>. This means that Collatz sequence is proven to be converging for any number <cite class='kw'>m</cite> &isin; <cite class='math_N'></cite> respecting <cite class='kw'>m</cite> <cite class='math_lt'></cite> <cite class='kw'>z</cite>. 
 
-##  Proof for any <cite class='kw even'></cite> number <cite class='kw'>e</cite> verifying <cite class='kw'>z</cite> <cite class='math_lt'></cite> <cite class='kw'>e</cite> <cite class='math_lt'></cite> <cite class='kw'>2z</cite>
+## Proof for any <cite class='kw even'></cite> number <cite class='kw'>e</cite> verifying <cite class='kw'>z</cite> <cite class='math_lt'></cite> <cite class='kw'>e</cite> <cite class='math_lt'></cite> <cite class='kw'>2z</cite>
 
 As <cite class='kw'>e</cite> is an <cite class='kw even'></cite> number, then let's apply <cite class='kw'>&eta;</cite>. The result of dividing by two is less than <cite class='kw'>z</cite>, and therefore under the assumption stated above, is proven to be converging. Therefore any even number respecting <cite class='kw'>z</cite> <cite class='math_lt'></cite> <cite class='kw'>e</cite> <cite class='math_lt'></cite> <cite class='kw'>2z</cite> is proven to be a valid input for Collatz sequence to be converging.  
 
@@ -63,12 +63,12 @@ Therefore,
 All the <cite class='kw even'></cite> numbers, converges to 1 as final output of Collatz sequence. 
 </span>
 
-##  Proof for any <cite class='kw odd'></cite> number <cite class='kw'>o</cite>
+## Proof for any <cite class='kw odd'></cite> number <cite class='kw'>o</cite>
 
-###  Direct proof
+### Direct proof
 As <cite class='kw'>o</cite> is an <cite class='kw odd'></cite> number, then let's apply <cite class='kw'>&omega;</cite>. I already demonstrated that applying <cite class='kw'>&omega;</cite> to and <cite class='kw odd'></cite> number provides an <cite class='kw even'></cite> number. As I have proven here above, that any <cite class='kw even'></cite> number brings convergence, therefore,  all the <cite class='kw odd'></cite> numbers also bring convergence. 
 
-###  Calculus proof
+### Calculus proof
 
 As <cite class='kw'>o</cite> is an <cite class='kw odd'></cite> number, it can be written as <cite class='kw'>ah</cite> + <cite class='kw'>bt</cite> +<cite class='kw'>u</cite>. And as it is an <cite class='kw odd'></cite> number, then let's apply <cite class='kw'>&omega;</cite> and <cite class='kw'>&eta;</cite>. 
 
@@ -119,7 +119,7 @@ All the <cite class='kw odd'></cite> numbers, converges to 1 as final output of 
 </span>
 
 
-##  Summary
+## Summary
 
 Simply put, I have proven 
 
@@ -130,7 +130,7 @@ Simply put, I have proven
 Therefore, proof of Collatz sequence is achieved. Your comments, remarks and feebacks are welcome. Use comment zone to do so. 
 
 
-#####  Note
+##### Note
 All calculus done using <cite class='kw'>R</cite> language.
 
 

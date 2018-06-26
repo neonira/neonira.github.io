@@ -1,7 +1,7 @@
 ---
 title: "Improving your chess play - part 2"
 hidden: false
-categories: games
+categories: games EN
 tags: chess computer R
 author: neonira
 permalink: icp2

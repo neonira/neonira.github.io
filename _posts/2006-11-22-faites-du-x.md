@@ -1,8 +1,8 @@
 ---
 title: "Faites du X!"
 hidden: false
-categories: programming-language
-tags: enterprise code IT XML fr_fr
+categories: programming-language FR
+tags: code XML technology
 author: neonira
 ---
 Comprenons nous bien, je ne suis promotteur des activités pornographiques. Je veux parler du <cite class="kw">X</cite> de <cite class="kw">XML</cite>!
