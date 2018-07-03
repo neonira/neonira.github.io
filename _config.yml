@@ -20,7 +20,7 @@ title: "NEONIRA"
 description: "Life, feelings, thoughts & experiments"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://neonira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: /images/neonira.png # path of site logo, e.g. "/images/logo.png"
+logo: /images/neonira-vg.jpg # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -34,7 +34,7 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: neonira # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: neonira # site's Twitter username, e.g. "mmistakes"
 
 
 site:
@@ -52,7 +52,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
+paginate: 9
 paginate_path: /page:num/
 
 # Search
@@ -96,7 +96,7 @@ author:
   name: neonira
   picture: /images/neonira.png
   email: neonira@gmail.com
-  twitter: 
+  twitter: neonira
   links:
     - title:
       url:
