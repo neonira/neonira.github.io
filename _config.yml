@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+#remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "NEONIRA"
 description: "Life, feelings, thoughts & experiments"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://neonira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: /images/neonira.png # path of site logo, e.g. "/images/logo.png"
+logo: /images/neonira-vg.jpg # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -30,16 +30,15 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: UA-115529786-2 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: neonira-github-io # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: neonira # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
-
+  username: neonira # site's Twitter username, e.g. "mmistakes"
 
 site:
   owner:
-    disqus-shortname: neonira-github-io
+    disqus-shortname: neonira
 
 # Liquid
 liquid:
@@ -52,7 +51,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
+paginate: 9
 paginate_path: /page:num/
 
 # Search
@@ -79,6 +78,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
 
 # Front Matter Defaults
 defaults:
@@ -95,7 +95,7 @@ author:
   name: neonira
   picture: /images/neonira.png
   email: neonira@gmail.com
-  twitter: 
+  twitter: neonira
   links:
     - title:
       url:
@@ -106,5 +106,4 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
-
 

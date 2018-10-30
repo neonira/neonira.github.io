@@ -1,8 +1,8 @@
 ---
 title: "Messy Java Code"
 hidden: false
-categories: programming-language
-tags: enterprise code IT Java en_en
+categories: programming-language EN
+tags: code technology Java
 author: neonira
 ---
 ### How easy is it to create Java messy code ?
@@ -43,7 +43,7 @@ public class _l_ {
 #### Getting the result
 For your information, the right result is displayed below. 
 
-All we wanted to show, is that from a really simple Java example, guessing results can be much more tricky than expected.
+All we wanted to show, is that from a really simple Java example,
 
 #### Run without argument
 ```java

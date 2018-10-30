@@ -113,8 +113,94 @@ a {
   }
 }
 
-cite.comment:before { content: ' ('; }
+cite.symbol { font-size: 1.2em; }
+
+cite { font-size: .8em; }
+cite.comment:before { content: '('; }
 cite.comment:after { content: ')'; }
+cite.ref:before { content: 'cf. '; }
 cite.kw { font-weight: bold; }
+
+cite.even { color: #2E64FE; }
+cite.even:before { content: 'even'; }
+
+cite.arrow:before { content: '\2799'; }
+
+cite.odd { color: #FA5858; }
+cite.odd:before { content: 'odd'; }
+
+cite.math_ge:before { content: '\2A7E'; }
+cite.math_le:before { content: '\2A7D'; }
+cite.math_gt:before { content: '\003E'; }
+cite.math_lt:before { content: '\003C'; }
+cite.math_N:before { content: '\2115'; font-size: 1.2em; }
+cite.math_notin:before { content: '\2209'; }
+cite.math_union:before { content: '\222A'; font-size: 1.2em; }
+cite.math_intersection:before { content: '\2229'; font-size: 1.2em; }
+
+cite.step { font-size: 1.1em; font-style:oblique; font-weight: bold; color: #9A2EFE; }
+
+cite.refeq { font-style:oblique; font-weight: bold; color: #00FF00; }
+cite.refeq:before { content: '\00a0\00a0\00a0\00a0\00a0('; }
+cite.refeq:after { content: ')'; }
+
+span.digit { 
+  padding: 5px 10px 5px 10px;
+  border-radius: 25px; 
+  background-color: $text-color;
+  color: white;
+  display: inline;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+span.digit0:before { content: '0'; }
+span.digit1:before { content: '1'; }
+span.digit2:before { content: '2'; }
+span.digit3:before { content: '3'; }
+span.digit4:before { content: '4'; }
+span.digit5:before { content: '5'; }
+span.digit6:before { content: '6'; }
+span.digit7:before { content: '7'; }
+span.digit8:before { content: '8'; }
+span.digit9:before { content: '9'; }
+
+
+
+span.tip { 
+  padding: 7px 15px 7px 15px; 
+  border: 1px solid rgb(46, 134, 193);
+  border-radius: 3px; 
+  background-color: rgb(133, 193, 233);
+  clear:both;
+  display: block;
+}
+
+span.warn { 
+  padding: 7px 15px 7px 15px; 
+  border: 1px solid rgb(235, 152, 78); 
+  border-radius: 3px; 
+  background-color: rgb(240, 178, 122);
+  clear:both;
+  display: block;
+}
+
+span.do { 
+  padding: 7px 15px 7px 15px; 
+  border: 1px solid rgb(130, 224, 170); 
+  border-radius: 3px; 
+  background-color: rgb(171, 235, 198);
+  clear:both;
+  display: block;
+}
+
+span.dont { 
+  padding: 7px 15px 7px 15px; 
+  border: 1px solid rgb(241, 148, 138); 
+  border-radius: 3px; 
+  background-color: rgb(245, 183, 177);
+  clear:both;
+  display: block;
+}
 
 
