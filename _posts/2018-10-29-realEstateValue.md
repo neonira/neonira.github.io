@@ -104,7 +104,7 @@ ggplot(da, aes(x = year, y = value, color = country)) +
 
 ![Gross domestic product](/images/realestate/pib.png)
 
-![Population](/images/realestate/tilt.png)
+![Population](/images/realestate/pop.png)
 
 ![Consummer price index](/images/realestate/ipc.png)
 
