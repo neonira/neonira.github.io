@@ -54,7 +54,7 @@ Following conversions were applied to the data
 
 I used <cite class='kw'>R package tidyr</cite> to manage data wrangling. Mainly, I turned data series from 1800 to 2015, given in columns into two column, named <cite class='kw'>year</cite> and <cite class='kw'>value</cite>, keeping all the other columns, except the one named 'Séries' as I want English language output to be produced, and not French. 
 
-Here is the main part of the code <cite class='kw'>sc is simple the index of the starting column name </cite>.
+Here is the main part of the code <cite class='comment'>sc is simple the index of the starting column name </cite>.
 
 ```r
 dtx <- as.data.table(tidyr::gather(dtc, 'year', 'value', sc:ncol(dtc)))
@@ -73,7 +73,7 @@ I juste enforced the following
 1. diagram ordinates are values
 1. theme is kept very simple and near the default provided natively by <cite class='kw'>ggplot2</cite>.
 
-Here is the main part of the code <cite class='kw'>da is the data.table variable name </cite>.
+Here is the main part of the code <cite class='comment'>da is the data.table variable name </cite>.
 
 ```r
 mc <- c('en' = 'red', fr = 'blue', us = 'green')
@@ -86,11 +86,9 @@ ggplot(da, aes(x = year, y = value, color = country)) +
 
 ### And the diagrams produced 
 
-#### Home price index
+#### Home price and disposable income
 
 ![home price index](/images/realestate/ipl.png)
-
-![home price index zoomed](/images/realestate/ipl_z.png)
 
 ![disposable income](/images/realestate/rdm.png)
 
