@@ -33,7 +33,7 @@ Two main requirements are
 
 ##### First approach: rely solely on data.table capabilities, using strings
 
-```{r echo = TRUE, eval = FALSE}
+```r
 filter_by_string_builtin <- function(dt, ...) {
   dt[, ..., with = FALSE]
 } 
@@ -43,27 +43,29 @@ Here, the limit is that you can not pass symbols in the call. You must use __str
 
 ##### Second approach: rely solely on data.table capabilities, using symbols
 
-```{r echo = TRUE, eval = FALSE}
+```r
 filter_by_symbol_builtin <- function(dt, ...) {
   dt[, ...]
 }
 ```
+
 Here, the limit is that you can pass only symbols in the call. You must not use __strings__. 
 
 ##### Third approach: use data.table capabilities and meta-programmation
 
-```{r echo = TRUE, eval = FALSE}
+```r
 filter_by_symbol <- function(dt, ...) {
   sy <- ensyms(...)
   ss <- sapply(sy, as_string)
   dt[, ss, with = FALSE]
 }
 ```
+
 Here you may use __strings__ or __symbols__, or even mix them. 
 
 ##### Fourth approach: use tidyverse
 
-```{r echo = TRUE, eval = FALSE}
+```r
 filter_by_quosure <- function(dt, ...) {
   sy <- enquos(...)
   #if (length(sy) == 0) return(dt)
@@ -71,6 +73,7 @@ filter_by_quosure <- function(dt, ...) {
     select(!!!sy)
 }
 ```
+
 Here you may use __strings__ or __symbols__, or even mix them. 
 
 
@@ -79,7 +82,7 @@ Here you may use __strings__ or __symbols__, or even mix them.
 All of them provide right (from a functional point of view) and identical answer.
 OK, but what about performance ? 
 
-```{r echo = TRUE, eval = FALSE}
+```r
 mm <- microbenchmark(filter_by_string_builtin(dt, 'x', 'r'),
                      filter_by_symbol_builtin(dt, x, r),
                      filter_by_symbol(dt, 'x', 'r'),
@@ -113,7 +116,7 @@ p <- ggplot(dk[what != 'max'], aes(x = what, y = p, group = expr, color = expr))
 ```
 
 And performance data are 
-```{r echo = TRUE, eval = FALSE}
+```r
 Unit: microseconds
                                    expr   min      lq      mean  median      uq    max neval
  filter_by_string_builtin(dt, "x", "r") 111.1  128.20  154.0355  141.90  158.95  978.2  1000
@@ -130,14 +133,14 @@ Some graphs to ease comparisons
 
 ![main comparisons](/images/r/metaprog/h.png)
 
-![relative performance comparisons](/images/r/metaprog//i.png)
+![relative performance comparisons](/images/r/metaprog/i.png)
 
 #### Test context
 
 All tests are executed disconnected from any network, on the same machine, at the same time.
 More information below, about hardware used, capabilities, and software versions used.
 
-```{r echo = TRUE, eval = FALSE}
+```r
 $session
 R version 3.5.2 (2018-12-20)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
