@@ -24,7 +24,7 @@ n° équipier| prénom | rôles particuliers
 3 | Javier  | 
 4 | Frédéric | barreur
 
-```{r figa, echo = FALSE, out.width='45%', fig.asp=.5, fig.align='center'}
+```r
 knitr::include_graphics('/images/aviron/b.png')
 knitr::include_graphics('/images/aviron/c.png')
 ```
@@ -54,7 +54,7 @@ catégorie | $9 / 9$ | derniers de notre catégorie
 
 ## Performances dans notre catégorie
 
-```{r echo=FALSE}
+```r
 suppressMessages(require('lubridate', quietly = TRUE))
 suppressMessages(require('data.table', quietly = TRUE))
 suppressMessages(require('magrittr', quietly = TRUE))
@@ -164,7 +164,7 @@ $4/4$ | Passage boué très médiocre. Arrêt nécessasire car chef de nage en c
 
 ## Comparaison performance avec l'historique CERAMM
 
-```{r echo=FALSE}
+```r
 showGoals(dh[, -c('equipe'), with = FALSE], 'HISTORIQUE DES PERFORMANCES')
 ```
 
@@ -176,7 +176,7 @@ Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>
 
 
 Satisfaction d'être allé au bout. Je crois qu'elle est partagée. 
-```{r figcover, echo = FALSE, out.width='80%', fig.asp=1.25, fig.align='center'}
+```r
 knitr::include_graphics('/images/aviron/a.png')
 ```
 
