@@ -159,7 +159,8 @@ showGoals <- function(dt, title = NA) showTable(dt, title) %>%
 showGoals(dt, 'PERFORMANCE')
 ```
 
-## Notre course
+
+# Notre course
 
 parcours | commentaire
 ------------------:|:-------------------------------------------------------
@@ -168,17 +169,18 @@ $2/4$ | Passage boué moyen, deuxième tronçon propre. Notre chef de nage sembl
 $3/4$ | Arrêt restauration. Notre chef de nage est en surchauffe. Reprise difficile, bateau ardent et chaotique. Bonne présence dans le bateau pour garder tout le monde concentré sur l'objectif. 
 $4/4$ | Passage boué très médiocre. Arrêt nécessasire car chef de nage en crampes. Dernier tronçon laborieux, notre chef de nage fait de sont mieux en demi-coulisse.  La fatigue est présente et occasionne des erreurs <i>(collision légére entre pelles et bouée, fausse pelle, ...)</i>. 
 
-## Comparaison performance avec l'historique CERAMM
+# Comparaison performance avec l'historique CERAMM
 
 ```{r echo=FALSE}
 showGoals(dh[, -c('equipe'), with = FALSE], 'HISTORIQUE DES PERFORMANCES')
 ```
 
-## En conclusion
+
+# En conclusion
 
 J'oscille entre frustration et satisfaction. 
 
-Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>(bon esprit de tous sur le bateau, ambiance concentrée malgré des conditions météos variables, volonté commune d'aller au bout)</i> mais plutôt par le résultat. Le temps final résulte de trop nombreux arrêts <i>(dont j'estime la durée totale à plus de 10 minutes, indispensables cependant compte tenu des conditions de l'équipage)</i>, d'une charge élevée <i> plus de 440 kg navire compris</i>, et aussi d'imperfections techniques encore accentuées par le manque d'automatismes et de synchronicité de notre improbable équipage. 
+Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>(bon esprit de tous sur le bateau, ambiance concentrée malgré des conditions météos variables, volonté commune d'aller au bout)</i> mais plutôt par le résultat. Le temps final résulte de trop nombreux arrêts <i>(dont j'estime la durée totale à plus de 10 minutes, indispensables cependant compte tenu des conditions de l'équipage)</i>, d'une charge élevée <i>(plus de 440 kg navire compris)</i>, et aussi d'imperfections techniques encore accentuées par le manque d'automatismes et de synchronicité de notre improbable équipage. 
 
 Satisfaction d'être allé au bout. Je crois qu'elle est partagée. 
 ```{r figcover, echo = FALSE, out.width='80%', fig.asp=1.25, fig.align='center'}

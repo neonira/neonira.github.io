@@ -192,7 +192,7 @@ CERAMM
 </tbody>
 </table>
 Notre course
-------------
+============
 
 <table>
 <colgroup>
@@ -226,7 +226,7 @@ Notre course
 </table>
 
 Comparaison performance avec l'historique CERAMM
-------------------------------------------------
+================================================
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -343,11 +343,11 @@ Performance
 </tbody>
 </table>
 En conclusion
--------------
+=============
 
 J'oscille entre frustration et satisfaction.
 
-Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>(bon esprit de tous sur le bateau, ambiance concentrée malgré des conditions météos variables, volonté commune d'aller au bout)</i> mais plutôt par le résultat. Le temps final résulte de trop nombreux arrêts <i>(dont j'estime la durée totale à plus de 10 minutes, indispensables cependant compte tenu des conditions de l'équipage)</i>, d'une charge élevée <i> plus de 440 kg navire compris</i>, et aussi d'imperfections techniques encore accentuées par le manque d'automatismes et de synchronicité de notre improbable équipage.
+Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>(bon esprit de tous sur le bateau, ambiance concentrée malgré des conditions météos variables, volonté commune d'aller au bout)</i> mais plutôt par le résultat. Le temps final résulte de trop nombreux arrêts <i>(dont j'estime la durée totale à plus de 10 minutes, indispensables cependant compte tenu des conditions de l'équipage)</i>, d'une charge élevée <i>(plus de 440 kg navire compris)</i>, et aussi d'imperfections techniques encore accentuées par le manque d'automatismes et de synchronicité de notre improbable équipage.
 
 Satisfaction d'être allé au bout. Je crois qu'elle est partagée. <img src="/images/aviron/a/a.png" width="80%" style="display: block; margin: auto;" />
 
