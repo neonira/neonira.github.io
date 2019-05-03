@@ -187,7 +187,7 @@ Satisfaction d'être allé au bout. Je crois qu'elle est partagée.
 knitr::include_graphics('/images/aviron/a/a.png')
 ```
 
-Physiquement j'étais très bien dans l'effort. Mes derniers entrainements en intensité portent leur fruits. Quelques douleurs se sont révélées après notre retour à terre. Douleur aux aducteurs <i>(disparues dès le lendemain)</i> et nombreuses ampoules sur les deuxièmes phalanges <it>(toujours présentes et c'est sensible)</i>. 
+Physiquement j'étais très bien dans l'effort. Mes derniers entrainements en intensité portent leur fruits. Quelques douleurs se sont révélées après notre retour à terre. Douleur aux aducteurs <i>(disparues dès le lendemain)</i> et nombreuses ampoules sur les deuxièmes phalanges <i>(toujours présentes et c'est sensible)</i>. 
 
 Enfin, organisation excellente de la part du RCPM. Ils sont rompus à l'exercice et le maitrisent à l'évidence très bien. 
 

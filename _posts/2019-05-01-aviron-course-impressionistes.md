@@ -191,6 +191,8 @@ CERAMM
 </tr>
 </tbody>
 </table>
+
+
 Notre course
 ============
 
@@ -342,6 +344,8 @@ Performance
 </tr>
 </tbody>
 </table>
+
+
 En conclusion
 =============
 
@@ -351,6 +355,6 @@ Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>
 
 Satisfaction d'être allé au bout. Je crois qu'elle est partagée. <img src="/images/aviron/a/a.png" width="80%" style="display: block; margin: auto;" />
 
-Physiquement j'étais très bien dans l'effort. Mes derniers entrainements en intensité portent leur fruits. Quelques douleurs se sont révélées après notre retour à terre. Douleur aux aducteurs <i>(disparues dès le lendemain)</i> et nombreuses ampoules sur les deuxièmes phalanges <it>(toujours présentes et c'est sensible)</i>.
+Physiquement j'étais très bien dans l'effort. Mes derniers entrainements en intensité portent leur fruits. Quelques douleurs se sont révélées après notre retour à terre. Douleur aux aducteurs <i>(disparues dès le lendemain)</i> et nombreuses ampoules sur les deuxièmes phalanges <i>(toujours présentes et c'est sensible)</i>.
 
 Enfin, organisation excellente de la part du RCPM. Ils sont rompus à l'exercice et le maitrisent à l'évidence très bien.
