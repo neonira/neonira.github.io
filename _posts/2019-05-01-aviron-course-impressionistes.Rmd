@@ -1,0 +1,193 @@
+---
+title: Aviron, course des impressionnistes 
+hidden: false
+categories: FR aviron
+tags: aviron sport competition
+comments: true
+author: neonira
+permalink: avi1
+always_allow_html: yes
+output:
+  md_document:
+    variant: markdown_github
+  github_document:
+    pandoc_args: --webtex
+---
+
+Le 1er mai 2019, j'ai participé à la course des impressionnistes sous les couleurs
+de notre club [CERAMM](https://www.ceramm.fr/). Nous sommes engagés en 4 de couple
+sans barreur, homme. 
+
+
+# Notre équipage
+
+Il est composé de 4 hommes, répartis comme suit sur le navire
+
+n° équipier| prénom | rôles particuliers 
+:---------:|:-----------:|:-----------------------------------
+1 | Fabrice | à la nage 
+2 | Fabien  | 
+3 | Javier  | 
+4 | Frédéric | barreur
+
+```{r figa, echo = FALSE, out.width='45%', fig.asp=.5, fig.align='center'}
+knitr::include_graphics('/images/aviron/a/b.png')
+knitr::include_graphics('/images/aviron/a/c.png')
+```
+
+# Notre navire
+
+C'est un **4-** <i>(quatre de couple sans barreur)</i> de marque Zelani, doté de pelles haches.   
+
+# Notre ambition
+
+Elle est double. Terminer la course et nous étalonner vis-à-vis de la concurrence.
+Personnellement, je pense que nous devrions pouvoir terminer la course dans un temps
+de 1:55:00 +/- 00:05:00, ce qui correspond à du 11km/h +/- .5km/h.
+
+## Résultats bruts
+
+L'ensemble des [résultats](/images/aviron/a/Classement_General_21_Km_A.pdf) permet des
+analyses variées bien que nous soyons en présence de données numériques très limitées.
+
+Nos résultats bruts sont
+
+classement | ordre | commentaire
+------------------:|:---------------------|:-----------------------------------
+général | $47 / 49$ | derniers des arrivants
+catégorie | $9 / 9$ | derniers de notre catégorie 
+
+
+## Performances dans notre catégorie
+
+```{r echo=FALSE}
+suppressMessages(require('lubridate', quietly = TRUE))
+suppressMessages(require('data.table', quietly = TRUE))
+suppressMessages(require('magrittr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
+
+dt <- data.table(
+  equipe = c('CN VERSAILLES', 'CN NOGENT', 'CN MEAUX 1', 
+             'ANFA 1', 'CSX POLYTECHNIQUE', 'CN MEAUX 2', 
+             'RC PORT-MARLY', 'ANFA 2', 'CERAMM'),
+  temps = c('1:27:03', '1:30:59', '1:31:49', 
+            '1:32:05', '1:34:25', '1:37:36',
+            '1:49:36', '1:54:45', '2:13:24'
+            )
+)
+
+dh <- data.table(
+  an = 2019:2015,
+  equipe = c('Frédéric BARCZA', 'De la Laurence Amaury', 'Poncelet Paul', 'De la Laurence Amaury', 'Sacotte Mathieu'),
+  temps = c('2:13:24', '1:47:29', '2:13:53', '1:39:18', '2:05:40')
+)
+
+timeToNum <- function(t) {
+  s <- strsplit(t, ':')
+  unlist(lapply(s, function(e) as.numeric(e[1]) * 3600 + as.numeric(e[2]) * 60 + as.numeric(e[3])))
+}
+
+dt[, `:=`(vitesse_ms = round(21000 / timeToNum(temps), 2))]
+dt[, `:=`(vitesse_kmh = round(vitesse_ms * 3.6, 2))]
+
+
+dh[, `:=`(vitesse_ms = round(21000 / timeToNum(temps), 2))]
+dh[, `:=`(vitesse_kmh = round(vitesse_ms * 3.6, 2))]
+dh <- dh[order(-vitesse_ms)][, `:=`(performance = 1:5)][order(-an)]
+
+capitalize <- function(text_s) {
+  if (missing(text_s)) return(NA_character_)
+  sapply(text_s, function(e) {
+    if (length(e) == 0) return(e)
+    if (is.na(e)) return(e)
+    if (!is.character(e)) return(e)
+    n <- nchar(e)
+    if (n == 0) return(e)
+    if (n == 1) return(toupper(e))
+    paste0(toupper(substr(e, 1, 1)), substring(e, 2))
+  }, USE.NAMES = !is.null(names(text_s)))
+}
+
+dm <- data.table(
+  equipier = c('Fabrice', 'Javier', 'Frédéric', 'Fabien'),
+  taille_cm = c(185, 180, 179, 184),
+  poids_kg = c(98, 91, 84, 79)
+)
+tw <- 75 + 5 + 2 * 4 + sum(dm$poids_kg) # 75 = poids navire, 5 = poids embarqués, 2 = poids des fringues par rameur
+
+ec <- function(m, v) .5 * m * v^2
+energy <- function(equipe_s) .5 * tw * dt[equipe == equipe_s]$vitesse_ms^2
+
+checkboxes <- c(empty = '\U2610', check = '\U2611', cross = '\U2612')
+
+generateCheckBoxes <- function(truth_b) { 
+  v <- checkboxes[ifelse(truth_b, 2, 1)] 
+  names(v) <- names(truth_b)
+  v
+}
+
+showTable <- function(dx, title_s = NA, align_s = 'l') {
+  colnames(dx) <- capitalize(colnames(dx))
+  x <- c(ncol(dx))
+  if (!is.na(title_s)) {
+    names(x) <- toupper(title_s)
+    dx %>% 
+      kable(align = align_s) %>%
+      kable_styling() %>%
+      add_header_above(x, align = 'l')
+  } else {
+    dx %>% 
+      kable(align = align_s) %>%
+      kable_styling()
+  }
+}
+
+prtab <- function(mp, title_s) {
+  dx <- data.table(t(mp))
+  setnames(dx, names(mp))
+  showTable(dx, title_s)
+}
+
+buildManualList <- function(x) {
+  paste0(x, collapse = ', ')
+}
+
+showGoals <- function(dt, title = NA) showTable(dt, title) %>%
+  column_spec(1, bold = T, border_right = T, extra_css = 'font-size: 20px')
+
+
+showGoals(dt, 'PERFORMANCE')
+```
+
+## Notre course
+
+parcours | commentaire
+------------------:|:-------------------------------------------------------
+$1/4$ | Départ correct, premier tronçon propre et appliqué, cadence un peu lente. Nous sommes parfois doublés.
+$2/4$ | Passage boué moyen, deuxième tronçon propre. Notre chef de nage semble en surchauffe.
+$3/4$ | Arrêt restauration. Notre chef de nage est en surchauffe. Reprise difficile, bateau ardent et chaotique. Bonne présence dans le bateau pour garder tout le monde concentré sur l'objectif. 
+$4/4$ | Passage boué très médiocre. Arrêt nécessasire car chef de nage en crampes. Dernier tronçon laborieux, notre chef de nage fait de sont mieux en demi-coulisse.  La fatigue est présente et occasionne des erreurs <i>(collision légére entre pelles et bouée, fausse pelle, ...)</i>. 
+
+## Comparaison performance avec l'historique CERAMM
+
+```{r echo=FALSE}
+showGoals(dh[, -c('equipe'), with = FALSE], 'HISTORIQUE DES PERFORMANCES')
+```
+
+## En conclusion
+
+J'oscille entre frustration et satisfaction. 
+
+Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>(bon esprit de tous sur le bateau, ambiance concentrée malgré des conditions météos variables, volonté commune d'aller au bout)</i> mais plutôt par le résultat. Le temps final résulte de trop nombreux arrêts <i>(dont j'estime la durée totale à plus de 10 minutes, indispensables cependant compte tenu des conditions de l'équipage)</i>, d'une charge élevée <i> plus de 440 kg navire compris</i>, et aussi d'imperfections techniques encore accentuées par le manque d'automatismes et de synchronicité de notre improbable équipage. 
+
+Satisfaction d'être allé au bout. Je crois qu'elle est partagée. 
+```{r figcover, echo = FALSE, out.width='80%', fig.asp=1.25, fig.align='center'}
+knitr::include_graphics('/images/aviron/a/a.png')
+```
+
+Physiquement j'étais très bien dans l'effort. Mes derniers entrainements en intensité portent leur fruits. Quelques douleurs se sont révélées après notre retour à terre. Douleur aux aducteurs <i>(disparues dès le lendemain)</i> et nombreuses ampoules sur les deuxièmes phalanges <it>(toujours présentes et c'est sensible)</i>. 
+
+Enfin, organisation excellente de la part du RCPM. Ils sont rompus à l'exercice et le maitrisent à l'évidence très bien. 
+
+
+
