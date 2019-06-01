@@ -1,5 +1,5 @@
 ---
-title: Sublime Architecture Framework, about reuse
+title: Sublime Architecture Framework, about reusable items
 hidden: false
 categories: EN IT ARCHITECTURE
 tags: architecture IT SAF
@@ -14,7 +14,7 @@ I reuse?” and its correlary “What reusable items categorization should I
 consider?”.
 
 Generally, each of us had its own idea about this topic, and it ends up
-not to be so easy to get to a share view about reuse and reusable items.
+not to be so easy to get to a shared view about reuse and reusable items.
 
 # My way
 
