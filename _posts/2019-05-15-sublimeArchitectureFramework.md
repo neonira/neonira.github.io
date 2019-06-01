@@ -1,6 +1,13 @@
-Sublime Architecture Framework, sharing materials
-================
-neonira
+---
+title: Sublime Architecture Framework, sharing materials
+hidden: false
+categories: EN IT ARCHITECTURE
+tags: architecture IT SAF
+comments: true
+author: neonira
+permalink: saf1
+comments: true
+---
 
 Those days, I got many requests to share some contents from my Sublime
 Architecture Framework. Here are some, high level pictures, that will
