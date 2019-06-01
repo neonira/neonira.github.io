@@ -9,7 +9,6 @@ permalink: saf2
 comments: true
 ---
 
-
 One frequently asked question, and very often left open is “What should
 I reuse?” and its correlary “What reusable items categorization should I
 consider?”.
