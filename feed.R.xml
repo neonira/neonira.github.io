@@ -27,9 +27,5 @@ layout: null
             </item>
         {% endfor %}
     </channel>
-<<<<<<< HEAD
 </rss> 
-=======
-</rss>
-{% FGU %}
->>>>>>> eaf3fb601f9de5b9e1d7936bc1489bc6302b0745
+
