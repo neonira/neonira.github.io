@@ -8,7 +8,7 @@ comments: true
 permalink: rz1
 ---
 
-### Metaprogrammation impact
+## Metaprogrammation impact
 
 Lately, R meta programmation seems to be in vogue. Very huge promises, encompassing
 code to produce code, variable indirection naming schemes, and many others marvelous
@@ -17,7 +17,7 @@ are generally the  right sensor to enter into skepticism and to verify by our-se
 it worth or not to switch from well-known and limited code approaches, to less-known more
 promising and more modern code approaches
 
-### A simple use case
+## A simple use case
 
 To start small, I just used meta programmation for a very simple case, that is
 access to data embedded into a **data.table**, using various variable kind of 
@@ -29,9 +29,9 @@ Two main requirements are
 1. parameter might be given as __string__ or __symbol__. 
 
 
-#### Implementation
+### Implementation
 
-##### First approach: rely solely on data.table capabilities, using strings
+#### First approach: rely solely on data.table capabilities, using strings
 
 ```r
 filter_by_string_builtin <- function(dt, ...) {
@@ -41,7 +41,7 @@ filter_by_string_builtin <- function(dt, ...) {
 
 Here, the limit is that you can not pass symbols in the call. You must use __strings__. 
 
-##### Second approach: rely solely on data.table capabilities, using symbols
+#### Second approach: rely solely on data.table capabilities, using symbols
 
 ```r
 filter_by_symbol_builtin <- function(dt, ...) {
@@ -51,7 +51,7 @@ filter_by_symbol_builtin <- function(dt, ...) {
 
 Here, the limit is that you can pass only symbols in the call. You must not use __strings__. 
 
-##### Third approach: use data.table capabilities and meta-programmation
+#### Third approach: use data.table capabilities and meta-programmation
 
 ```r
 filter_by_symbol <- function(dt, ...) {
@@ -63,7 +63,7 @@ filter_by_symbol <- function(dt, ...) {
 
 Here you may use __strings__ or __symbols__, or even mix them. 
 
-##### Fourth approach: use tidyverse
+#### Fourth approach: use tidyverse
 
 ```r
 filter_by_quosure <- function(dt, ...) {
@@ -77,7 +77,7 @@ filter_by_quosure <- function(dt, ...) {
 Here you may use __strings__ or __symbols__, or even mix them. 
 
 
-#### Run it by hand
+### Run it by hand
 
 All of them provide right (from a functional point of view) and identical answer.
 OK, but what about performance ? 
@@ -185,7 +185,7 @@ $hardware$ram
 [1] "16Gb"
 ```
 
-### Conclusion
+## Conclusion
 
 On this example, it is very clear that meta-programmation has a performance cost. 
 Minimal cost ratio of using __symbols__ instead of __strings__ is above 1.6, in all cases
