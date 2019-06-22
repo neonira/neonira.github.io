@@ -8,8 +8,6 @@ comments: true
 permalink: rz1
 ---
 
-## Metaprogrammation impact
-
 Lately, R meta programmation seems to be in vogue. Very huge promises, encompassing
 code to produce code, variable indirection naming schemes, and many others marvelous
 features are now available through the **tidyverse**. Indeed, very huge promises,
