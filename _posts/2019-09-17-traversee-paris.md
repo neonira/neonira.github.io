@@ -10,7 +10,7 @@ permalink: aviron5
 
 <img src='../images/aviron/c/c.jpg' width='200px'/>
 
-Ai eu la chance de pouvoir participer à la traversée de Paris 2019, qui s'est déroulée dimanche 15 septembre. Epreuve organisée par le club de Boulogne Billancourt, avec une présence forte de très nombreux clubs nationaux et internationaux. Des équipages très variés, en age, genre et embarcations, avec la présence notable de différents pays, Ecosse, Irlande, Pays-Bas, Allemagne, Espagne (liste ni exhaustive ni limitative). 
+Ai eu la chance de pouvoir participer à la traversée de Paris 2019, qui s'est déroulée dimanche 15 septembre. Epreuve organisée par le club de l'<a href='https://www.boulogne92.fr/'>ACBB</a>, avec une présence forte de très nombreux clubs nationaux et internationaux. Des équipages très variés, en age, genre et embarcations, avec la présence notable de différents pays, Ecosse, Irlande, Pays-Bas, Allemagne, Espagne (liste ni exhaustive ni limitative). 
 
 # Avant départ
 
