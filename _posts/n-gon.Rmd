@@ -1,0 +1,129 @@
+---
+title: "n-gon"
+author: neonira
+date: "22/09/2019"
+hidden: false
+categories: EN math polygons n-gons
+tags: en_en math polygons n-gons
+comments: true
+permalink: ngons
+always_allow_html: yes
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(data.table)
+require(DT)
+```
+
+# Problem statement
+
+My interest is about polygons, where the number of vertices is a prime number, higher or equal to 5. 
+When considering only star polygons, I wish to have a synthetic formula to compute the included circles radiuses, without even drawing any figure.  
+
+# Some mathematics first
+
+## Number of polygons
+
+For a given prime number p, the number of related p-gons is given by the formula
+
+$$ \Omega(p) =  1 + (p - 1) / 2 $$
+
+Note that all those polygons are different.  Among them, only the first one is a regular polygon. All others are star polygons, defined by the fact that their drawing pictures implies intersections between segments. 
+
+## Drawing polygons
+
+From the same set of p starting points on the unit circle, we can draw $\Omega(p)$ p-gons, and each of them is unique. An easy way to draw them is to set a rule that allows to skip $k$ points on each segment. 
+
+The regular polygon is of pace 1, and ties vertice #1 to vertice #2, and then vertice #2 to vertice #3 and so on. 
+
+The first star polygon is of pace 2, and ties vertice #1 to vertice #3, and then vertice #3 to vertice #5 and so on. 
+
+Each segment ties two and only two points of the unit circle. The pace has following properties
+
+1. $1 \leqslant \rho \leqslant \Omega(p)$
+1. When pace $\rho = 1$, the resulting draw is the regular polygon.
+1. When pace $\rho \gt 1$, the resulting draw is a star polygon. 
+
+
+Let's see an example, for a the case where $p = 13$. Here, $\Omega = 6$. So, there are one regular pentagon and five star pentagons. Here they are 
+
+```{r echo = FALSE, out.width='45%', fig.asp=.5}
+pf <- file.path('../images/maths/polygons/13-gon')
+knitr::include_graphics(sapply(1:6, function(e) file.path(pf, sprintf('graph-%03d.png', e))))
+```
+
+Red dot on a regular polygon shows point numbered 1, that is the starting point we index other points from. As it exists a vertical axis symmetry, you may number clockwise or counter clockwise. On figures, I took the choice to number counter clockwise <cite class='comment'>(mathematical way)</cite>. 
+
+Two more complex examples. First, about 17-gons, second about 89-gons.
+
+<video width="45%" controls>
+  <source src="../images/maths/polygons/video/17-gon.mp4" type="video/mp4">
+</video>
+<video width="45%" controls>
+  <source src="../images/maths/polygons/video/89-gon.mp4" type="video/mp4">
+</video>
+
+# A special suite
+
+## Its definition 
+
+Let's consider following suite, named $\nu(\rho, p)$ where p is the chosen prime, and $\rho$ the pace of the star polygon. Suite $\nu$ takes values in &#x2115; for each parameter, and gives back values in &#x2115;. 
+
+1. The length $\lambda$ of the suite $\nu(\rho, p)$ is $\lambda(p) = \lfloor (p - 1) / 2 \rfloor - 1$
+1. $\nu(2, p) = 2$, the first term is the pace of the first star polygon, i.e. 2, 
+1. $\nu(3, p) = (p - 1) / 2$ 
+1. $\nu(n + 2, p) = \nu(n, p) + 1\;\;when\:n\:is\:even$
+1. $\nu(n + 2, p) = \nu(n, p) -1\;\;when\:n\:is\:odd$
+1. Last term $\eta$ is $\eta = (\nu(2, p) + \nu(3, p)) / 2 = (2 + ( p - 1) / 2) / 2 = (p + 3) / 4$
+
+
+## Some instances of $\nu$
+
+```{r echo = FALSE}
+
+nu1 <- function(rho_ui_1, p_ui_1) {
+  f <- floor((p_ui_1 - 1) / 2)
+  stopifnot(length(rho_ui_1) == 1,  rho_ui_1 >= 2, rho_ui_1 <= f)
+  if (rho_ui_1 == 2) return(2L)
+  if (rho_ui_1 == 3) return(as.integer(f))
+  ifelse(rho_ui_1 %% 2 == 0, 1 + nu1(rho_ui_1 - 2, p_ui_1), -1 + nu1(rho_ui_1 - 2, p_ui_1))
+}
+
+nu <- function(p_ui_1) {
+  f <- as.integer(floor((p_ui_1 - 1) / 2))
+  rho <- 2:f
+  sapply(rho, nu1, p_ui_1)
+}
+
+pns <-  c(5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53)
+dt <- data.table(prime = pns, nu = lapply(pns, nu))
+dt[, `:=`(lambda = sapply(nu, length))]
+datatable(dt, options = list(paging = FALSE))
+```
+
+
+The suite seems to oscillate from highest span to lowest span until span vanishes <cite class='comment'>($\delta = \nu(n, p) - \nu(n + 1, p) = 1$)</cite>. To see it, focus on the red dots of star polygons in movies above. 
+
+# Solution of the stated problem
+
+Let's name $\phi$ the function that computes the included circles radiuses, given the pace $\rho$ as parameter $\phi(\rho) = |\sin(\dfrac{\pi}{2} + (\nu(\rho, p) - 1) \dfrac{2\pi}{p})|$
+
+## Some instances of $\phi$
+
+```{r echo = FALSE}
+
+phi <- function(nu, p) {
+  lapply(seq_len(length(nu)), function(k){
+    abs(sin(pi / 2 + (nu[[k]] - 1) * 2 * pi / p[[k]]))
+  })
+}
+
+dk <- copy(dt)
+dk[, `:=`(lambda = NULL)]
+dk[, `:=`(phi = phi(nu, prime))]
+datatable(dk, options = list(paging = FALSE))
+```
+
+Note, as expected, included circles radiuses are in descending order. 
