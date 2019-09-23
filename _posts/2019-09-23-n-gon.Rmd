@@ -15,6 +15,12 @@ require(data.table)
 require(DT)
 ```
 
+```{r echo = FALSE, out.width='33%', fig.asp=.5}
+pf <- file.path('../images/maths/polygons/13-gon')
+knitr::include_graphics(file.path(pf, 'graph-006.png'))
+```
+
+
 # Problem statement
 
 My interest is about polygons, where the number of vertices is a prime number, higher or equal to 5. 
