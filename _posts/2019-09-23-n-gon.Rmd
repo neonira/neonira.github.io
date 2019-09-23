@@ -1,13 +1,11 @@
 ---
 title: "n-gon"
 author: neonira
-date: "22/09/2019"
 hidden: false
-categories: EN math polygons n-gons
-tags: en_en math polygons n-gons
+categories: EN mathematics polygons n-gons
+tags: en_en mathematics polygons n-gons
 comments: true
 permalink: ngons
-always_allow_html: yes
 output: html_document
 ---
 
