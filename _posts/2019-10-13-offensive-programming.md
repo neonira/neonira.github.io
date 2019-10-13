@@ -8,9 +8,9 @@ author: neonira
 permalink: zop1
 ---
 
-Package **wyz.code.offensiveProgramming** version **1.1.12** is available on CRAN.
+<img src='https://neonira.github.io/images/op/op-hexsticker-transparent.png' width='30%'/>
 
-<img src='/images/op/op-hexsticker-transparent.png' width='30%'/>
+Package **wyz.code.offensiveProgramming** version **1.1.12** is available on CRAN.
 
 If you are interested in reducing time and efforts to implement and debug R code, to generate R documentation, to generate test code, then you may consider using this package. It provides tools to manage
 

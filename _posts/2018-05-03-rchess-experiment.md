@@ -171,9 +171,9 @@ PawnPiece <- R6Class('PawnPiece',
 ### Chessboard influence image 
 Implementing the piece influence computation for each kind of piece, provides us the ability to get its controlled squarres. Summing all those results per side, brings us to a white side power and to a black side power, and simply differentiating it, allows us to compute the whole chessboard influence.  
 Et voilà. We generated following result from the analysis of the move of our sample game. 
-<img src='/images/games/d/sample-a.png' width='600' alt='influence uncolored' title='influence uncolored'/>
+<img src='https://neonira.github.io/images/games/d/sample-a.png' width='600' alt='influence uncolored' title='influence uncolored'/>
 <br/> It appears, that this is difficult to read. We need some color to ease eye catching and accelerate understanding. Green for squarres controlled by side exposed on the south, red for opposite side, purple for uncontrolled squarres, and orange for disputed and at equilibrium squarres. Here is the result. Much sexyer!  
-<img src='/images/games/d/sample-color.png' width='600' alt='influence colored' title='influence colored'/>
+<img src='https://neonira.github.io/images/games/d/sample-color.png' width='600' alt='influence colored' title='influence colored'/>
 <br/>
 
 ### Our achievements, so far 

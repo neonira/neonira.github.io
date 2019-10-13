@@ -127,11 +127,11 @@ Unit: microseconds
 
 Some graphs to ease comparisons
 
-![global comparisons](/images/r/metaprog/g.png)
+![global comparisons](https://neonira.github.io/images/r/metaprog/g.png)
 
-![main comparisons](/images/r/metaprog/h.png)
+![main comparisons](https://neonira.github.io/images/r/metaprog/h.png)
 
-![relative performance comparisons](/images/r/metaprog/i.png)
+![relative performance comparisons](https://neonira.github.io/images/r/metaprog/i.png)
 
 #### Test context
 

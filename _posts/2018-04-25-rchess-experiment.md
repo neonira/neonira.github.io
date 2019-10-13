@@ -59,9 +59,9 @@ invisible(sapply(seq(length(rv)), function(i) {
 
 ```
 #### produced image samples
-<img src='/images/games/d/png-005.png' width='600' alt='image #5 ' title='image #5'/>
-<img src='/images/games/d/png-014.png' width='600' alt='image #14' title='image #14'/>
-<img src='/images/games/d/png-015.png' width='600' alt='image #15' title='image #15'/>
+<img src='https://neonira.github.io/images/games/d/png-005.png' width='600' alt='image #5 ' title='image #5'/>
+<img src='https://neonira.github.io/images/games/d/png-014.png' width='600' alt='image #14' title='image #14'/>
+<img src='https://neonira.github.io/images/games/d/png-015.png' width='600' alt='image #15' title='image #15'/>
 		
 So far, so good. We have now an image for each hal-move played in the original chess game. Just need to proceed to a quick movie montage to create a <cite class='kw'>.mp4</cite> video file. To do so, let's first create following <cite class='kw'>bash</cite> script. 
 
@@ -78,7 +78,7 @@ exit 0
 You have to save it into a <cite class='kw'>bash</cite> file and to run it, in the folder where you produced your chess half-move image files. This will produce a file named <cite class='kw'>out.mp4</cite>.  See below.  
 
 <video height="400" controls>
-  <source src="/images/games/d/demo.mp4" type="video/mp4">
+  <source src="https://neonira.github.io/images/games/d/demo.mp4" type="video/mp4">
  Your browser does not support the video tag.
 </video> 
 

@@ -51,10 +51,10 @@ getBoardFromFen <- function(fen_s, move) {
 }
 ```
 #### original image 
-<img src='/images/games/d/original.png' width='600' alt='original image' title='original image'/>
+<img src='https://neonira.github.iohttps://neonira.github.io/images/games/d/original.png' width='600' alt='original image' title='original image'/>
 
 #### customized image
-<img src='/images/games/d/starting-position.png' width='600'  alt='customized image' title='customized image'/>
+<img src='https://neonira.github.io/images/games/d/starting-position.png' width='600'  alt='customized image' title='customized image'/>
 
 					
 So, from now, on each image, we have

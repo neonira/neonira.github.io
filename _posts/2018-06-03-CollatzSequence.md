@@ -92,7 +92,7 @@ So, the production of two natural numbers is <cite class='kw odd'></cite> only w
 ## Digit mutation proof
 
 Remember Collatz sequence definition
-![collatz definition](/images/maths/collatz/cs.png)
+![collatz definition](https://neonira.github.io/images/maths/collatz/cs.png)
 
 ### Digit mutation proof for <cite class='kw even'></cite> numbers
 

@@ -23,5 +23,4 @@ output:
 # Free books worth reading
 [:gift_heart::free::information_source: reinforcement learning](http://incompleteideas.net/book/the-book-2nd.html) [pdf version](http://www.incompleteideas.net/book/bookdraft2017nov5.pdf)
 
-
 [:gift_heart::free::information_source: deep learning](http://www.deeplearningbook.org/)

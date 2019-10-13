@@ -13,7 +13,7 @@ Proof of Collatz sequence convergence.
 ## Some reminders first
 
 Remember Collatz sequence definition
-![collatz definition](/images/maths/collatz/cs.png)
+![collatz definition](https://neonira.github.io/images/maths/collatz/cs.png)
 
 Let's divide the Collatz sequence into two independent suites, for analysis convenience.   
 First suite <cite class='kw'> &omega;</cite> is for <cite class='kw odd'></cite> numbers: <cite class='kw'> &omega;<sub>n + 1</sub></cite> = 3 <cite class='kw'> &omega;<sub>n</sub></cite> + 1    
@@ -26,7 +26,7 @@ Second suite <cite class='kw'> &eta;</cite> is for <cite class='kw even'></cite>
 ### resolution graph
 First, let's proceed to an exploratory analysis, and show results as a graph
 
-![The resolution graph](/images/maths/collatz/2-11serie.png)
+![The resolution graph](https://neonira.github.io/images/maths/collatz/2-11serie.png)
 
 ### computation 
 Doing computation, here is a summary for number 9, that covers all the cases for numbers between 2 and 11. 

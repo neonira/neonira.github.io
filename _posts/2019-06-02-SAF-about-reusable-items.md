@@ -22,7 +22,7 @@ I faced that issue many times, and it is time to share my best practice
 about it. I created a one-slide summary for reusable items, that will
 help you consider the problem and solve it. See here under.
 
-<img src="../images/saf/b/saf-transversal-reuse.png" width="85%" />
+<img src="https://neonira.github.io/images/saf/b/saf-transversal-reuse.png" width="85%" />
 
 # A final word
 

@@ -8,7 +8,7 @@ author: neonira
 permalink: op2
 ---
 
-<img src='../images/cran/rlogo.png' width='200px'/>
+<img src='https://neonira.github.io/images/cran/rlogo.png' width='200px'/>
 
 When submitting one R package to **CRAN**, you must ensure that no errors, no warnings and no notes appears in the check process, enforcing use of __'--as.cran'__ option.
 

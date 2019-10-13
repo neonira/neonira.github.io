@@ -8,7 +8,7 @@ author: neonira
 permalink: op1
 ---
 
-<img src='../images/cran/rlogo.png' width='200px'/>
+<img src='https://neonira.github.io/images/cran/rlogo.png' width='200px'/>
 
 I submitted my first R packages a few weeks ago, and I believe it's worth
 sharing some return on experience, as the **CRAN** submission and acceptance 

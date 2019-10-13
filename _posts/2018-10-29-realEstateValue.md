@@ -88,27 +88,27 @@ ggplot(da, aes(x = year, y = value, color = country)) +
 
 #### Home price and disposable income
 
-![home price index](/images/realestate/ipl.png)
+![home price index](https://neonira.github.io/images/realestate/ipl.png)
 
-![disposable income](/images/realestate/rdm.png)
+![disposable income](https://neonira.github.io/images/realestate/rdm.png)
 
-![disposable income zoomed](/images/realestate/rdm_z.png)
+![disposable income zoomed](https://neonira.github.io/images/realestate/rdm_z.png)
 
 #### Interest rates
 
-![short time interest rate](/images/realestate/tict.png)
+![short time interest rate](https://neonira.github.io/images/realestate/tict.png)
 
-![long time interest rate](/images/realestate/tilt.png)
+![long time interest rate](https://neonira.github.io/images/realestate/tilt.png)
 
 #### Economical context 
 
-![Gross domestic product](/images/realestate/pib.png)
+![Gross domestic product](https://neonira.github.io/images/realestate/pib.png)
 
-![Population](/images/realestate/pop.png)
+![Population](https://neonira.github.io/images/realestate/pop.png)
 
-![Consummer price index](/images/realestate/ipc.png)
+![Consummer price index](https://neonira.github.io/images/realestate/ipc.png)
 
-![Value of investment in stocks](/images/realestate/via.png)
+![Value of investment in stocks](https://neonira.github.io/images/realestate/via.png)
 
 ### Conclusion  
 
