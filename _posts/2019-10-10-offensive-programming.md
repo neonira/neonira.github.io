@@ -5,12 +5,12 @@ categories: R programmation
 tags: R programmation
 comments: true
 author: neonira
-permalink: op1
+permalink: zop1
 ---
 
-<img src='../images/op/op-hexsticker-transparent.png' width='30%'/>
-
 Package **wyz.code.offensiveProgramming** version **1.1.12** is available on CRAN.
+
+<img src='/images/op/op-hexsticker-transparent.png' width='30%'/>
 
 If you are interested in reducing time and efforts to implement and debug R code, to generate R documentation, to generate test code, then you may consider using this package. It provides tools to manage
 
