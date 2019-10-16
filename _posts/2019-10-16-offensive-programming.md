@@ -1,5 +1,5 @@
 ---
-title: Discover Offensive Programming 
+title: Easy introduction to Offensive Programming 
 hidden: false
 categories: programming EN
 tags: R programming offensive-programming
