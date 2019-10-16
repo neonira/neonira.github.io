@@ -9,7 +9,7 @@ output:
   html_document:
     number_sections: true
 ---
-On [first post part](math_cs_1) , we got some intuition about Collatz sequence], that seems to be unproven yet. Let's try to prove it mathematically.   
+On [first post part](https://neonira.github.io/math_cs_1) , we got some intuition about Collatz sequence], that seems to be unproven yet. Let's try to prove it mathematically.   
 
 ## Some mathematic reminders
 

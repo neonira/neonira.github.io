@@ -1,8 +1,8 @@
 ---
 title: Discover Offensive Programming 
 hidden: false
-categories: R programmation
-tags: R programmation
+categories: programming EN
+tags: R programmation offensive-programming
 comments: true
 author: neonira
 permalink: zop1

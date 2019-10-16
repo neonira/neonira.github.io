@@ -8,7 +8,7 @@ permalink: math_cs_4
 output:
   html_document
 ---
-Find previous posts if you haven't yet read them. [first post](math_cs_1), [second post](math_cs_2), [third post](math_cs_3), .   
+Find previous posts if you haven't yet read them. [first post](https://neonira.github.io/math_cs_1), [second post](https://neonira.github.io/math_cs_2), [third post](https://neonira.github.io/math_cs_3), .   
 
 ## Analysis of <cite class='kw'>cluster 1</cite>
 

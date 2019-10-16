@@ -8,7 +8,7 @@ permalink: math_cs_3
 output:
   html_document
 ---
-On [first post](math_cs_1) and [second post](math_cs_2) parts, I set-up the mathematical context to prove Collatz conjecture.   
+On [first post](https://neonira.github.io/math_cs_1) and [second post](https://neonira.github.io/math_cs_2) parts, I set-up the mathematical context to prove Collatz conjecture.   
 
 ## Cluster analysis
 
