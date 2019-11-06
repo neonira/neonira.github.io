@@ -6,6 +6,7 @@ tags: R programming offensive-programming
 comments: true
 author: neonira
 permalink: zop3
+share: true
 ---
 
 <img src='https://neonira.github.io/images/op/op-hexsticker-vertical-transparent.png' width='30%'/>
