@@ -127,7 +127,8 @@ Simply put, I have proven
 2. all <cite class='kw even'></cite> numbers converges to 1. Proven by recurrence
 3. all <cite class='kw odd'></cite> numbers converges to 1. Proven by reusing <cite class='kw even'></cite> numbers convergence, based on calculus. 
 
-Therefore, proof of Collatz sequence is achieved. Your comments, remarks and feebacks are welcome. Use comment zone to do so. 
+This is my proof of Collatz sequence. Still unsure that this could be acceptable for a mathematician. 
+Your comments, remarks and feebacks are welcome. Use comment zone to do so. 
 
 
 ##### Note
