@@ -37,7 +37,7 @@ Doing computation, here is a summary for number 9, that covers all the cases for
 ```
 
 <span class='do'>
-**First important result**  
+  <b>First important result</b>
 Therefore, by calculus, I proved that all the numbers from 2 to 11, provides 1 as final output of Collatz sequence. 
 </span>
 
@@ -59,7 +59,7 @@ Reasoning by recurrence, I got
 Therefore,
 
 <span class='do'>
-**Second important result**  
+  <b>Second important result</b>
 All the <cite class='kw even'></cite> numbers, converges to 1 as final output of Collatz sequence. 
 </span>
 
@@ -114,7 +114,7 @@ Now remain two cases, when cs<sub>1</sub> has a starting unit digit that is amon
 Again, as we have previously proven that any <cite class='kw even'></cite> number converges, this means that any <cite class='kw odd'></cite> number finishing with digit <span class='digit digit3'></span> or <span class='digit digit7'></span> converges.
 
 <span class='do'>
-**Third important result**  
+  <b>Third important result</b>
 All the <cite class='kw odd'></cite> numbers, converges to 1 as final output of Collatz sequence. 
 </span>
 
