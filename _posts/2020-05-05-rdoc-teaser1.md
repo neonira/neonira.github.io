@@ -1,8 +1,16 @@
-Still hand-crafting your Rdoc files?
-================
-neonira
+---
+title: Still hand-crafting your Rdoc files?
+hidden: false
+categories: programming EN
+tags: R programming offensive-programming
+comments: true
+author: neonira
+permalink: rdoc1
+share: true
+---
 
-<link rel="stylesheet" href="../style.css">
+
+<link rel="stylesheet" href="..assets/css/style.css">
 
 ![](../images/man-head.png) \[1\]
 
