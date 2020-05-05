@@ -43,7 +43,7 @@ You have
 
 Feel free to download directly from CRAN for trial, experimentation or for professional use.
 
-Read [online offensive programming book](https://neonira.github.io/offensiveProgrammingBook_v1.2.2/generating-r-documentation.html) to discover how to generate easily **R** manual pages from your code, while owning full control on production options and on content. 
+Read [online offensive programming book](https://neonira.github.io/offensiveProgrammingBook_v1.2.2/generating-r-documentation.html) to discover how to generate easily **R** manual pages from your code, while owning full control on production options and on content.   
 
 
 
