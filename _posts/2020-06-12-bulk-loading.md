@@ -11,7 +11,7 @@ share: true
 
 <link rel="stylesheet" href="../assets/css/style.css">
 
-<img src='../images/r/volume/csv.png' width='14%'></img>
+<img src='../images/r/volume/csv.png' width='14%'>
 
 I had to ingest some medium to high volume data from official French government sites,
 and would like to share my return on experience. Data ingestion here is 
@@ -54,7 +54,7 @@ prior its normal ending: memory error, stack overflow, read error, ...
 All trials are executed with <cite class="itb">R 3.6.3</cite> on a
 **single Linux machine** with following configuration
 
-<img src='../images/r/volume/machine.png' width='50%'></img>
+<img src='../images/r/volume/machine.png' width='50%'>
 
 Let's proceed to some trials and see what happens. 
 
