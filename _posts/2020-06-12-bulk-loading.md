@@ -19,7 +19,7 @@ solved globally, without any other consideration than
 maximum reduced time for implementation, result reproducibility and raw speed. 
 
 Data can be downloaded from following open data French official 
-site https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret. 
+site <a href='https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret'>www.data.gouv.fr</a>. 
 
 For information and demonstration purpose, I will just focus on 
 the two following files. 
