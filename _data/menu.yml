@@ -1,0 +1,85 @@
+menu_title: Example menu title
+menu_headline: example menu headline
+menu_intro: Hi! This is an example of intro that you could write for your jekyll minimal-categorized theme!
+show_menu_on_gate_page: False
+minimal_menu: True
+menu_logo: assets/img/avatar.png
+
+menu_pages:
+- title: Home
+  url: /
+  show_on_home: False
+  icon_name: fas fa-home
+  category: home
+
+- title: Enterprise world
+  url: /category-enterprise-world.html
+  show_on_home: True
+  image_url: assets/img/enterprise.jpg
+  icon_name: fas fa-building
+  category: category-enterprise-world
+  tooltip: This is enterprise world category
+  description: Enterprise related content
+
+- title: R metaverse
+  url: /category-rmetaverse.html
+  show_on_home: True
+  image_url: assets/img/r.png
+  icon_name: fas fa-space-shuttle
+  category: category-rmetaverse
+  tooltip: This is R meta category
+  description: R related content
+
+- title: Linux Universe
+  url: /category-linuxverse.html
+  show_on_home: True
+  image_url: assets/img/linux.jpg
+  icon_name: fas fa-certificate
+  category: category-linuxverse
+  tooltip: This is Linux universe category
+  description: Linux related content
+
+- title: Amazing nature
+  url: /category-amazing-nature.html
+  show_on_home: True
+  image_url: assets/img/category-amazing-nature.jpg
+  icon_name: fas fa-snowflake
+  category: amazing-nature
+  tooltip: This is amazing nature category 
+  description: Nature related content
+
+- title: France 
+  url: /category-france.html
+  show_on_home: True
+  image_url: assets/img/france.jpg
+  icon_name: fas fa-eye
+  category: category-france
+  tooltip: This is France category 
+  description: France related content
+
+- title: Books 
+  url: /category-books.html
+  show_on_home: True
+  image_url: assets/img/books.jpg
+  icon_name: fas fa-book
+  category: category-books
+  tooltip: This is books category 
+  description: Book related content
+
+- title: About
+  url: about.html
+  show_on_home: False
+  icon_name: fas fa-address-card
+  category: about
+  tooltip: This is about
+
+menu_contacts:
+- faicon: fab fa-github-alt
+  url: 
+  target: _blank
+- faicon: fab fa-twitter
+  url: 
+  target: _blank
+- faicon: fas fa-envelope
+  url:
+  target: 
