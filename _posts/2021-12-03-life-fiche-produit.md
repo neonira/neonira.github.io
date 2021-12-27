@@ -1,18 +1,22 @@
 ---
-layout: post
 title: Publication et partage des actifs d'architecture
-category: category-enterprise-world
-summary: La solution <b style='color:#FF9900'>LIFE</b> permet d'exposer et de partager vos actifs d'architecture, au périmètre désiré.
-image: images/pdf/product-sheets/life/splash.png
-# comments: true
-permalink: sol-life
+hidden: false
+categories: programming solution logicielle professionnelle FR
+tags: programming solution logiciel 
+comments: true
+author: neonira
+permalink: zfg1
+share: true
 ---
 
+<link rel="stylesheet" href="../assets/css/style.css">
+![](../images/pdf/product-sheets/life/splash.png)
+
 Votre entreprise possède très probablement des actifs résultant des nombreuses études d'architecture réalisées en son sein. 
-Comment les partagez vous? Quelle interaction avec vos lecteur entretenez vous? Comment mesurez vous l'utilité des informations et documents exposés? Quel est le niveau de recommandation de votre solution de partage et d'exposition de ces actifs, selon le bouche à oreille interne à votre entreprise?
+Comment les partagez vous? Quelle interaction avec vos lecteur entretenez vous? Comment mesurez vous l'utilité des informations et documents exposés? Quel est le niveau de recommandation de votre solution de partage et d'exposition de ces actifs, selon le bouche à oreille interne à votre entreprise. 
 
 
-La solution <b style='color:#FF9900'>LIFE</b>, vous permet d'exposer et de partager, au périmètre désiré, les thématiques suivantes
+La solution LIFE, vous permet d'exposer et de partager, au périmètre désiré, les thématiques suivantes
 
 1. navigation dans la cartographie d'urbanisation
 1. Calcul temps réel d'impact de transformation du système d'information   
@@ -24,7 +28,7 @@ La solution <b style='color:#FF9900'>LIFE</b>, vous permet d'exposer et de parta
 1. Présentation de FAQ
 1. Présentation de glossaires hyperliés vers les références absolues ou relatives de votre entreprise 
 
-Téléchargez la [fiche produit](../images/pdf/product-sheets/life-fiche-produit.pdf) pour en savoir plus, ou contactez moi pour planifier une démonstration. 
+Télécharger la [fiche produit](../images/pdf/product-sheets/life-fiche-produit.pdf) pour en savoir plus. 
 
 
 

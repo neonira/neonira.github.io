@@ -1,0 +1,11 @@
+All the following should be played in a terminal, under blog file system space i.e. under neonira.github.io
+
+To know whats wrong in configuration
+  jekyll doctor
+
+To update Gems
+  bundle update
+
+To launch local web server to see blog pages
+  jekyll serve
+
