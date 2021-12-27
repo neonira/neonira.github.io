@@ -1,0 +1,9 @@
+---
+layout: post
+title: Example post 3
+category: category-1
+summary: bla bla
+image: assets/img/category-1.jpg
+---
+
+[Jekyll](https://jekyllrb.com/), bla bla blo

@@ -1,10 +1,13 @@
 ---
-title: "Messy Java Code"
-hidden: false
-categories: programming-language EN
-tags: code technology Java
-author: neonira
+layout: post
+title: Messy Java code
+category: category-linuxverse
+summary: Java simplicity or so, as often said
+image: images/linux/java.png
+# comments: true
+permalink: lv-mjc
 ---
+
 ### How easy is it to create Java messy code ?
 It is often said that Java is simple. Simple to write,
 simple to create a new program. Let's have a closer look to this statement and try to show that it only relies on conventions. 
