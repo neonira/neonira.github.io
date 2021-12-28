@@ -1,11 +1,11 @@
 ---
-title: R meta programmation
-hidden: false
-categories: EN programmation
-tags: R programmation
-author: neonira
-comments: true
-permalink: rz1
+layout: post
+title: R - meta programmation
+category: category-rmetaverse
+summary: Meta programmation approach
+image: images/man-head.png
+# comments: true
+permalink: rm-r-metaprog-1
 ---
 
 Lately, R meta programmation seems to be in vogue. Very huge promises, encompassing
@@ -127,11 +127,11 @@ Unit: microseconds
 
 Some graphs to ease comparisons
 
-![global comparisons](https://neonira.github.io/images/r/metaprog/g.png)
+![global comparisons](images/r/metaprog/g.png)
 
-![main comparisons](https://neonira.github.io/images/r/metaprog/h.png)
+![main comparisons](images/r/metaprog/h.png)
 
-![relative performance comparisons](https://neonira.github.io/images/r/metaprog/i.png)
+![relative performance comparisons](images/r/metaprog/i.png)
 
 #### Test context
 

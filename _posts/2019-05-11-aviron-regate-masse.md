@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Aviron, Régate de masse Mantes-Le-Jolie 2019
+title: Aviron, Régate de masse Mantes-La-Jolie 2019
 category: category-france
-summary: Rivière Seine en compagnie de nombreux équipages internationaux
+summary: Bassing olympique de Mantes-La-Jolie
 image: images/aviron/b/1.jpg
 # comments: true
 permalink: fr-aviron-2
