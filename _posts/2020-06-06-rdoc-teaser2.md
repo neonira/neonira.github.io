@@ -106,7 +106,7 @@ code</cite>.
 
 ### From standard R code to manual page
 
-<img src="../images/vtree1.png" style="height:3in" />
+<img src="/images/vtree1.png" style="width:80%" />
 
 Manual pages generation is <cite class="ea">partial</cite>, and you will
 have to provide <cite class="itb">extraneous</cite> and
@@ -150,7 +150,7 @@ without any extraneous information.
     content, by a <cite class="op">post processing</cite> action or some
     hand touch-ups.
 
-<img src="../images/vtree2.png" style="height:3in" />
+<img src="/images/vtree2.png" style="width:80%" />
 
 Manual pages generation is <cite class="ea">full</cite> except for
 <cite class="op">data</cite> where you do have to provide content, as
