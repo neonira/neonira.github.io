@@ -1,19 +1,16 @@
 ---
-title: Offensive Programming in action (part III)
-hidden: false
-categories: programming EN
-tags: R programming offensive-programming
-comments: true
-author: neonira
-permalink: zop3
-share: true
+layout: post
+title: R - Offensive Programming in action (part III)
+category: category-rmetaverse
+summary: What about adding semantic understanding to R, based on conventions.
+image: images/op/op-hexsticker-vertical-transparent.png
+# comments: true
+permalink: rm-r-op-3
 ---
-
-<img src='https://neonira.github.io/images/op/op-hexsticker-vertical-transparent.png' width='30%'/>
 
 This is the third post on offensive programming, dedicated to using offensive programming *(OP)*.
 
-You may refer to [easy introduction to offensive programming](https://neonira.github.io/zop2) to acquire some basic knowledge about offensive programming, and to [discover offensive programming](https://neonira.github.io/zop1) to get access to online materials.
+You may refer to [easy introduction to offensive programming](https://neonira.github.io/rm-r-op-2) to acquire some basic knowledge about offensive programming, and to [discover offensive programming](https://neonira.github.io/rm-r-op-1) to get access to online materials.
 
 Let's see how **OP** helps in defining function with semantic naming for parameter names, and in providing expected function return type. This will make use of many tools provided by package **wyz.code.offensiveProgramming**.
 

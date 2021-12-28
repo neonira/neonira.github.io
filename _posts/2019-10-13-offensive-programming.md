@@ -1,14 +1,12 @@
 ---
-title: Discover Offensive Programming 
-hidden: false
-categories: programming EN
-tags: R programmation offensive-programming
-comments: true
-author: neonira
-permalink: zop1
+layout: post
+title: R - Offensive Programming in action (part I)
+category: category-rmetaverse
+summary: What about adding semantic understanding to R, based on conventions.
+image: images/op/op-hexsticker-vertical-transparent.png
+# comments: true
+permalink: rm-r-op-1
 ---
-
-<img src='https://neonira.github.io/images/op/op-hexsticker-transparent.png' width='30%'/>
 
 Package **wyz.code.offensiveProgramming** version **1.1.12** is available on CRAN.
 

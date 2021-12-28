@@ -1,14 +1,12 @@
 ---
-title: Easy introduction to Offensive Programming 
-hidden: false
-categories: programming EN
-tags: R programming offensive-programming
-comments: true
-author: neonira
-permalink: zop2
+layout: post
+title: R - Offensive Programming in action (part II)
+category: category-rmetaverse
+summary: What about adding semantic understanding to R, based on conventions.
+image: images/op/op-hexsticker-vertical-transparent.png
+# comments: true
+permalink: rm-r-op-2
 ---
-
-<img src='https://neonira.github.io/images/op/op-hexsticker-transparent.png' width='30%'/>
 
 Many of us are using R in a way or another and we all have to deal with R intrinsics and sometimes R weirdness.
 
