@@ -8,7 +8,7 @@ image: images/cran/rlogo.png
 permalink: rm-r-open-data-1
 ---
 
-French government provides from time to time some data sets that are worth the analysis. A friend, gave me this [real estate data set](https://www.data.gouv.fr/fr/datasets/valeurs-immobilieres-economiques-et-financieres-de-1800-a-2015/#_), for analysis. 
+French government provides from time to time some data sets that are worth the analysis. A friend, gave me this [real estate data set<img src='https://www.data.gouv.fr/fr/datasets/valeurs-immobilieres-economiques-et-financieres-de-1800-a-2015/#_), for analysis. 
 
 
 ### Data overview 
@@ -88,27 +88,45 @@ ggplot(da, aes(x = year, y = value, color = country)) +
 
 #### Home price and disposable income
 
-![home price index](images/realestate/ipl.png)
+##### home price index
 
-![disposable income](images/realestate/rdm.png)
+<img src='images/realestate/ipl.png' width="80%">
 
-![disposable income zoomed](images/realestate/rdm_z.png)
+##### disposable income
+
+<img src='images/realestate/rdm.png' width="80%">
+
+##### disposable income zoomed
+
+<img src='images/realestate/rdm_z.png' width="80%">
 
 #### Interest rates
 
-![short time interest rate](images/realestate/tict.png)
+##### short time interest rate
 
-![long time interest rate](images/realestate/tilt.png)
+<img src='images/realestate/tict.png' width="80%">
+
+##### long time interest rate
+
+<img src='images/realestate/tilt.png' width="80%">
 
 #### Economical context 
 
-![Gross domestic product](images/realestate/pib.png)
+##### Gross domestic product
 
-![Population](images/realestate/pop.png)
+<img src='images/realestate/pib.png' width="80%">
 
-![Consummer price index](images/realestate/ipc.png)
+##### Population
 
-![Value of investment in stocks](images/realestate/via.png)
+<img src='images/realestate/pop.png' width="80%">
+
+##### Consummer price index
+
+<img src='images/realestate/ipc.png' width="80%">
+
+##### Value of investment in stocks
+
+<img src='images/realestate/via.png' width="80%">
 
 ### Conclusion  
 
