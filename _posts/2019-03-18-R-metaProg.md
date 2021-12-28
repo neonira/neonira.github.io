@@ -131,7 +131,7 @@ global comparisons <img src='images/r/metaprog/g.png' width="80%">
 
 main comparisons <img src='images/r/metaprog/h.png' width="80%">
 
-relative performance comparisons<img src='mages/r/metaprog/i.png' width="80%">
+relative performance comparisons<img src='images/r/metaprog/i.png' width="80%">
 
 #### Test context
 

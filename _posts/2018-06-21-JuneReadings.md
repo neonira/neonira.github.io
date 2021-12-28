@@ -1,12 +1,11 @@
 ---
+layout: post
 title: Articles worth reading June 2018
-hidden: false
-categories: readings EN
-tags: readings books articles 
-author: neonira
-permalink: read_201806
-output:
-  html_document
+category: category-books
+summary: Few remarkable contents, I'd like to share
+image: assets/img/books.jpg
+# comments: true
+permalink: bk-article-1
 ---
 
 :skull: marks article you'll need resilience to what you read, as it may impact you deep  
