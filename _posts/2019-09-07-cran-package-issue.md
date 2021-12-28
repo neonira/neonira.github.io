@@ -3,7 +3,7 @@ layout: post
 title: R - The most annoying warning for CRAN submission
 category: category-rmetaverse
 summary: Return of experience on CRAN package submissions
-image: images/cran/rlogo.png'
+image: images/cran/cran.jpg
 # comments: true
 permalink: rm-r-cran-2
 ---

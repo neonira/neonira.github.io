@@ -8,11 +8,7 @@ image: images/tour-auto/a/b.jpg
 permalink: fr-auto-2
 ---
 
-Fin avril, c'est le départ du tour auto, et une formidable occasion de revoir d'ancien bolides. J'ai mon pass.
-
-<img src="images/tour-auto/a/b.jpg" width="45%" />
-
-L'exposition des véhicule se tient au grand palais à Paris, endroit vraiment agréable.
+Fin avril, c'est le départ du tour auto, et une formidable occasion de revoir d'ancien bolides. L'exposition des véhicule se tient au grand palais à Paris, endroit vraiment agréable.
 
 <img src="images/tour-auto/a/c.jpg" width="45%" />
 

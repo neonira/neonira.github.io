@@ -3,7 +3,7 @@ layout: post
 title: R - meta programmation
 category: category-rmetaverse
 summary: Meta programmation approach
-image: images/man-head.png
+image: images/cran/rlogo.png
 # comments: true
 permalink: rm-r-metaprog-1
 ---
@@ -127,11 +127,11 @@ Unit: microseconds
 
 Some graphs to ease comparisons
 
-![global comparisons](images/r/metaprog/g.png)
+global comparisons <img src='images/r/metaprog/g.png' width="80%">
 
-![main comparisons](images/r/metaprog/h.png)
+main comparisons <img src='images/r/metaprog/h.png' width="80%">
 
-![relative performance comparisons](images/r/metaprog/i.png)
+relative performance comparisons<img src='mages/r/metaprog/i.png' width="80%">
 
 #### Test context
 
