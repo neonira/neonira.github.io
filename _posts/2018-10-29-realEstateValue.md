@@ -1,11 +1,11 @@
 ---
-title: Real estate value analysis
-hidden: false
-categories: EN data-analysis
-tags: R data-analysis open-data
-author: neonira
-comments: true
-permalink: re1
+layout: post
+title: R - Real estate value analysis
+category: category-rmetaverse
+summary: Open data analysis 
+image: images/cran/rlogo.png
+# comments: true
+permalink: rm-r-open-data-1
 ---
 
 French government provides from time to time some data sets that are worth the analysis. A friend, gave me this [real estate data set](https://www.data.gouv.fr/fr/datasets/valeurs-immobilieres-economiques-et-financieres-de-1800-a-2015/#_), for analysis. 
@@ -88,27 +88,27 @@ ggplot(da, aes(x = year, y = value, color = country)) +
 
 #### Home price and disposable income
 
-![home price index](https://neonira.github.io/images/realestate/ipl.png)
+![home price index](images/realestate/ipl.png)
 
-![disposable income](https://neonira.github.io/images/realestate/rdm.png)
+![disposable income](images/realestate/rdm.png)
 
-![disposable income zoomed](https://neonira.github.io/images/realestate/rdm_z.png)
+![disposable income zoomed](images/realestate/rdm_z.png)
 
 #### Interest rates
 
-![short time interest rate](https://neonira.github.io/images/realestate/tict.png)
+![short time interest rate](images/realestate/tict.png)
 
-![long time interest rate](https://neonira.github.io/images/realestate/tilt.png)
+![long time interest rate](images/realestate/tilt.png)
 
 #### Economical context 
 
-![Gross domestic product](https://neonira.github.io/images/realestate/pib.png)
+![Gross domestic product](images/realestate/pib.png)
 
-![Population](https://neonira.github.io/images/realestate/pop.png)
+![Population](images/realestate/pop.png)
 
-![Consummer price index](https://neonira.github.io/images/realestate/ipc.png)
+![Consummer price index](images/realestate/ipc.png)
 
-![Value of investment in stocks](https://neonira.github.io/images/realestate/via.png)
+![Value of investment in stocks](images/realestate/via.png)
 
 ### Conclusion  
 
