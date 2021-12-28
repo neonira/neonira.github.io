@@ -1,10 +1,13 @@
 ---
-title: "Faites du X!"
-hidden: false
-categories: programming-language FR
-tags: code XML technology
-author: neonira
+layout: post
+title: XML - Faites du X!
+category: category-linuxverse
+summary: Tirez profit du X de XML ... 
+image: images/linux/xml.png
+# comments: true
+permalink: lv-xml-1
 ---
+
 Comprenons nous bien, je ne suis promotteur des activités pornographiques. Je veux parler du <cite class="kw">X</cite> de <cite class="kw">XML</cite>!
 Au delà du méta langage, comment utilisez vous la caractéristique d'extensibilité
 dans vos fichiers <cite class="kw">XML</cite>? Autrement dit, que faites vous du <cite class="kw">X</cite>? 
