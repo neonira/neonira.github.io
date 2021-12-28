@@ -1,11 +1,13 @@
 ---
-title: "Improving your chess play - part 2"
-hidden: false
-categories: games EN
-tags: chess computer R
-author: neonira
-permalink: icp2
+layout: post
+title: R - Chess - improve your chess play part II
+category: category-rmetaverse
+summary: exploring new ideas about chess
+image: images/chess.jpg
+# comments: true
+permalink: rm-r-chess-2
 ---
+
 ### Experimenting <cite class='kw'>rchess</cite> package
 This is the second post of a serie, dedicated to <cite class='kw'>rchess</cite> R package.  
 This week we aim to produce chess game half-move images and to proceed to a movie montage in order to get a video representative of the full chess game. 

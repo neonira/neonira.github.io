@@ -1,11 +1,13 @@
 ---
-title: "Artificial Intelligence Glossary"
-hidden: false
-categories: games EN
-tags: chess computer AI
-author: neonira
-permalink: ia1
+layout: post
+title: Artificial intelligence glossary
+category: category-linuxverse
+summary: Java simplicity or so, as often said
+image: images/linux/ia.jpg
+# comments: true
+permalink: lv-ia-1
 ---
+
 ### Preamble
 All the terms are given and to be understood in the scope of <cite class='kw'>AI</cite>. Many of them, have several meanings. Do not get trapped by the meaning. Know what you aim to. 
 

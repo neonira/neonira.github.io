@@ -1,11 +1,13 @@
 ---
-title: "improving-your-chess-play-part1"
-hidden: false
-categories: games EN
-tags: chess computer R
-author: neonira
-permalink: icp1
+layout: post
+title: R - Chess - improve your chess play part 1
+category: category-rmetaverse
+summary: exploring new ideas about chess
+image: images/chess.jpg
+# comments: true
+permalink: rm-r-chess-1
 ---
+
 ### Experimenting <cite class='kw'>rchess</cite> package
 I am fan of chess. As a player, I face some real issues with my play and wish to know if <cite class='kw'>rchess</cite> could help improve your/my chess play. <br/><br/>
 I have at least 2 ideas to test with <cite class='kw'>rchess</cite>. First one, is assessing easyness of chess diagrams and chess movies production. The second one, is about creating new analysis diagrams based on chessboard influence. 

@@ -1,11 +1,13 @@
 ---
-title: "Improving your chess play - part 3"
-hidden: false
-categories: games EN
-tags: chess computer R
-author: neonira
-permalink: icp3
+layout: post
+title: R - Chess - improve your chess play part III
+category: category-rmetaverse
+summary: exploring new ideas about chess
+image: images/chess.jpg
+# comments: true
+permalink: rm-r-chess-3
 ---
+
 ### Experimenting chessboard influence
 This is the third post of a serie, dedicated to chessplay and more specifically to the battle of influence on the chessboard.  
 We are now trying to compute influence zone over the chessboard.  

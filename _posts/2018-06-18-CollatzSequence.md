@@ -25,7 +25,7 @@ Second suite <cite class='kw'> &eta;</cite> is for <cite class='kw even'></cite>
 ### resolution graph
 First, let's proceed to an exploratory analysis, and show results as a graph
 
-![The resolution graph](images/maths/collatz/2-11serie.png)
+<img src='images/maths/collatz/2-11serie.png' width="80%">
 
 ### computation 
 Doing computation, here is a summary for number 9, that covers all the cases for numbers between 2 and 11. 
