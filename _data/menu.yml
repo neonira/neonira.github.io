@@ -83,6 +83,4 @@ menu_contacts:
 - faicon: fab fa-github-alt
   url: https://github.com/neonira
   target: _blank
-- faicon: fas fa-envelope
-  url: neonira@gmail.com
-  target: _blank
+
