@@ -9,7 +9,7 @@ permalink: bk-article-1
 ---
 
 :skull: marks article you'll need resilience to what you read, as it may impact you deep  
-:hearts: marks articles easy and positive   
+:hearts: marks articles that will bring you advanced knowledge   
 :man: marks article for men  
 :woman: same for women  
 
