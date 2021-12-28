@@ -1,15 +1,14 @@
 ---
-title: Collatz Sequence - part 2
-hidden: false
-categories: mathematics EN
-tags: mathematics R computing 
-author: neonira
-permalink: math_cs_2
-output:
-  html_document:
-    number_sections: true
+layout: post
+title: R - Math - Collatz sequence part II
+category: category-rmetaverse
+summary: overview and discovery of the Collatz sequence
+image: images/maths/collatz/cs.png
+# comments: true
+permalink: rm-r-math-2
 ---
-On [first post part](https://neonira.github.io/math_cs_1) , we got some intuition about Collatz sequence], that seems to be unproven yet. Let's try to prove it mathematically.   
+
+On [first post part](https://neonira.github.io/rm-r-math-1) , we got some intuition about Collatz sequence], that seems to be unproven yet. Let's try to prove it mathematically.   
 
 ## Some mathematic reminders
 
@@ -92,7 +91,7 @@ So, the production of two natural numbers is <cite class='kw odd'></cite> only w
 ## Digit mutation proof
 
 Remember Collatz sequence definition
-![collatz definition](https://neonira.github.io/images/maths/collatz/cs.png)
+![collatz definition](images/maths/collatz/cs.png)
 
 ### Digit mutation proof for <cite class='kw even'></cite> numbers
 

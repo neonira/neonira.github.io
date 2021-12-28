@@ -1,14 +1,14 @@
 ---
-title: Collatz Sequence - part 3
-hidden: false
-categories: mathematics EN
-tags: mathematics R computing 
-author: neonira
-permalink: math_cs_3
-output:
-  html_document
+layout: post
+title: R - Math - Collatz sequence part III
+category: category-rmetaverse
+summary: overview and discovery of the Collatz sequence
+image: images/maths/collatz/cs.png
+# comments: true
+permalink: rm-r-math-3
 ---
-On [first post](https://neonira.github.io/math_cs_1) and [second post](https://neonira.github.io/math_cs_2) parts, I set-up the mathematical context to prove Collatz conjecture.   
+
+On [first post](https://neonira.github.io/rm-r-math-1) and [second post](https://neonira.github.io/rm-r-math-2) parts, I set-up the mathematical context to prove Collatz conjecture.   
 
 ## Cluster analysis
 

@@ -1,19 +1,18 @@
 ---
-title: Collatz Sequence - part 1
-hidden: false
-categories: mathematics EN
-tags: mathematics R computing 
-author: neonira
-permalink: math_cs_1
-output:
-  html_document:
-    number_sections: true
+layout: post
+title: R - Math - Collatz sequence part I
+category: category-rmetaverse
+summary: overview and discovery of the Collatz sequence
+image: images/maths/collatz/cs.png
+# comments: true
+permalink: rm-r-math-1
 ---
+
 [Collatz sequence](https://en.wikipedia.org/wiki/Collatz_conjecture) is a well known suite mathematical suite, remaining unproved as far as I know. 
 Let's play with it and discover some of its secrets.  
 
 To discover its behavior, we stop whenever we reach 1 as input, otherwise depending on parity of &upsilon;<sub>n</sub>, we apply  
-![collatz definition](https://neonira.github.io/images/maths/collatz/cs.png)  
+![collatz definition](images/maths/collatz/cs.png)  
 Let's name 3&upsilon;<sub>n + 1</sub> the <cite class='kw'>ODD</cite> rule, and the other the <cite class='kw'>EVEN</cite> rule.  
 
 ## Notation convention used in this document
@@ -70,13 +69,13 @@ appears in third place.
 
 The processing path is quite simple here. No shortcut, rigorous application of the <cite class='kw'>&upsilon;<sub>n + 1</sub></cite> suite rules.
 
-![basic understanding](https://neonira.github.io/images/maths/collatz/algo1.png)
+![basic understanding](images/maths/collatz/algo1.png)
 
 ### A little bit more subtle understanding
 
 Whenever we take an odd number multiply it by <cite class='kw'>3</cite> and add <cite class='kw'>1</cite>, we end up with an even number. So in fact, each time we apply odd transformation, an even transformation will follow. 
 
-![more subtle understanding](https://neonira.github.io/images/maths/collatz/algo2.png)
+![more subtle understanding](images/maths/collatz/algo2.png)
 
 
 This leads us to some insights. First, analyzing the possible paths on this graph, we have in fact only two possible loops. The first one will be named <cite class='kw'>TIC</cite> and is given by <cite class='kw'>(OE)+</cite>, the second one will be named <cite class='kw'>TAC</cite> and is given by <cite class='kw'>(OE{2,})</cite>. Syntax used here complies with PERL 5 regular expression syntax. This means that whenever we encounter an odd number we will apply either <u>once and only once</u> a parity condition, or <u>several times</u>.  
@@ -86,7 +85,7 @@ Let's see the consequences of this.
 
 Here we alternate **regularly** <cite class='kw'>ODD</cite> and <cite class='kw'>EVEN</cite> suite rules for an unknown number of steps.
 
-![TAC definition](https://neonira.github.io/images/maths/collatz/cs2.png)  
+![TAC definition](images/maths/collatz/cs2.png)  
 
 <span class='warn'> 
 **INSIGHT 2.1**: The <cite class='kw'>TAC</cite> suite is naturally diverging to &#x221e; as we multiple each time by <cite class='kw'> 3 / 2</cite>.
@@ -102,7 +101,7 @@ Here we alternate **regularly** <cite class='kw'>ODD</cite> and <cite class='kw'
 Here we do not alternate **regularly** <cite class='kw'>ODD</cite> and <cite class='kw'>EVEN</cite> suite rules. 
 Instead we apply first and once and only once the <cite class='kw'>ODD</cite> rule, and then apply at <cite class='kw'>k</cite> times the <cite class='kw'>EVEN</cite> rule, with <cite class='kw'> k &#8805;  2</cite>.   
 
-![TIC definition](https://neonira.github.io/images/maths/collatz/cs3.png)  
+![TIC definition](images/maths/collatz/cs3.png)  
  
 
 <span class='warn'> 
@@ -116,7 +115,7 @@ Instead we apply first and once and only once the <cite class='kw'>ODD</cite> ru
 #### Digit mutation analysis
 It appears that Collatz sequence turns digits in a very strange way, due to its definition. All results can be summarize at a digit level with following figure. 
 
-![digit sequence path](https://neonira.github.io/images/maths/collatz/digit-sequence.png)
+![digit sequence path](images/maths/collatz/digit-sequence.png)
 
 This graphs shows that the digit paths have well established cycles, and that we can consider 3 different clusters. First cluster is based on numbers ending with a digit <cite class='kw'>6</cite>. That's also the cluster of numbers that are multiples of <cite class='kw'>10</cite>. 
 Second cluster is based on source numbers ending with a digit <cite class='kw'>4</cite>, and the third cluster based on numbers ending with a digit <cite class='kw'>8</cite>.

@@ -1,14 +1,14 @@
 ---
-title: Collatz Sequence - part 5
-hidden: false
-categories: mathematics EN
-tags: mathematics R computing 
-author: neonira
-permalink: math_cs_5
-output:
-  html_document
+layout: post
+title: R - Math - Collatz sequence part V
+category: category-rmetaverse
+summary: overview and discovery of the Collatz sequence
+image: images/maths/collatz/cs.png
+# comments: true
+permalink: rm-r-math-5
 ---
-Find previous posts if you haven't yet read them. [first post](https://neonira.github.io/math_cs_1), [second post](https://neonira.github.io/math_cs_2), [third post](https://neonira.github.io/math_cs_3), and [fourth post](https://neonira.github.io/math_cs_4).   
+
+Find previous posts if you haven't yet read them. [first post](https://neonira.github.io/rm-r-math-1), [second post](https://neonira.github.io/rm-r-math-2), [third post](https://neonira.github.io/rm-r-math-3), and [fourth post](https://neonira.github.io/rm-r-math-4).   
 
 ## Numerical approach for number made of 1 unique digit
 
