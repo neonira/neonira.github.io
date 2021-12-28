@@ -1,3 +1,13 @@
+---
+layout: post
+title: Aviron, course des impressionnistes 2019
+category: category-france
+summary: Rivière Seine en compagnie de nombreux équipages internationaux
+image: images/aviron/a/b.png
+# comments: true
+permalink: fr-aviron-1
+---
+
 Le 1er mai 2019, j'ai participé à la course des impressionnistes sous les couleurs de notre club [CERAMM](https://www.ceramm.fr/). Nous sommes engagés en 4 de couple sans barreur, homme.
 
 Notre équipage
@@ -12,7 +22,7 @@ Il est composé de 4 hommes, répartis comme suit sur le navire
 |      3      |  Javier  |                    |
 |      4      | Frédéric | barreur            |
 
-<img src="https://neonira.github.io/images/aviron/a/b.png" width="45%" style="display: block; margin: auto;" /><img src="https://neonira.github.io/images/aviron/a/c.png" width="45%" style="display: block; margin: auto;" />
+<img src="images/aviron/a/b.png" width="45%" style="display: block; margin: auto;" /><img src="images/aviron/a/c.png" width="45%" style="display: block; margin: auto;" />
 
 Notre navire
 ============
@@ -27,7 +37,7 @@ Elle est double. Terminer la course et nous étalonner vis-à-vis de la concurre
 Résultats bruts
 ---------------
 
-L'ensemble des [résultats](https://neonira.github.io/images/aviron/a/Classement_General_21_Km_A.pdf) permet des analyses variées bien que nous soyons en présence de données numériques très limitées.
+L'ensemble des [résultats](images/aviron/a/Classement_General_21_Km_A.pdf) permet des analyses variées bien que nous soyons en présence de données numériques très limitées.
 
 Nos résultats bruts sont
 
@@ -353,7 +363,7 @@ J'oscille entre frustration et satisfaction.
 
 Frustration de ne pas avoir pu faire mieux. Non pas frustré par la manière <i>(bon esprit de tous sur le bateau, ambiance concentrée malgré des conditions météos variables, volonté commune d'aller au bout)</i> mais plutôt par le résultat. Le temps final résulte de trop nombreux arrêts <i>(dont j'estime la durée totale à plus de 10 minutes, indispensables cependant compte tenu des conditions de l'équipage)</i>, d'une charge élevée <i>(plus de 440 kg navire compris)</i>, et aussi d'imperfections techniques encore accentuées par le manque d'automatismes et de synchronicité de notre improbable équipage.
 
-Satisfaction d'être allé au bout. Je crois qu'elle est partagée. <img src="https://neonira.github.io/images/aviron/a/a.png" width="80%" style="display: block; margin: auto;" />
+Satisfaction d'être allé au bout. Je crois qu'elle est partagée. <img src="images/aviron/a/a.png" width="80%" style="display: block; margin: auto;" />
 
 Physiquement j'étais très bien dans l'effort. Mes derniers entrainements en intensité portent leur fruits. Quelques douleurs se sont révélées après notre retour à terre. Douleur aux aducteurs <i>(disparues dès le lendemain)</i> et nombreuses ampoules sur les deuxièmes phalanges <i>(toujours présentes et c'est sensible)</i>.
 

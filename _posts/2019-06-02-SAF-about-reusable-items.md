@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Architecture Framework
 category: category-enterprise-world
-summary: about reusable items.
+summary: About reusable items.
 image: images/saf/b/saf-transversal-reuse.png
 # comments: true
 permalink: sol-saf-2
