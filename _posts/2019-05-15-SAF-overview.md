@@ -1,12 +1,11 @@
 ---
-title: Sublime Architecture Framework, sharing materials
-hidden: false
-categories: EN IT ARCHITECTURE
-tags: architecture IT SAF
-comments: true
-author: neonira
-permalink: saf1
-comments: true
+layout: post
+title: Sublime Architecture Framework
+category: category-enterprise-world
+summary: Presentation of philosophy, orientations and contents ...
+image: images/saf/b/saf-transversal-reuse.png
+# comments: true
+permalink: sol-saf-1
 ---
 
 Those days, I got many requests to share some contents from my Sublime

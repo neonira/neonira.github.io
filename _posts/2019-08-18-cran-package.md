@@ -1,14 +1,12 @@
 ---
-title: R package submission REX
-hidden: false
-categories: R programmation offensive-programming
-tags: R programmation offensive-programming 
-comments: true
-author: neonira
-permalink: op1
+layout: post
+title: R - CRAN submission REX
+category: category-rmetaverse
+summary: Return of experience on CRAN package submissions
+image: images/cran/rlogo.png'
+# comments: true
+permalink: rm-r-cran-1
 ---
-
-<img src='https://neonira.github.io/images/cran/rlogo.png' width='200px'/>
 
 I submitted my first R packages a few weeks ago, and I believe it's worth
 sharing some return on experience, as the **CRAN** submission and acceptance 

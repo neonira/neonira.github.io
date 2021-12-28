@@ -1,12 +1,11 @@
 ---
-title: Sublime Architecture Framework, about reusable items
-hidden: false
-categories: EN IT ARCHITECTURE
-tags: architecture IT SAF
-comments: true
-author: neonira
-permalink: saf2
-comments: true
+layout: post
+title: Sublime Architecture Framework
+category: category-enterprise-world
+summary: about reusable items.
+image: images/saf/b/saf-transversal-reuse.png
+# comments: true
+permalink: sol-saf-2
 ---
 
 One frequently asked question, and very often left open is “What should
@@ -20,9 +19,7 @@ not to be so easy to get to a shared view about reuse and reusable items.
 
 I faced that issue many times, and it is time to share my best practice
 about it. I created a one-slide summary for reusable items, that will
-help you consider the problem and solve it. See here under.
-
-<img src="https://neonira.github.io/images/saf/b/saf-transversal-reuse.png" width="85%" />
+help you consider the problem and solve it. See image above.
 
 # A final word
 

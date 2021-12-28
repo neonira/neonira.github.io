@@ -1,14 +1,12 @@
 ---
-title: The most annoying warning for CRAN submission
-hidden: false
-categories: R CRAN
-tags: R CRAN package
-comments: true
-author: neonira
-permalink: op2
+layout: post
+title: R - The most annoying warning for CRAN submission
+category: category-rmetaverse
+summary: Return of experience on CRAN package submissions
+image: images/cran/rlogo.png'
+# comments: true
+permalink: rm-r-cran-2
 ---
-
-<img src='https://neonira.github.io/images/cran/rlogo.png' width='200px'/>
 
 When submitting one R package to **CRAN**, you must ensure that no errors, no warnings and no notes appears in the check process, enforcing use of __'--as.cran'__ option.
 
