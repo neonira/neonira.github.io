@@ -1,17 +1,14 @@
 ---
-title: Medium to High volume CSV file ingestion REX
-hidden: false
-categories: programming EN
-tags: R programming 
-comments: true
-author: neonira
-permalink: perfcsv1
-share: true
+layout: post
+title: R - Medium to High volume CSV file ingestion REX
+category: category-rmetaverse
+summary: As race goes on, every skipper meets specific weather conditions. How would you compare their respective performance?
+image: images/r/volume/csv.png
+# comments: true
+permalink: rm-perf-csv-1
 ---
 
-<link rel="stylesheet" href="../assets/css/style.css">
-
-<img src='../images/r/volume/csv.png' width='14%'>
+<link rel="stylesheet" href="/assets/css/my-styles.css">
 
 I had to ingest some medium to high volume data from official French government sites,
 and would like to share my return on experience. Data ingestion here is 
@@ -54,7 +51,7 @@ prior its normal ending: memory error, stack overflow, read error, ...
 All trials are executed with <cite class="itb">R 3.6.3</cite> on a
 **single Linux machine** with following configuration
 
-<img src='../images/r/volume/machine.png' width='50%'>
+<img src='/images/r/volume/machine.png' width='50%'>
 
 Let's proceed to some trials and see what happens. 
 

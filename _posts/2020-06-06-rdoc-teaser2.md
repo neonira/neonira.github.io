@@ -1,20 +1,18 @@
 ---
-title: Choose wisely your Rdoc production strategy!
-hidden: false
-categories: programming EN
-tags: R programming offensive-programming
-comments: true
-author: neonira
-permalink: rdoc2
-share: true
+layout: post
+title: R - Choose wisely your Rdoc production strategy!
+category: category-rmetaverse
+summary: Code documentation is still a burden, that's why you should pay close attention to choosing your documentation strategy ?
+image: images/woman-easy.png
+# comments: true
+permalink: rm-r-doc2
 ---
 
-<link rel="stylesheet" href="..assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/my-styles.css">
 
-![](../images/woman-easy.png) \[1\]
 
 Last post [**‘Still hand-crafting your Rdoc
-files?’**](https://neonira.github.io/rdoc1) introduced package
+files?’**](https://neonira.github.io/rm-r-rdoc1) introduced package
 <cite class="itb">wyz.code.rdoc</cite> to produce
 <cite class="itb">R</cite> documentation file in a possibly fully
 automated way. Let’s see today, which production strategy will offer you
@@ -216,5 +214,5 @@ production activities to sustain your productivity.
 Next post will provide <cite class="itb">wyz.code.rdoc</cite> tips and
 tricks worth to know to get productive documentation generation.
 
-[1] <a class='src' href="https://www.freepik.com/free-photos-vectors/business">Business
+Top photo: <a class='src' href="https://www.freepik.com/free-photos-vectors/business">Business
 photo created by yanalya - freepik.com</a>
