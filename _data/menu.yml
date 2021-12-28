@@ -74,12 +74,15 @@ menu_pages:
   tooltip: This is about
 
 menu_contacts:
-- faicon: fab fa-github-alt
-  url: 
-  target: _blank
 - faicon: fab fa-twitter
-  url: 
+  url: https://twitter.com/neonira
+  target: _blank
+- faicon: fab fa-linkedin
+  url: https://www.linkedin.com/in/fabiengelineau/
+  target: _blank
+- faicon: fab fa-github-alt
+  url: https://github.com/neonira
   target: _blank
 - faicon: fas fa-envelope
-  url:
-  target: 
+  url: neonira@gmail.com
+  target: _blank
