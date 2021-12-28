@@ -1,14 +1,12 @@
 ---
+layout: post
 title: Traversée de Paris 2019
-hidden: false
-categories: FR aviron sport
-tags: aviron sport fr_fr
-comments: true
-author: neonira
-permalink: aviron5
+category: category-france
+summary: Rivière Seine en compagnie de nombreux équipages internationaux
+image: https://neonira.github.io/images/aviron/c/c.jpg
+# comments: true
+permalink: fr-aviron-3
 ---
-
-<img src='https://neonira.github.io/images/aviron/c/c.jpg' width='200px'/>
 
 Ai eu la chance de pouvoir participer à la traversée de Paris 2019, qui s'est déroulée dimanche 15 septembre. Epreuve organisée par le club de l'<a href='https://www.boulogne92.fr/'>ACBB</a>, avec une présence forte de très nombreux clubs nationaux et internationaux. Des équipages très variés, en age, genre et embarcations, avec la présence notable de différents pays, Ecosse, Irlande, Pays-Bas, Allemagne, Espagne (liste ni exhaustive ni limitative). 
 
