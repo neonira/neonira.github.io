@@ -1,15 +1,12 @@
 ---
-title: new release of offensive programming packages
-hidden: false
-categories: programming EN
-tags: R programming offensive-programming
-comments: true
-author: neonira
-permalink: zop4
-share: true
+layout: post
+title: R - new release of offensive programming packages
+category: category-rmetaverse
+summary: Code documentation is still a burden, that's why you should pay close attention to choosing your documentation strategy ?
+image: images/op/op-hexsticker-vertical-transparent.png
+# comments: true
+permalink: rm-r-op-4
 ---
-
-<img src='https://neonira.github.io/images/op/op-hexsticker-vertical-transparent.png' width='30%'/>
 
 Offensive programming ecosystem has been upgraded. You may now use new versions of packages according to following table
 

@@ -1,18 +1,14 @@
 ---
-title: Still hand-crafting your Rdoc files?
-hidden: false
-categories: programming EN
-tags: R programming offensive-programming
-comments: true
-author: neonira
-permalink: rdoc1
-share: true
+layout: post
+title: R - Still hand-crafting your Rdoc files?
+category: category-rmetaverse
+summary: Code documentation is still a burden, that's why you should pay close attention to choosing your documentation strategy ?
+image: images/man-head.png
+# comments: true
+permalink: rm-r-doc1
 ---
 
-
-<link rel="stylesheet" href="..assets/css/style.css">
-
-![](../images/man-head.png) \[1\]
+<link rel="stylesheet" href="/assets/css/my-styles.css">
 
 If your still hand-crafting your <cite class="itb">R</cite>
 documentation files, then you face a time consuming activity. Trying to
@@ -22,7 +18,7 @@ stays a real challenge.
 The generic process to create an <cite class="itb">R</cite>
 documentation file looks like
 
-![](../images/process-doc.png)
+<img src="/images/process-doc.png" width="80%">
 
 Whatever approach you use, traditional one using <cite class="ea">base
 R</cite>, or more modern ones like <cite class="ea">roxygen2</cite>,
@@ -130,7 +126,7 @@ Notice some important points
 
 Preview captured from <cite class="exec">RStudio</cite>.
 
-![](../images/lambda-rdoc.png)
+<img src="/images/lambda-rdoc.png" width="80%">
 
 ## Try it and become a fan
 
@@ -155,5 +151,5 @@ Watch for next post on <cite class="itb">wyz.code.rdoc</cite> for more
 advanced features to use in <cite class="itb">R</cite> documentation
 generation.
 
-1.  <a class='src' href="https://www.freepik.com/free-photos-vectors/business">Business
+<a class='src' href="https://www.freepik.com/free-photos-vectors/business">Business
     photo created by kues - freepik.com</a>
