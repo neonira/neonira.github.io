@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traversée de Paris 2019
+title: Aviron, Traversée de Paris 2019
 category: category-france
 summary: Rivière Seine en compagnie de nombreux équipages internationaux
 image: https://neonira.github.io/images/aviron/c/c.jpg
