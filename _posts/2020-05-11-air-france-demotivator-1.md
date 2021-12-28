@@ -1,14 +1,12 @@
 ---
-title: Air France demotivator n°1
-hidden: false
-categories: news FR
-tags: demotivator image
-comments: true
-author: neonira
-permalink: af01
-share: true
+layout: post
+title: Air France demotivator
+category: category-france
+summary: spécialité administrative made in France ... 
+image: images/motiv/af-0001.png
+# comments: true
+permalink: fr-humour-2
 ---
 
 ## Énième renflouement par l'état 
 
-![](../images/motiv/af-0001.png)

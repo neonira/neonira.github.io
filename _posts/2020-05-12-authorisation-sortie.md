@@ -1,12 +1,9 @@
 ---
+layout: post
 title: autorisation de sortie
-hidden: false
-categories: news FR
-tags: demotivator image
-comments: true
-author: neonira
-permalink: dmtv2
-share: true
+category: category-france
+summary: spécialité administrative made in France ... 
+image: images/motiv/papier-ready-d-3.png
+# comments: true
+permalink: fr-humour-1
 ---
-
-![](../images/motiv/papier-ready-d-3.png)
