@@ -3,9 +3,9 @@ layout: post
 title: Architecture d'Entreprise - gouvernance des données
 category: category-enterprise-world
 summary: Principales problématiques, solutions pertinentes et erreurs qu'il vaut mieux éviter.
-image: images/pdf/product-sheets/life/splash.png
+image: images/data-gov.jpg
 # comments: true
-permalink: sol-life
+permalink: ew-ae-data-gov-1
 ---
 
 Les entreprises font face à de nombreux challenges en matière de gouvernance des données. Petit tour d'horizon des principales problématiques, des solutions pertinentes et des erreurs à ne pas commettre. 
