@@ -10,10 +10,12 @@ permalink: bk-article-2
 
 <link rel="stylesheet" href="/assets/css/my-styles.css">
 
-<table>
+<table style='width:100%'>
 <tr><th>Type</th><th>temps de lecture</th><th>plaisir de lecture (max 5 :star:)</th><th>mon évaluation</th></tr>
-<tr><td>réflexion</td><td>48 pages, environ 20 minutes</td><td>:star::star::star::star::star:</td><td>17 / 20</td></tr>
+<tr><td style='text-align:center'>réflexion</td><td style='text-align:center'>48 pages, environ 20 minutes</td><td style='text-align:center'>:star::star::star::star::star:</td><td style='text-align:center'>17 / 20</td></tr>
 </table>
+
+
 
 
 Pour information, 3 citations extraites de ce livre, qui donnent sa tonalité
