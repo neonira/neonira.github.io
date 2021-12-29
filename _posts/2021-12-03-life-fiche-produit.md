@@ -3,9 +3,9 @@ layout: post
 title: Publication et partage des actifs d'architecture
 category: category-enterprise-world
 summary: La solution <b style='color:#FF9900'>LIFE</b> permet d'exposer et de partager vos actifs d'architecture, au périmètre désiré.
-image: images/pdf/product-sheets/life/splash.png
+image: images/product-sheets/life/splash.png
 # comments: true
-permalink: sol-life
+permalink: ew-sol-life
 ---
 
 Votre entreprise possède très probablement des actifs résultant des nombreuses études d'architecture réalisées en son sein. 
@@ -24,7 +24,7 @@ La solution <b style='color:#FF9900'>LIFE</b>, vous permet d'exposer et de parta
 1. Présentation de FAQ
 1. Présentation de glossaires hyperliés vers les références absolues ou relatives de votre entreprise 
 
-Téléchargez la [fiche produit](../images/pdf/product-sheets/life-fiche-produit.pdf) pour en savoir plus, ou contactez moi pour planifier une démonstration. 
+Téléchargez la [fiche produit](images/product-sheets/life/life-fiche-produit.pdf) pour en savoir plus, ou contactez moi pour planifier une démonstration. 
 
 
 
