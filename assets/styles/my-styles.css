@@ -47,7 +47,7 @@ cite.imperatif { font-weight: bold;  color: red;}
 cite.time { font-weight: bold;  color: purple;}
 cite.figure { font-weight: bold;  color: orange;}
 cite.file { font: 'Courier new'; color: #00BF00; font-weight: bold;}
-cite.folder { font: 'Courier new'; color: #00BF00; font-weight: bold; font-style: normal;}
+cite.folder { font: 'Courier new'; color: teal; font-weight: bold; font-style: normal;}
 cite.exec { font-weight: normal;  color: #8C4600;}
         
 cite.xxx { font-weight: bold; color: red;}
