@@ -6,7 +6,7 @@ body {
 
 table { width: 100%;}
 
-th, td {
+table, th, td {
         padding: 10px;
         border: 1px solid #555555;
         border-collapse: collapse;
