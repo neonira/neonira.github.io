@@ -17,12 +17,15 @@ p code {
   white-space: inherit;
 }
 pre {
+  font-size: 11px;
+  text-align: left;
   word-break: normal;
   word-wrap: normal;
 }
 pre code {
   white-space: inherit;
 }
+
 cite.right { text-align: right; }
 cite.ba { font-weight: bold;  color: lime;}
 cite.bj { font-weight: bold;  color: purple;}
