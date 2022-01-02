@@ -23,7 +23,7 @@ La version <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite> 
 
 La configuration par défaut de est 
 
-<img src='images/linux/bash-shopt-default.png' height="80%">
+<img src='images/linux/bash-shopt-default.png' width="80%">
 
 
 # Configuration préférentielle proposée
@@ -34,12 +34,13 @@ Les options à activer sont positionnées par la commande <cite class='exec'>sho
 
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
-<tr><td><cite class='oc'>cdspell</cite></td><td>usage en shell interactif</td><td>je veux que les petites erreurs de frappes soient corrigées automatiquement par le shell lors de l'usage de la commande <cite class='exec'>cd</cite></td></tr>
-<tr><td><cite class='oc'>dirspell</cite></td><td>usage en shell interactif</td><td>je veux que les petites erreurs de frappes soient corrigées
-automatiquement par le shell</td></tr>
+<tr><td><cite class='oc'>cdspell</cite></td><td>usage en shell interactif</td><td>corrige automatiquement les erreurs de frappe sur la command <cite class='exec'>cd</cite></tr>
+<tr><td><cite class='oc'>dirspell</cite></td><td>usage en shell interactif</td><td>corrige automatiquement les petites erreurs de frappes sur les noms de répertoires</td></tr>
+<tr><td><cite class='oc'>checkjobs</cite></td><td>gestion des jobs</td><td>informe moi des jobs et de leur status avant de terminer le shell</td></tr>
+<tr><td><cite class='oc'>checkwinsize</cite></td><td>gestion du fenêtrage</td><td>retaille automatiquement les fenêtres</td></tr>
 <tr><td><cite class='oc'>prompt_vars</cite></td><td>gestion des variables dans le prompt</td><td>je préfère que le shell expande les variables et les calculs dans le prompt</td></tr>
-<tr><td><cite class='oc'>shift_verbose</cite></td><td>gestion des erreurs sur le nomrbe d'arguments</td><td>je préfère que le shell renvoie une erreur si j'excède le nombre réel d'arguments</td></tr>
-<tr><td><cite class='oc'>source_path</cite></td><td>recherche fichier à sourcer</td><td>je préfère que le shell recherche le fichier à sourcer dans la variable <cite class='op'>PATH</cite></td></tr>
+<tr><td><cite class='oc'>shift_verbose</cite></td><td>gestion des erreurs sur le nomrbe d'arguments</td><td>informe moi des erreurs si j'excède le nombre réel d'arguments</td></tr>
+<tr><td><cite class='oc'>source_path</cite></td><td>recherche fichier à sourcer</td><td>recherche le fichier à sourcer dans la variable <cite class='op'>PATH</cite></td></tr>
 </table>
 
 
@@ -62,8 +63,8 @@ Les options à déactiver sont positionnées par la commande <cite class='exec'>
 
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
-<tr><td><cite class='oc'>autocd</cite></td><td>usage en shell interactif</td><td>je veux que le changement de répertoire requiere explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
-<tr><td><cite class='oc'>cdable_vars</cite></td><td>usage en shell interactif</td><td>je veux que le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='op'>$</cite></td></tr>
+<tr><td><cite class='oc'>autocd</cite></td><td>usage en shell interactif</td><td>le changement de répertoire requière explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
+<tr><td><cite class='oc'>cdable_vars</cite></td><td>usage en shell interactif</td><td>le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='op'>$</cite></td></tr>
 <tr><td><cite class='oc'>compat*</cite></td><td>usage en shell interactif</td><td>je préfère le comportement standard du shell dans sa version</td></tr>
 </table>
 
