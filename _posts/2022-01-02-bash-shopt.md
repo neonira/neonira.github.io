@@ -36,6 +36,7 @@ Les options à activer sont positionnées par la commande <cite class='exec'>sho
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
 <tr><td><cite class='oc'>cdspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les erreurs de frappe sur la command <cite class='exec'>cd</cite></td></tr>
 <tr><td><cite class='oc'>dirspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les petites erreurs de frappes sur les noms de répertoires</td></tr>
+<tr><td><cite class='oc'>direxpand</cite></td><td>expansion des répertoires</td><td>autorise la saisie interactive des noms de répertoire</td></tr>
 <tr><td><cite class='oc'>checkjobs</cite></td><td>gestion des jobs</td><td>informe moi des jobs et de leur status avant de terminer le shell</td></tr>
 <tr><td><cite class='oc'>checkwinsize</cite></td><td>gestion du fenêtrage</td><td>retaille automatiquement les fenêtres</td></tr>
 <tr><td><cite class='oc'>cmdhist</cite></td><td>gestion de l'historique</td><td>sauve les entrées multiligne en une seule entrée dans l'historique des commandes</td></tr>
