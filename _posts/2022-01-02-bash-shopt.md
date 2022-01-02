@@ -39,6 +39,12 @@ Les options à activer sont positionnées par la commande <cite class='exec'>sho
 <tr><td><cite class='oc'>checkjobs</cite></td><td>gestion des jobs</td><td>informe moi des jobs et de leur status avant de terminer le shell</td></tr>
 <tr><td><cite class='oc'>checkwinsize</cite></td><td>gestion du fenêtrage</td><td>retaille automatiquement les fenêtres</td></tr>
 <tr><td><cite class='oc'>cmdhist</cite></td><td>gestion de l'historique</td><td>sauve les entrées multiligne en une seule entrée dans l'historique des commandes</td></tr>
+<tr><td><cite class='oc'>expand_alias</cite></td><td>gestion de alias</td><td>active l'expansion dans la gestion des alias</td></tr>
+<tr><td><cite class='oc'>extglob</cite></td><td>gestion de la completion des noms de fichiers</td><td>active la gestion de la completion</td></tr>
+<tr><td><cite class='oc'>extquote</cite></td><td>gestion des substitutions de variables</td><td>active la substitution dans les variables</td></tr>
+<tr><td><cite class='oc'>histappend</cite></td><td>gestion de l'historique</td><td>ajoute au même fichier</td></tr>
+<tr><td><cite class='oc'>histreedit</cite></td><td>gestion de l'historique</td><td>permet la modification des commandes erronées de l'historique avant leur réutilisation</td></tr>
+<tr><td><cite class='oc'>histverify</cite></td><td>gestion de l'historique</td><td>permet la modification des commandes de l'historique avant leur réutilisation</td></tr>
 <tr><td><cite class='oc'>hostcomplete</cite></td><td>gestion de la complétion sur les noms de hosts</td><td>active la complétion des hostnames</td></tr>
 <tr><td><cite class='oc'>interactive_comments</cite></td><td>gestion des commentaires en shell interactif</td><td>active la possibilité de gérer des commentaires interactivement. Très utile pour créer des procédures et avoir des suggestions</td></tr>
 <tr><td><cite class='oc'>prompt_vars</cite></td><td>gestion des variables dans le prompt</td><td>je préfère que le shell expande les variables et les calculs dans le prompt</td></tr>
@@ -55,6 +61,14 @@ Votre choix d'activation ou de désactivation est libre. Comprenez cependant les
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
 <tr><td><cite class='oc'>checkhash</cite></td><td>hash table de recherche des commandes</td><td>peut augmenter la performance de votre shell</td></tr>
+<tr><td><cite class='oc'>dotglob</cite></td><td>gestion de la completion des noms de fichiers</td><td>considérer les fichiers cachés ou non?</td></tr>
+<tr><td><cite class='oc'>execfail</cite></td><td>gestion des erreurs d'exécution</td><td>sortie forcée ou conditionnée?</td></tr>
+<tr><td><cite class='oc'>extdebug</cite></td><td>gestion du debug</td><td>à vous de voir, domaine complexe</td></tr>
+<tr><td><cite class='oc'>fail_glob</cite></td><td>gestion de la completion des noms de fichiers</td><td>génération erreur explicite si aucun matching</td></tr>
+<tr><td><cite class='oc'>force_fignore</cite></td><td>gestion de la completion des noms de fichiers</td><td>liste des extensions à ignorer</td></tr>
+<tr><td><cite class='oc'>globstar</cite></td><td>gestion de la completion des noms de fichiers</td><td>activation de la gestion étendue ou non</td></tr>
+<tr><td><cite class='oc'>gnu_errfmt</cite></td><td>formattage des messages d'erreur</td><td>format GNU ou non</td></tr>
+<tr><td><cite class='oc'>huponexist</cite></td><td>gestion de signaux sur sortie shell</td><td>envoi du signal SIGHUP à tous les processus actifs du shell interactif</td></tr>
 <tr><td><cite class='oc'>lithist</cite></td><td>gestion de l'historique</td><td>choix du terminateur de commande, newline ou point virgule, pour les commandes multi-lignes dans l'historique</td></tr>
 <tr><td><cite class='oc'>mailwarn</cite></td><td>gestion du courriel</td><td>information sur arrivée de courriel</td></tr>
 <tr><td><cite class='oc'>no_empty_cmd_completion</cite></td><td>gestion des erreurs</td><td>autoriser ou non la complétion vide?</td></tr>
