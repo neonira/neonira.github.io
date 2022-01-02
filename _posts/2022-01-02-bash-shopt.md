@@ -34,10 +34,13 @@ Les options à activer sont positionnées par la commande <cite class='exec'>sho
 
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
-<tr><td><cite class='oc'>cdspell</cite></td><td>usage en shell interactif</td><td>corrige automatiquement les erreurs de frappe sur la command <cite class='exec'>cd</cite></tr>
-<tr><td><cite class='oc'>dirspell</cite></td><td>usage en shell interactif</td><td>corrige automatiquement les petites erreurs de frappes sur les noms de répertoires</td></tr>
+<tr><td><cite class='oc'>cdspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les erreurs de frappe sur la command <cite class='exec'>cd</cite></tr>
+<tr><td><cite class='oc'>dirspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les petites erreurs de frappes sur les noms de répertoires</td></tr>
 <tr><td><cite class='oc'>checkjobs</cite></td><td>gestion des jobs</td><td>informe moi des jobs et de leur status avant de terminer le shell</td></tr>
 <tr><td><cite class='oc'>checkwinsize</cite></td><td>gestion du fenêtrage</td><td>retaille automatiquement les fenêtres</td></tr>
+<tr><td><cite class='oc'>cmdhist</cite></td><td>gestion de l'historique</td><td>sauve les entrées multiligne en une seule entrée dans l'historique des commandes</td></tr>
+<tr><td><cite class='oc'>hostcomplete</cite></td><td>gestion de la complétion sur les noms de hosts</td><td>active la complétion des hostnames</td></tr>
+<tr><td><cite class='oc'>interactive_comments</cite></td><td>gestion des commentaires en shell interactif</td><td>active la possibilité de gérer des commentaires interactivement. Très utile pour créer des procédures et avoir des suggestions</td></tr>
 <tr><td><cite class='oc'>prompt_vars</cite></td><td>gestion des variables dans le prompt</td><td>je préfère que le shell expande les variables et les calculs dans le prompt</td></tr>
 <tr><td><cite class='oc'>shift_verbose</cite></td><td>gestion des erreurs sur le nomrbe d'arguments</td><td>informe moi des erreurs si j'excède le nombre réel d'arguments</td></tr>
 <tr><td><cite class='oc'>source_path</cite></td><td>recherche fichier à sourcer</td><td>recherche le fichier à sourcer dans la variable <cite class='op'>PATH</cite></td></tr>
@@ -63,7 +66,7 @@ Les options à déactiver sont positionnées par la commande <cite class='exec'>
 
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
-<tr><td><cite class='oc'>autocd</cite></td><td>usage en shell interactif</td><td>le changement de répertoire requière explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
-<tr><td><cite class='oc'>cdable_vars</cite></td><td>usage en shell interactif</td><td>le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='op'>$</cite></td></tr>
-<tr><td><cite class='oc'>compat*</cite></td><td>usage en shell interactif</td><td>je préfère le comportement standard du shell dans sa version</td></tr>
+<tr><td><cite class='oc'>autocd</cite></td><td>gestion changement de répertoire</td><td>le changement de répertoire requière explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
+<tr><td><cite class='oc'>cdable_vars</cite></td><td>gestion changement de répertoire</td><td>le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='op'>$</cite></td></tr>
+<tr><td><cite class='oc'>compat\*</cite></td><td>gestion des modes de compatibilités inter version <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite></td><td>je préfère le comportement standard du shell dans sa version</td></tr>
 </table>
