@@ -34,7 +34,7 @@ Les options à activer sont positionnées par la commande <cite class='exec'>sho
 
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
-<tr><td><cite class='oc'>cdspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les erreurs de frappe sur la command <cite class='exec'>cd</cite></tr>
+<tr><td><cite class='oc'>cdspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les erreurs de frappe sur la command <cite class='exec'>cd</cite></td></tr>
 <tr><td><cite class='oc'>dirspell</cite></td><td>correction frappe en mode interactif</td><td>corrige automatiquement les petites erreurs de frappes sur les noms de répertoires</td></tr>
 <tr><td><cite class='oc'>checkjobs</cite></td><td>gestion des jobs</td><td>informe moi des jobs et de leur status avant de terminer le shell</td></tr>
 <tr><td><cite class='oc'>checkwinsize</cite></td><td>gestion du fenêtrage</td><td>retaille automatiquement les fenêtres</td></tr>
@@ -55,8 +55,12 @@ Votre choix d'activation ou de désactivation est libre. Comprenez cependant les
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
 <tr><td><cite class='oc'>checkhash</cite></td><td>hash table de recherche des commandes</td><td>peut augmenter la performance de votre shell</td></tr>
+<tr><td><cite class='oc'>lithist</cite></td><td>gestion de l'historique</td><td>choix du terminateur de commande, newline ou point virgule, pour les commandes multi-lignes dans l'historique</td></tr>
+<tr><td><cite class='oc'>mailwarn</cite></td><td>gestion du courriel</td><td>information sur arrivée de courriel</td></tr>
+<tr><td><cite class='oc'>no_empty_cmd_completion</cite></td><td>gestion des erreurs</td><td>autoriser ou non la complétion vide?</td></tr>
 <tr><td><cite class='oc'>progcomp</cite></td><td>usage des facilités de programmation</td><td>à vous de choisir la manière dont le shell interprète vos commandes</td></tr>
 <tr><td><cite class='oc'>nullglob</cite></td><td>extension des patterns de recherche de fichiers</td><td>à vous de choisir, la gestion de chaîne nulle ou égale à un pattern</td></tr>
+<tr><td><cite class='oc'>lastpipe</cite></td><td>extension des pipes</td><td>préférablement off cependant</td></tr>
 </table>
 
 
@@ -68,5 +72,7 @@ Les options à déactiver sont positionnées par la commande <cite class='exec'>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
 <tr><td><cite class='oc'>autocd</cite></td><td>gestion changement de répertoire</td><td>le changement de répertoire requière explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
 <tr><td><cite class='oc'>cdable_vars</cite></td><td>gestion changement de répertoire</td><td>le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='op'>$</cite></td></tr>
-<tr><td><cite class='oc'>compat\*</cite></td><td>gestion des modes de compatibilités inter version <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite></td><td>je préfère le comportement standard du shell dans sa version</td></tr>
+<tr><td><cite class='oc'>compat*</cite></td><td>gestion des modes de compatibilités inter version <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite></td><td>je préfère le comportement standard du shell dans sa version</td></tr>
+<tr><td><cite class='oc'>nocaseglob</cite></td><td>gestion de la casse dans le matching </td><td>conserver le matching ne confondant pas majuscules et minuscules</td></tr>
+<tr><td><cite class='oc'>nocasematch</cite></td><td>gestion de la casse dans le matching </td><td>conserver le matching ne confondant pas majuscules et minuscules</td></tr>
 </table>
