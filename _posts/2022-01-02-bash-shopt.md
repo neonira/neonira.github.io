@@ -23,7 +23,7 @@ La version <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite> 
 
 La configuration par défaut de est 
 
-<img src='images/linux/bash-shopt-default.png' witdh="60%">
+<img src='images/linux/bash-shopt-default.png' height="80%">
 
 
 # Configuration préférentielle proposée
@@ -43,6 +43,7 @@ automatiquement par le shell</td></tr>
 </table>
 
 
+
 ## Options laissées à votre libre arbitre
 
 Votre choix d'activation ou de désactivation est libre. Comprenez cependant les implications de vos choix. 
@@ -53,6 +54,8 @@ Votre choix d'activation ou de désactivation est libre. Comprenez cependant les
 <tr><td><cite class='oc'>nullglob</cite></td><td>extension des patterns de recherche de fichiers</td><td>à vous de choisir, la gestion de chaîne nulle ou égale à un pattern</td></tr>
 </table>
 
+
+
 ## Options qu'il est conseillé de désactiver
 
 Les options à déactiver sont positionnées par la commande <cite class='exec'>shopt -u option-name</cite>.
@@ -61,5 +64,6 @@ Les options à déactiver sont positionnées par la commande <cite class='exec'>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
 <tr><td><cite class='oc'>autocd</cite></td><td>usage en shell interactif</td><td>je veux que le changement de répertoire requiere explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
 <tr><td><cite class='oc'>cdable_vars</cite></td><td>usage en shell interactif</td><td>je veux que le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='op'>$</cite></td></tr>
+<tr><td><cite class='oc'>compat*</cite></td><td>usage en shell interactif</td><td>je préfère le comportement standard du shell dans sa version</td></tr>
 </table>
 
