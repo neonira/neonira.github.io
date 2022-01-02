@@ -15,6 +15,8 @@ Configurer son environnement shell de manière a être efficace, confortable et 
 La configuration par défaut n'est pas toujours la meilleure. De plus, celle-ci évolue avec la version considérée de <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite>. C'est pourquoi, mieux vaux tenter de maîtriser sa configuration afin de la
 rendre reproductible et performante. 
 
+Sachez cependant, que la configuration SHELL reste un domaine d'expert. Les préconisations et recommandations fournies ici, doivent être adaptées à vos cas d'usages et à leur spécificités. 
+
 # Configuration par défaut
 
 La version <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite> utilisée est 
@@ -81,7 +83,7 @@ Votre choix d'activation ou de désactivation est libre. Comprenez cependant les
 
 ## Options qu'il est conseillé de désactiver
 
-Les options à déactiver sont positionnées par la commande <cite class='exec'>shopt -u option-name</cite>.
+Les options à désactiver sont positionnées par la commande <cite class='exec'>shopt -u option-name</cite>.
 
 <table>
 <tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>raisons</th></tr>
