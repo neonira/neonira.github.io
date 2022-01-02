@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Livre - Metal Hurlant - n°1
+title: BD - Metal Hurlant - n°1
 category: category-books
 summary: Un reboot réussi de ce zine mythique ... 
 image: images/books/metal-hurlant.jpg
