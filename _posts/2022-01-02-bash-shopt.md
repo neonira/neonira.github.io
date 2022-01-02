@@ -27,8 +27,9 @@ La configuration par défaut de est
 # Configuration préférentielle proposée
 
 <table>
-<tr><th>objet</th><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>préconisation</th><th>raisons</th></tr>
-<tr><td>autocd</td><td>usage en shell interactif</td><td>off</td><td>je veux que le changement de répertoire requiere explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
-<tr><td>cdable_vars</td><td>usage en shell interactif</td><td>off</td><td>je veux que le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='kw'>$</cite></td></tr>
+<tr><th><cite style='font-family:courrier;color:lime'>option shopt</cite></th><th>objet</th><th>préconisation</th><th>raisons</th></tr>
+<tr><td><cite class='oc'>autocd</cite></td><td>usage en shell interactif</td><td>off</td><td>je veux que le changement de répertoire requiere explicitement l'usage de la commande <cite class='exec'>cd</cite></td></tr>
+<tr><td><cite class='oc'>cdable_vars</cite></td><td>usage en shell interactif</td><td>off</td><td>je veux que le changement de répertoire en usage de variable SHELL expose explicitement l'usage de la variable par la syntaxe <cite class='oc'>$</cite></td></tr>
+<tr><td><cite class='oc'>cdspell</cite></td><td>usage en shell interactif</td><td>on</td><td>je veux que les petites erreurs de frappes soient corrigées automatiquement par le shell</td></tr>
 </table>
 
