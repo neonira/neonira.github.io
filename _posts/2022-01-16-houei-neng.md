@@ -69,8 +69,6 @@ par l'empereur chinois Chou-Tchoun, qui écrivit son épigraphe: "un esprit harm
 1. les <cite class='it'>dharma-kâya</cite> - divin corps de la vérité
 1. les <cite class='it'>Sambogha-kâya</cite> - divin corps parfaitement doué
 1. les <cite class='it'>Nirmâna-kâya</cite> - divin corps d'incarnation
-1. les <cite class='it'>sangsâra ou samssâra</cite> - monde de la manifestation des phénomènes, de la naissance et de la mort
-
 
 ### Les 6 vertus
 
@@ -83,7 +81,7 @@ Les <cite class='it'>pâramitâs</cite> sont les vertus de la perfection - 10 da
 1. <cite class='it'>dhyâna</cite> - la méditation, c'est à dire se discipliner soi-même dans l'apaisement
 1. <cite class='it'>prajnâ</cite>: sagesse suprême ou transcendante - c'est ce qui constitue l'illumination, intuition de vérité ultime des choses, par laquelle on se libère de la servitude des choses et devient maître de soi
 
-# les éléments constitutifs de la personnalité
+### les éléments constitutifs de la personnalité
 
 Les <cite class='it'>skandhas sont</cite> les éléments constitutifs de la personnalité
 
@@ -102,6 +100,8 @@ Les <cite class='it'>skandhas sont</cite> les éléments constitutifs de la pers
 1. <cite class='it'>samadhi</cite>: méditation ultime
 1. les <cite class='it'>dhâtus</cite> - les 5 sens, plus l'esprit, que les boudhiste considèrent comme un sixième sens
 1. <cite class='it'>arhat</cite>: celui que en cette vie a atteint la libération
+1. les <cite class='it'>sangsâra ou samssâra</cite> - monde de la manifestation des phénomènes, de la naissance et de la mort
+
 
 
 
