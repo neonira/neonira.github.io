@@ -15,7 +15,7 @@ permalink: bk-article-10
 <tr><td style='text-align:center'>Histoire</td><td style='text-align:center'>6 to 7 hours</td><td style='text-align:center'>:star::star::star::star::star:</td><td style='text-align:center'>18 / 20</td></tr>
 </table>
 
-Un livre passionnant, qui retrace l'histoire de la flibuste, depuis ses origines jusqu'à sa fin, indépendamment de l'origine de ces flibustiers. Seule est évoquée la piraterie des Caraïbes. Un auteur, fin connaisseur, adroit littéraire, et juste dans sa compréhension et ses propros. Ses recherches sont assurément approfondies et larges. Elles tiennent compte de diverses exégèses de très bonne facture, ce qui donne un livre d'histoire, riche, divertissant, éducatif et surtout juste. 
+Un livre passionnant, qui retrace l'histoire de la flibuste, depuis ses origines jusqu'à sa fin, indépendamment de l'origine de ces flibustiers. Seule est évoquée la piraterie des Caraïbes. Un auteur, fin connaisseur, adroit littéraire, et juste dans sa compréhension et ses propros. Ses recherches sont assurément approfondies et larges. Elles tiennent compte de diverses exégèses de très bonne facture, ce qui donne un livre d'histoire, riche, divertissant, éducatif et surtout juste et probant. 
 
 
 
