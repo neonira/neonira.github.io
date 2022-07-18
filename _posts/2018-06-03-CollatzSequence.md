@@ -27,7 +27,7 @@ Unless otherwise specified, the expression <cite class='kw'>canonical form</cite
 By definition, an even number <cite class='kw'>n</cite> can be written as <cite class='kw'>n</cite> = 2 <cite class='kw'>p</cite> &nbsp;&nbsp;&nbsp; <cite class='kw'>n, p &isin; &#x2115;</cite>&nbsp;&nbsp;&nbsp;<cite class='comment'>note that n is even, but we have no information about p that can be even or odd</cite>.  
 
 
-By definition, an odd number<cite class='kw'>n</cite> can be written as <cite class='kw'>n</cite> = 2 <cite class='kw'>p</cite> + 1 &nbsp;&nbsp;&nbsp; <cite class='kw'>n, p &isin; &#x2115;</cite>&nbsp;&nbsp;&nbsp;<cite class='comment'>note that n is even, but we have no information about p that can be even or odd</cite>.  
+By definition, an odd number<cite class='kw'>n</cite> can be written as <cite class='kw'>n</cite> = 2 <cite class='kw'>p</cite> + 1 &nbsp;&nbsp;&nbsp; <cite class='kw'>n, p &isin; &#x2115;</cite>&nbsp;&nbsp;&nbsp;<cite class='comment'>note that n is odd, but we have no information about p that can be even or odd</cite>.  
 
 #### Parity of a sum of two natural integers
 
@@ -68,7 +68,7 @@ Using the shown definitions, I can demonstrate following table of truth for pari
 <tr>
 <td>multiplication <cite class='kw'>p</cite> * <cite class='kw'>q</cite></td>
 <td><cite class='kw'>p</cite> is even</td>
-<td><cite class='kw'>p</cite> is even</td>
+<td><cite class='kw'>p</cite> is odd</td>
 </tr>
 </thead>
 <tbody>
@@ -114,7 +114,7 @@ In this part, as all numbers are even, I will apply division by <cite class='kw'
 <tbody>
 <tr>
 <td>10 <cite class='kw'>t</cite> + 0</td>
-<td><span class='digit digit0'></span></td>
+<td>0</td>
 <td>even</td>
 <td>5 <cite class='kw'>t</cite></td>
 <td>
@@ -126,7 +126,7 @@ In this part, as all numbers are even, I will apply division by <cite class='kw'
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 2</td>
-<td><span class='digit digit2'></span></td>
+<td>2</td>
 <td>even</td>
 <td>5 <cite class='kw'>t</cite> + 1</td>
 <td>
@@ -138,7 +138,7 @@ In this part, as all numbers are even, I will apply division by <cite class='kw'
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 4</td>
-<td><span class='digit digit4'></span></td>
+<td>4</td>
 <td>even</td>
 <td>5 <cite class='kw'>t</cite> + 2</td>
 <td>
@@ -150,7 +150,7 @@ In this part, as all numbers are even, I will apply division by <cite class='kw'
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 6</td>
-<td><span class='digit digit6'></span></td>
+<td>6</span></td>
 <td>even</td>
 <td>5 <cite class='kw'>t</cite> + 3</td>
 <td>
@@ -162,7 +162,7 @@ In this part, as all numbers are even, I will apply division by <cite class='kw'
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 8</td>
-<td><span class='digit digit8'></span></td>
+<td>8</td>
 <td>even</td>
 <td>5 <cite class='kw'>t</cite> + 4</td>
 <td>
@@ -201,57 +201,57 @@ In this part, as all numbers are odd, I will apply apply by 3 <cite class='kw'>&
 <tbody>
 <tr>
 <td>10 <cite class='kw'>t</cite> + 1</td>
-<td><span class='digit digit1'></span></td>
+<td>1</td>
 <td>odd</td>
 <td>30 <cite class='kw'>t</cite> + 4</td>
 <td>
 10 (3 <cite class='kw'>t</cite>) + 4
 </td>
-<td><span class='digit digit4'></span></td>
+<td>4</td>
 </tr>
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 3</td>
-<td><span class='digit digit3'></span></td>
+<td>3</td>
 <td>odd</td>
 <td>30 <cite class='kw'>t</cite> + 10</td>
 <td>
 10 (3 <cite class='kw'>t</cite> + 1) + 0
 </td>
-<td><span class='digit digit0'></span></td>
+<td>0</td>
 </tr>
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 5</td>
-<td><span class='digit digit5'></span></td>
+<td>5</td>
 <td>odd</td>
 <td>30 <cite class='kw'>t</cite> + 16</td>
 <td>
 10 (3 <cite class='kw'>t</cite> + 1) + 6
 </td>
-<td><span class='digit digit6'></span></td>
+<td>6</td>
 </tr>
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 7</td>
-<td><span class='digit digit7'></span></td>
+<td>7</td>
 <td>odd</td>
 <td>30 <cite class='kw'>t</cite> + 22</td>
 <td>
 10 (3 <cite class='kw'>t</cite> + 2) + 2 
 </td>
-<td><span class='digit digit2'></span></td>
+<td>2</td>
 </tr>
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + <cite class='kw'>9</cite></td>
-<td><span class='digit digit9'></span></td>
+<td>9</td>
 <td>odd</td>
 <td>30 <cite class='kw'>t</cite> + 28</td>
 <td>
 10 (3 <cite class='kw'>t</cite> + 2) + 8 
 </td>
-<td><span class='digit digit8'></span></td>
+<td>8</td>
 </tr>
 
 </tbody>
@@ -316,10 +316,10 @@ The suite <cite class='kw'>&sigma;<sub>n</sub></cite> results from a sum. The su
 
 <span class='do'> 
 **CURIOSITY**: Seems that each forth numbers are multiple of 10.  
-<cite class='kw'>&sigma;<sub>4n + 1</sub></cite> ends with digit <span class='digit digit1'></span>  
-<cite class='kw'>&sigma;<sub>4n + 2</sub></cite> ends with digit <span class='digit digit3'></span>  
-<cite class='kw'>&sigma;<sub>4n + 3</sub></cite> ends with digit <span class='digit digit9'></span>  
-<cite class='kw'>&sigma;<sub>4n + 4</sub></cite> ends with digit <span class='digit digit7'></span>  
+<cite class='kw'>&sigma;<sub>4n + 1</sub></cite> ends with digit 1<br/>
+<cite class='kw'>&sigma;<sub>4n + 2</sub></cite> ends with digit 3<br/>
+<cite class='kw'>&sigma;<sub>4n + 3</sub></cite> ends with digit 5<br/>
+<cite class='kw'>&sigma;<sub>4n + 4</sub></cite> ends with digit 7<br/>
 Sum of this four ending digits turns to be <cite class='kw'>20</cite>. 
 </span>
 
@@ -335,7 +335,7 @@ In short, <cite class='kw'>&omega;<sub>n</sub></cite> has the same parity as <ci
 
 ### Digit mutation conclusion 
 
-The canonical forms used on paragraphs 2.1 and 2.2, covers individually all the numbers that end with a digit from <span class='digit digit0'></span> to <span class='digit digit9'></span>. They form a partition of &#x2115;. This partition is fully covering &#x2115; as each number ends by one of the 10 digits.  
+The canonical forms used on paragraphs 2.1 and 2.2, covers individually all the numbers that end with a digit from 0 to 9. They form a partition of &#x2115;. This partition is fully covering &#x2115; as each number ends by one of the 10 digits.  
 
 One way to understand the digit mutation tables, is to consider the canonical form as a generative suite of the input number, and applying <cite class='kw'>&eta;</cite> or <cite class='kw'>&omega;</cite> will create a generative suite of the output number that will end with a predicted digit. 
 
