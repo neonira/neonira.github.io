@@ -76,9 +76,9 @@ The entry condition in cluster 1 has already been demonstrated on [second post](
 </table>
 
 
-So, following the path, brings an expansion factor of 9 / 2<sup>k + 1</sup> with k being the number of times we loop on 0. Forcibly k <cite class='math_ge'></cite>1.  
+So, following the path, brings an expansion factor of 9 / 2<sup>k + 1</sup> with k being the number of times we loop on 0. Forcibly k &gt; 1.  
 
-if k <cite class='math_ge'></cite>3 then expansion factor becomes a compression factor, meaning the output will be less than the input. You may think to k as the number of 0 on the right of the number. So k <cite class='math_ge'></cite>3 means the number being a multile of 1000.
+if k &sccue; 3 then expansion factor becomes a compression factor, meaning the output will be less than the input. You may think to k as the number of 0 on the right of the number. So k &sccue; 3 means the number being a multiple of 1000.
 
 
 ### Computation analysis
@@ -149,7 +149,7 @@ if k <cite class='math_ge'></cite>3 then expansion factor becomes a compression 
 Read vertically, as cases of tens are shown vertically.  
 So, let's take a number that ends with digit 0. Its canonical form is 10 <cite class='kw'>t</cite> + 0.  
 
-If <cite class='kw'>t</cite> is even, <cite class='kw'>t</cite> = 2<cite class='kw'>p</cite> this reduces to 5 <cite class='kw'>p</cite> + 0, applying <cite class='kw'>&eta;</cite> two times. Now, if <cite class='kw'>p</cite> is even a further reduction can be applied, and this will happen as long as <cite class='kw'>p</cite> / 2 is even. Let's put <cite class='kw'>e</cite> this number of times, starting from <cite class='kw'>t</cite> input, the total number of times applying <cite class='kw'>&eta;</cite> is therefore 1 + <cite class='kw'>e</cite> with <cite class='kw'>e</cite> <cite class='math_ge'></cite> 1.  <cite class='refeq'>a</cite>  
+If <cite class='kw'>t</cite> is even, <cite class='kw'>t</cite> = 2<cite class='kw'>p</cite> this reduces to 5 <cite class='kw'>p</cite> + 0, applying <cite class='kw'>&eta;</cite> two times. Now, if <cite class='kw'>p</cite> is even a further reduction can be applied, and this will happen as long as <cite class='kw'>p</cite> / 2 is even. Let's put <cite class='kw'>e</cite> this number of times, starting from <cite class='kw'>t</cite> input, the total number of times applying <cite class='kw'>&eta;</cite> is therefore 1 + <cite class='kw'>e</cite> with <cite class='kw'>e</cite> &sccue; 1.  <cite class='refeq'>a</cite>  
 
 If <cite class='kw'>t</cite> is odd, <cite class='kw'>t</cite> = 2<cite class='kw'>p</cite> + 1, this reduces to 5 (2<cite class='kw'>p</cite>+ 1) + 0. applying <cite class='kw'>&eta;</cite> one time. <cite class='refeq'>b</cite>  
 
@@ -159,7 +159,7 @@ Note that if a number ends with <cite class='kw'>d</cite> digits 0, then the num
 
 So the expansion factor turns to be taken from set { 9 / 2<sup>k</sup> with <cite class='kw'>k</cite> = 2 when tens of 0 digit are odd, and <cite class='kw'>k</cite> = 2 + <cite class='kw'>e</cite> with <cite class='kw'>e</cite> being the number of times those tens can be divided by 2 staying even}.  
 
-This expansion factor, is really an expansion factor when tens of 0 digit are odd or when <cite class='kw'>e</cite> <cite class='math_le'></cite> 2. Otherwise, the expansion factor is a compression factor, meaning that the output of cluster 1 will be in this case a number less than the input number. 
+This expansion factor, is really an expansion factor when tens of 0 digit are odd or when <cite class='kw'>e</cite> &prcue; 2. Otherwise, the expansion factor is a compression factor, meaning that the output of cluster 1 will be in this case a number less than the input number. 
 
 #### Expansion factor pattern
 

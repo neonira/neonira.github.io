@@ -150,7 +150,7 @@ In this part, as all numbers are even, I will apply division by <cite class='kw'
 
 <tr>
 <td>10 <cite class='kw'>t</cite> + 6</td>
-<td>6</span></td>
+<td>6</td>
 <td>even</td>
 <td>5 <cite class='kw'>t</cite> + 3</td>
 <td>
@@ -320,7 +320,7 @@ The suite <cite class='kw'>&sigma;<sub>n</sub></cite> results from a sum. The su
 <cite class='kw'>&sigma;<sub>4n + 2</sub></cite> ends with digit 3<br/>
 <cite class='kw'>&sigma;<sub>4n + 3</sub></cite> ends with digit 5<br/>
 <cite class='kw'>&sigma;<sub>4n + 4</sub></cite> ends with digit 7<br/>
-Sum of this four ending digits turns to be <cite class='kw'>20</cite>. 
+Sum of the four computed values turns to be a multiple of <cite class='kw'>20</cite> that is twice 
 </span>
 
 So the parity of suite <cite class='kw'>&sigma;<sub>n</sub></cite> follows a pattern that is 
