@@ -81,4 +81,14 @@ a.footnote-ref {vertical-align: bottom;}
 
 div.footnotes li { font-size:11px;}
 
-      
+span.digit { font-weigth: bold; color: royalblue}
+span.digit0:content { 0 }
+span.digit1:content { 1 }
+span.digit2:content { 2 }
+span.digit3:content { 3 }
+span.digit4:content { 4 }
+span.digit5:content { 5 }
+span.digit6:content { 6 }
+span.digit7:content { 7 }
+span.digit8:content { 8 }
+span.digit9:content { 9 }
