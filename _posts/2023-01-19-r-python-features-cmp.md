@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Main issues when switching form R to Python and vice versa
+title: Main issues when switching from R to Python and vice versa
 category: category-rmetaverse
-summary: know main issues when switching from one to the other ...
+summary: impediments on the road of managing two code bases ... 
 image: images/books/amok.jpg
 # comments: true
 permalink: pl-cmp-23
