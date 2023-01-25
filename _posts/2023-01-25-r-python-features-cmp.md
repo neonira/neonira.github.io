@@ -3,7 +3,7 @@ layout: post
 title: Main issues when switching from R to Python and vice versa
 category: category-rmetaverse
 summary: impediments on the road of managing two code bases ... 
-image: images/books/split.jpg
+image: images/r/split.jpg
 # comments: true
 permalink: pl-cmp-23
 ---
@@ -37,13 +37,13 @@ At the opposite, Python offers a more readable way of creating class, as this is
 
 | data structure name | core<br/>R | core Python | comment
 |-----------------------:|:-----:|:-------:|:------------------------------------------|
-| vector or array | <cite style='color:forestGreen'>&#10004;</cite> | <cite style='color:forestGreen'>&#10004;</cite> |
-| list  | <cite style='color:forestGreen'>&#10004;</cite> | <cite style='color:forestGreen'>&#10004;</cite> | 
-| matrix  | <cite style='color:forestGreen'>&#10004;</cite> | <cite style='color:darkRed'>&#10004;</cite> | i.e. a multi-dimensional array in Python
-| data frame  | <cite style='color:forestGreen'>&#10004;</cite> | <cite style='color:darkRed'>&#10004;</cite> | requires a dedicated module in Python
-| tuple | <cite style='color:darkRed'>&#10006;</cite> | <cite style='color:forestGreen'>&#10004;</cite> | immutable list in Python
-| set   | <cite style='color:darkRed'>&#10006;</cite> | <cite style='color:forestGreen'>&#10004;</cite> | results generally from functional operation in R
-| dictionary | <cite style='color:darkRed'>&#10006;</cite> | <cite style='color:forestGreen'>&#10004;</cite> | i.e. a named list in R
+| vector or array | <cite style='color:#238E23'>&#10004;</cite> | <cite style='color:#238E23'>&#10004;</cite> |
+| list  | <cite style='color:#238E23'>&#10004;</cite> | <cite style='color:#238E23'>&#10004;</cite> | 
+| matrix  | <cite style='color:#238E23'>&#10004;</cite> | <cite style='color:#8B0000'>&#10004;</cite> | i.e. a multi-dimensional array in Python
+| data frame  | <cite style='color:#238E23'>&#10004;</cite> | <cite style='color:#8B0000'>&#10004;</cite> | requires a dedicated module in Python
+| tuple | <cite style='color:#8B0000'>&#10006;</cite> | <cite style='color:#238E23'>&#10004;</cite> | immutable list in Python
+| set   | <cite style='color:#8B0000'>&#10006;</cite> | <cite style='color:#238E23'>&#10004;</cite> | results generally from functional operation in R
+| dictionary | <cite style='color:#8B0000'>&#10006;</cite> | <cite style='color:#238E23'>&#10004;</cite> | i.e. a named list in R
 
 As core data structure are quite different for these two languages, programming in one or the other will require some agility to exploit the best of breed provided by each one. 
 
