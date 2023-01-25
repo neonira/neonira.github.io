@@ -27,6 +27,7 @@ twitter:
 plugins:
   - jekyll-seo-tag
   - jemoji
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
