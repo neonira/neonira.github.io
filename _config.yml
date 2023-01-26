@@ -32,8 +32,7 @@ plugins:
 feed:
   posts_limit: 50
   excerpt_only: true
-  tags:
-    only:
+  categories:
       - rmetaverse
   path: "/feed.x.xml"
 
