@@ -29,13 +29,22 @@ plugins:
   - jemoji
   - jekyll-feed
 
+#feed:
+#  posts_limit: 50
+#  excerpt_only: true
+#  categories:
+#    - category-rmetaverse
+#  path: "/feed.Z.xml"
+      
 feed:
   posts_limit: 50
   excerpt_only: true
-  categories:
-    - category-rmetaverse
-  path: "/feed.Z.xml"
-      
+  collections:
+    posts:
+      path: "/feed.Z.xml"
+      categories:
+        - category-rmetaverse
+
 
 # Build settings
 markdown: kramdown
