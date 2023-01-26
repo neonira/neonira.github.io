@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Architecture d'Entreprise - gouvernance des données
-category: category-enterprise-world
+category: enterprise
 summary: Principales problématiques, solutions pertinentes et erreurs qu'il vaut mieux éviter.
 image: images/data-gov.jpg
 # comments: true

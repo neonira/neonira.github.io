@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Messy Java code
-category: category-linuxverse
+category: linuxverse
 summary: Java simplicity or so, as often said
 image: images/linux/java.png
 # comments: true

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: R - meta programmation
-category: category-rmetaverse
-tag: R
+category: rmetaverse
 summary: Meta programmation approach
 image: images/cran/rlogo.png
 # comments: true

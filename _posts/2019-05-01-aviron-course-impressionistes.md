@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aviron, course des impressionnistes 2019
-category: category-france
+category: france
 summary: Rivière Seine en Yvelines
 image: images/aviron/a/b.png
 # comments: true

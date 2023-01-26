@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Amok - Stephan ZWEIG
-category: category-books
+category: books
 summary: une écriture addictive,  ... 
 image: images/books/amok.jpg
 # comments: true

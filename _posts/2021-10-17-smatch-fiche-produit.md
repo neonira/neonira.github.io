@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Appariement automatisé de structures de données
-category: category-enterprise-world
+category: enterprise
 summary: La solution <b style='color:#FF9900'>SMATCH</b> permet d'apparier vos structures de données.
 image: images/product-sheets/smatch/semantic-type.png
 # comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aviron, Régate de masse Mantes-La-Jolie 2019
-category: category-france
+category: france
 summary: Bassing olympique de Mantes-La-Jolie
 image: images/aviron/b/1.jpg
 # comments: true

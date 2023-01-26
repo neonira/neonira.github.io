@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ecosystème de processus d'entreprise
-category: category-enterprise-world
+category: enterprise
 summary: La solution <b style='color:#FF9900'>Process-Crafter</b> permet d'exposer et de partager vos processus et bonnes pratiques associées, au périmètre désiré.
 image: images/product-sheets/process-crafter/pc.png
 # comments: true

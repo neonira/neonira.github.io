@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evènement - Automobile - tour auto
-category: category-france
+category: france
 summary: Tour de France automobile en véhicules anciens
 image: images/tour-auto/a/b.jpg
 # comments: true

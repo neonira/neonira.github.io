@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Main issues when switching from R to Python and vice versa
-category: category-rmetaverse
-tag: R
+category: rmetaverse
 summary: impediments on the road of managing two code bases ... 
 image: images/r/split.jpg
 # comments: true

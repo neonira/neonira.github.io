@@ -13,56 +13,56 @@ menu_pages:
   category: home
 
 - title: Enterprise world
-  url: /category-enterprise-world.html
+  url: /enterprise.html
   show_on_home: True
   image_url: assets/img/enterprise.jpg
   icon_name: fas fa-building
-  category: category-enterprise-world
+  category: enterprise
   tooltip: This is enterprise world category
   description: Enterprise related content
 
 - title: R metaverse
-  url: /category-rmetaverse.html
+  url: /rmetaverse.html
   show_on_home: True
   image_url: assets/img/r.png
   icon_name: fas fa-space-shuttle
-  category: category-rmetaverse
+  category: rmetaverse
   tooltip: This is R meta category
   description: R related content
 
 - title: Linux Universe
-  url: /category-linuxverse.html
+  url: /linuxverse.html
   show_on_home: True
   image_url: assets/img/linux.jpg
   icon_name: fas fa-certificate
-  category: category-linuxverse
+  category: linuxverse
   tooltip: This is Linux universe category
   description: Linux related content
 
 - title: Amazing nature
-  url: /category-amazing-nature.html
+  url: /nature.html
   show_on_home: True
-  image_url: assets/img/category-amazing-nature.jpg
+  image_url: assets/img/nature.jpg
   icon_name: fas fa-snowflake
-  category: amazing-nature
+  category: nature
   tooltip: This is amazing nature category 
   description: Nature related content
 
 - title: France 
-  url: /category-france.html
+  url: /france.html
   show_on_home: True
   image_url: assets/img/france.jpg
   icon_name: fas fa-eye
-  category: category-france
+  category: france
   tooltip: This is France category 
   description: France related content
 
 - title: Books 
-  url: /category-books.html
+  url: /books.html
   show_on_home: True
   image_url: assets/img/books.jpg
   icon_name: fas fa-book
-  category: category-books
+  category: books
   tooltip: This is books category 
   description: Book related content
 

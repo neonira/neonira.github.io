@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Histoire de la flibuste - Georges BLOND
-category: category-books
+category: books
 summary: une remise en contexte historique qui est juste, subtile, internationale, et passionnante ... 
 image: images/books/piraterie.jpg
 # comments: true

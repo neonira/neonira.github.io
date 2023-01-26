@@ -1,7 +1,7 @@
 ---
 layout: post
 title: R - Real estate value analysis
-category: category-rmetaverse
+category: rmetaverse
 summary: Open data analysis 
 image: images/cran/rlogo.png
 # comments: true

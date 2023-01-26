@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Génération de jeux de données sous contraintes multiples
-category: category-enterprise-world
+category: enterprise
 summary: La solution <b style='color:#FF9900'>HOME</b> permet de générer des jeux de données conformes à vos modèles cibles.
 image: images/product-sheets/home/api.png
 # comments: true

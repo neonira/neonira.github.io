@@ -1,8 +1,7 @@
 ---
 layout: post
 title: R - Chess - improve your chess play part IV
-category: category-rmetaverse
-tag: R
+category: rmetaverse
 summary: exploring new ideas about chess
 image: images/chess.jpg
 # comments: true

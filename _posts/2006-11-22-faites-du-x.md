@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XML - Faites du X!
-category: category-linuxverse
+category: linuxverse
 summary: Tirez profit du X de XML ... 
 image: images/linux/xml.png
 # comments: true

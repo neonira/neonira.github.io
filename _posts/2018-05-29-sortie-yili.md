@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visite d'un jardin chinois en Yvelines
-category: category-france
+category: france
 summary: Une sortie dominicale intéressante ... 
 image: images/sorties/yili/philo.jpg
 # comments: true

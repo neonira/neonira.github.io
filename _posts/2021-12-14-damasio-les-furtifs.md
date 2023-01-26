@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Science Fiction - Alain DAMASIO - Les furtifs
-category: category-books
+category: books
 summary: Un ennui profond à la lecture de ce livre ...  
 image: images/books/furtifs.jpg
 # comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spiritualité - Houeï-Nêng - Sixième patriache Zen
-category: category-books
+category: books
 summary: Spiritualité boudhiste ... un livre remarquable 
 image: images/books/6eme-patriarche-zen.jpg
 # comments: true

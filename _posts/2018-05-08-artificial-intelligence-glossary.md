@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Artificial intelligence glossary
-category: category-linuxverse
+category: linuxverse
 summary: A simple cross linked glossary, helpful when starting in AI
 image: images/linux/ia.jpg
 # comments: true

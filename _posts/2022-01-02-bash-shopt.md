@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shell <cite style='font-family:courrier;color:darkOrange'>/bin/bash</cite> et options de configuration <cite style='font-family:courrier;color:lime'>shopt</cite>
-category: category-linuxverse
+category: linuxverse
 summary: Préconisations de configuration 
 image: images/linux/bash.jpg
 # comments: true

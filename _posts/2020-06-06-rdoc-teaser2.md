@@ -1,8 +1,7 @@
 ---
 layout: post
 title: R - Choose wisely your Rdoc production strategy!
-category: category-rmetaverse
-tag: R
+category: rmetaverse
 summary: Code documentation is still a burden, that's why you should pay close attention to choosing your documentation strategy ?
 image: images/woman-easy.png
 # comments: true

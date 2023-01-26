@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Articles worth reading June 2018
-category: category-books
+category: books
 summary: Few remarkable contents, I'd like to share
 image: assets/img/books.jpg
 # comments: true

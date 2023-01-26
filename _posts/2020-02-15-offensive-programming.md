@@ -1,8 +1,7 @@
 ---
 layout: post
 title: R - new release of offensive programming packages
-category: category-rmetaverse
-tag: R
+category: metaverse
 summary: Code documentation is still a burden, that's why you should pay close attention to choosing your documentation strategy ?
 image: images/op/op-hexsticker-vertical-transparent.png
 # comments: true

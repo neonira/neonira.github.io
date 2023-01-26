@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Livre - Stephan Zweig - L'uniformisation du monde 
-category: category-books
+category: books
 summary: Un contenu de 1925 qui est étonnément toujours très actuel ... 
 image: images/books/unformisation-monde.jpg
 # comments: true

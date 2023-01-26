@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sublime Architecture Framework
-category: category-enterprise-world
+category: enterprise
 summary: Presentation of philosophy, orientations and contents ...
 image: images/saf/a/saf-full-logo.png
 # comments: true

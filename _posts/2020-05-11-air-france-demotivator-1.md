@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Air France demotivator
-category: category-france
+category: france
 summary: spécialité administrative made in France ... 
 image: images/motiv/af-0001.png
 # comments: true

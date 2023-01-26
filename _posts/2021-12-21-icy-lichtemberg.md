@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Icy Lichtemberg figure
-category: category-amazing-nature
+category: nature
 summary: Driver window view ... 
-image: images/amazing-nature/lichtemberg-ice.jpg
+image: images/nature/lichtemberg-ice.jpg
 # comments: true
 permalink: an-weather-lichtemberg-icy
 ---

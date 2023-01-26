@@ -41,7 +41,7 @@ feed:
   excerpt_only: true
   tags:
     only:
-      - rmetaverse
+      - category-rmetaverse
   path: "/feed.x.xml"
 
 

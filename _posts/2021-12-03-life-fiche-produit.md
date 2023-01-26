@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publication et partage des actifs d'architecture
-category: category-enterprise-world
+category: enterprise
 summary: La solution <b style='color:#FF9900'>LIFE</b> permet d'exposer et de partager vos actifs d'architecture, au périmètre désiré.
 image: images/product-sheets/life/splash.png
 # comments: true
