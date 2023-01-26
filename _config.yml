@@ -42,8 +42,8 @@ feed:
   collections:
     posts:
       categories:
-        - category-rmetaverse
-      path: "/feed.Z.xml"
+        - "category-rmetaverse"
+      path: "/feed.zz.xml"
 
 
 # Build settings
