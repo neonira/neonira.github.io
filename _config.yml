@@ -32,10 +32,15 @@ plugins:
 feed:
   posts_limit: 50
   excerpt_only: true
+  path: "/feed.x.xml"
   tags:
-    only:
-      - rmetaverse
-    path: "/feed.x.xml"
+    except:
+      - books
+      - nature
+      - enterprise
+      - linuxverse
+      - france
+  
 
 # Build settings
 markdown: kramdown
