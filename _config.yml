@@ -36,7 +36,7 @@ feed:
     posts:
       path: "/feed.x.xml"
       categories:
-      - rmetaverse
+        - rmetaverse
 
 # Build settings
 markdown: kramdown
