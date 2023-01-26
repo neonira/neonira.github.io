@@ -28,20 +28,13 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-feed
-
-#feed:
-#  posts_limit: 50
-#  excerpt_only: true
-#  categories:
-#    - category-rmetaverse
-#  path: "/feed.Z.xml"
       
 feed:
   posts_limit: 50
   excerpt_only: true
   tags:
     only:
-      - category-rmetaverse
+      - rmetaverse
   path: "/feed.x.xml"
 
 
