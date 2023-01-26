@@ -32,10 +32,11 @@ plugins:
 feed:
   posts_limit: 50
   excerpt_only: true
-  categories:
+  collections:
+    posts:
+      path: "/feed.x.xml"
+      categories:
       - rmetaverse
-  path: "/feed.x.xml"
-
 
 # Build settings
 markdown: kramdown
