@@ -2,6 +2,7 @@
 layout: post
 title: R - Medium to High volume CSV file ingestion REX
 category: category-rmetaverse
+tag: R
 summary: As race goes on, every skipper meets specific weather conditions. How would you compare their respective performance?
 image: images/r/volume/csv.png
 # comments: true

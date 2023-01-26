@@ -39,11 +39,8 @@ plugins:
 feed:
   posts_limit: 50
   excerpt_only: true
-  collections:
-    posts:
-      categories:
-        - "category-rmetaverse"
-      path: "/feed.zz.xml"
+  tag: R
+  path: "/feed.x.xml"
 
 
 # Build settings

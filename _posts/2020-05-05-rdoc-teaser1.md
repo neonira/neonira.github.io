@@ -2,6 +2,7 @@
 layout: post
 title: R - Still hand-crafting your Rdoc files?
 category: category-rmetaverse
+tag: R
 summary: Code documentation is still a burden, that's why you should pay close attention to choosing your documentation strategy ?
 image: images/man-head.png
 # comments: true

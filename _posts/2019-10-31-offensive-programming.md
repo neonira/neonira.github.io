@@ -2,6 +2,7 @@
 layout: post
 title: R - Offensive Programming in action (part III)
 category: category-rmetaverse
+tag: R
 summary: What about adding semantic understanding to R, based on conventions.
 image: images/op/op-hexsticker-vertical-transparent.png
 # comments: true
