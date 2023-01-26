@@ -29,6 +29,13 @@ plugins:
   - jemoji
   - jekyll-feed
 
+feed:
+  posts_limit: 50
+  tags:
+    path: "feed.R.xml"
+    only:
+      - category-rmetaverse
+
 # Build settings
 markdown: kramdown
 remote_theme: ItsMeaga1n/minimal-categorized
