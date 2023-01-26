@@ -39,7 +39,9 @@ plugins:
 feed:
   posts_limit: 50
   excerpt_only: true
-  tag: R
+  tags:
+    only:
+      - R
   path: "/feed.x.xml"
 
 
