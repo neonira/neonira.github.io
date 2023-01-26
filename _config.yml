@@ -34,7 +34,7 @@ feed:
   excerpt_only: true
   categories:
     - category-rmetaverse
-    path: "/feed.Z.xml"
+  path: "/feed.Z.xml"
       
 
 # Build settings
